@@ -1,0 +1,7 @@
+#!/usr/bin/bash
+
+for brc in ${HOME}/.bash*
+do
+    #echo "${brc}" ${YL_CFG_BAK_DIR}/"${brc##*/}" #print for debug
+    cmp -s "${brc}" ${YL_CFG_BAK_DIR}/"${brc##*/}" || cp "${brc}" ${YL_CFG_BAK_DIR}/"${brc##*/}"
+done
