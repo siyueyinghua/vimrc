@@ -11,6 +11,8 @@ There are two versions:
 
 I would, of course, recommend using the awesome version.
 
+This is really awesome!!! - Yesire-Lincoln
+
 
 ## How to install the Awesome version?
 ### Install for your own user only
