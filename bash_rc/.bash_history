@@ -708,3 +708,37 @@ cl bash_rc/
 ge .bashrc 
 h
 diff ~/.bashrc ./.bashrc
+cl .vim_runtime/
+cl bash_rc/
+ll
+cl ..
+git status 
+git add bash_rc/
+ll
+git add bash_rc/
+git status 
+git add README.md vimrcs/extended.vim
+git status 
+git commit -m "add the bashrc files and their automaticaly bak script, change some vim file"
+git status 
+git push
+git config 
+git config --list
+ll
+cl .vim_runtime/
+ll
+cl vimrcs/
+g extended.vim 
+cl..
+cl ...
+cl ..
+ll
+g install_awesome_vimrc.sh
+ll
+cl my_plugins/
+ll
+cl ..
+ll
+cl ..
+ll
+g .vimrc
