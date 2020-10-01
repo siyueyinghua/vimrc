@@ -18,6 +18,7 @@ alias pu="pushd"
 alias po="popd"
 alias g="gview"
 alias ge="gvim"
+alias gvd="gvimdiff"
 
 #
 # Csh compatability:

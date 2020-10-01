@@ -15,7 +15,7 @@
 " => General Config
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Sets how many lines of history VIM has to remember
-
+set number "Show line number
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Short-cut Mapping
@@ -30,6 +30,12 @@ vnoremap // y/\V<C-R>=escape(@",'/\')<CR><CR>
 nnoremap <A-5> :set wrap!<CR>
 
 " set <F11> copy to system reg */+
-nnoremap <F11> "+Y
+vnoremap <F11> "+y
 nnoremap <F12> "+gp
 
+" set <F2> paste on before cursor
+nnoremap <F2> "0gP
+nnoremap Y y$
+
+" set <F9> to toogle Bufexplore
+map <F9> :BufExplorer<cr>

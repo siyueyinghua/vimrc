@@ -116,8 +116,11 @@ if ! shopt -oq posix; then
   fi
 fi
 
+# Add my path
+export PATH=/home/yesire-lincoln/ProgramHub/Vulkan-Samples/build/linux/app/bin/Release/x86_64:$PATH
+
 # bak the bashrc files whenever they are changed
-YL_CFG_BAK_DIR=~/.vim_runtime/bash_rc
+YL_CFG_BAK_DIR=~/.vim_runtime/bashrc
 if [ -f ${YL_CFG_BAK_DIR}/bak_bashrc ] ; then
     source ${YL_CFG_BAK_DIR}/bak_bashrc
 fi
