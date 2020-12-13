@@ -117,7 +117,7 @@ if ! shopt -oq posix; then
 fi
 
 # Add my path
-export PATH=/home/yesire-lincoln/ProgramHub/Vulkan-Samples/build/linux/app/bin/Release/x86_64:$PATH
+export PATH=$PATH:/home/yesire-lincoln/ProgramHub/Vulkan-Samples/build/linux/app/bin/Release/x86_64
 
 # bak the bashrc files whenever they are changed
 YL_CFG_BAK_DIR=~/.vim_runtime/bashrc
@@ -129,3 +129,19 @@ fi
 if [ -f ~/Downloads/vulkansdk_1.2.135.0/setup-env.sh ] ; then
     source ~/Downloads/vulkansdk_1.2.135.0/setup-env.sh
 fi
+
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+__conda_setup="$('/usr/bin/miniconda3/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
+if [ $? -eq 0 ]; then
+    eval "$__conda_setup"
+else
+    if [ -f "/usr/bin/miniconda3/etc/profile.d/conda.sh" ]; then
+        . "/usr/bin/miniconda3/etc/profile.d/conda.sh"
+    else
+        export PATH="/usr/bin/miniconda3/bin:$PATH"
+    fi
+fi
+unset __conda_setup
+# <<< conda initialize <<<
+

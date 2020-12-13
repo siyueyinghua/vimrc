@@ -1,1164 +1,3 @@
-./dynamic_uniform
-ll
-cl samples/
-cl scripts/
-cl ..
-cll build/
-cl Sample-Programs/
-cl ..
-tree build/
-tree ./build/
-sudo apt install tree
-tree build/
-cl API-Samples/
-ll
-cl texel_buffer/
-cl ..
-ll
-mkdir build
-cl build/
-ll
-cmake ..
-g /home/yesire-lincoln/Downloads/vulkansdk_1.2.135.0/samples/API-Samples/build/CMakeFiles/CMakeOutput.log
-ll
-cl utils/
-cl .
-cl ..
-./run_all_samples.sh 
-g run_all_samples.
-g run_all_samples.sh 
-alias 
-add-alias "..2" "cl ../../" 
-..2
-..
-add-alias ".." "cl ../" 
-add-alias "..2" "cll ../../" 
-add-alias ".." "cll ../" 
-add-alias "..3" "cll ../../../" 
-..3
-cl -
-which vkcube
-vkcube
-vkcubepp
-cl .vim_runtime/sources_non_forked/
-cl vim-colors-solarized/
-g README.mkd 
-cl colors/
-g solarized.vim 
-ll
-cl Downloads/
-git clone --depth=1 https://github.com/amix/vimrc.git ~/.vim_runtime
-sh ~/.vim_runtime/install_awesome_vimrc.sh
-ll
-cl
-ll
-gv .vimrc
-g .vimrc
-sh ~/.vim_runtime/install_basic_vimrc.sh
-g .vimrc
-ll
-cl .vim_runtime/
-ll
-git status
-../
-..
-cl .vim_runtime/
-ll
-cl vimrcs/
-cl ..
-ll
-ll autoload/
-ll my_plugins/
-g install_basic_vimrc.sh
-g install_awesome_vimrc.sh
-cl ..
-ll
-ll .vim
-ll .vim_runtime/
-cll .vim_runtime/
-ll autoload/
-ll my_plugins/
-cl sources_forked/
-cl ../sources_non_forked/
-cl vim-colors-solarized/
-cl colors/
-cl
-g .vimrc 
-ll
-g .vimrc 
-ll 
-cp .vimrc .vimrc_bak
-ll
-g .vim_runtime/update_plugins.py 
-g .vim_runtime/install_awesome_vimrc.sh 
-rm -rf .vim_runtime/
-ll
-git clone --depth=1 https://github.com/siyueyinghua/vimrc.git ~/.vim_runtime
-ll
-cl .vim_runtime/
-ll
-git status 
-git remote 
-git status 
-git remote -v
-git remote --help
-.g README.md 
-g README.md 
-git remote -v
-git status
-git dff 
-git diff 
-g README.md 
-sh ~/.vim_runtime/install_awesome_vimrc.sh 
-cl 
-g .vimrc
-ll
-g .vimrc
-cl .vim_runtime/
-ll
-gv .profile
-g .profile 
-ll
-[[ .vimrc -nt .vimrc_bak ]] || echo "Yes .vimrc newer than .vimrc_bak"
-[[ .vimrc -nt .vimrc_bak ]] && echo "Yes .vimrc newer than .vimrc_bak"
-diff .vimrc .vimrc_bak 
-echo $?
-cmp .vimrc .vimrc_bak 
-echo $?
-[[ cmp .vimrc .vimrc_bak ]] || echo "Yes"
-if [[ cmp .vimrc .vimrc_bak ]] then; echo "Yes"
-if [[ cmp -s .vimrc .vimrc_bak ]] then; echo "Yes"
-if [[ cmp --silent .vimrc .vimrc_bak ]] then; echo "Yes"
-if [[ cmp --silent .vimrc .vimrc_bak ]] then; echo "Yes"; fi
-cmp --help
-[[ 0 ]] && ehco "yes"
-[[ 0 ]] && echo "yes"
-[[ $(cmp .vimrc .vimrc_bak) ]] && echo "yes"
-[[ $(cmp -s .vimrc .vimrc_bak) ]] && echo "yes"
-[[ cmp -s .vimrc .vimrc_bak ]] && echo "yes"
-ll
-ll .vim_runtime/
-cl .vim_runtime/
-ll
-mkdir bash_rc
-cl ..
-cp .bash* .vim_runtime/bash_rc/
-cll .vim_runtime/bash_rc/
-ge syn_bak
-which bash
-ll
-chmod +x syn_bak 
-./syn_bak 
-cmp .bashrc ~/.bashrc 
-diff .bashrc ~/.bashrc 
-./syn_bak 
-cmp .bashrc ~/.bashrc 
-echo $?
-echo "$(cmp .bashrc ~/.bashrc)"
-echo "cmp -s .bashrc ~/.bashrc
-d
-exit
-
-
-
-echo $(cmp .bashrc ~/.bashrc)
-echo $(cmp -s .bashrc ~/.bashrc)
-[[ cmp -s .bashrc ~/.bashrc ]] 
-h
-cmp --help
-./syn_bak 
-ll
-rm .bash*
-ll
-./syn_bak 
-ll
-./syn_bak 
-cmp ~/.bashrc ./.bashrc
-echo $?
-cmp ~/.bashrc ./.bashrc
-./syn_bak 
-ll
-./syn_bak 
-ge syn_bak 
-mv syn_bak bashrc_bak
-ll
-mv bashrc_bak bak_bashrc
-ll
-source bak_bashrc 
-l
-ll
-rm .bash*
-source bak_bashrc 
-ll
-..
-cl
-g .bashrc 
-ll .vim_runtime/bash_rc/
-ll .vim_runtime/bash_rc/bak_bashrc 
-cl .vim_runtime/bash_rc/
-ll
-g bak_bashrc 
-cl
-ll
-.bashrc[H
-cl .vim_runtime/bash_rc/
-g bak_bashrc 
-ll
-diff ~/.bashrc .bashrc 
-cp ~/.bashrc ./
-ll
-diff ~/.bashrc .bashrc 
-ll .vim_runtime/bash_rc/
-diff ~/.bashrc .bashrc 
-ll .vim_runtime/bash_rc/
-diff ~/.bashrc .vim_runtime/bash_rc/.bashrc 
-g .bashrc 
-source .bashrc 
-g .profile 
-ll .vim_runtime/bash_rc/
-g .bashrc 
-ll .vim_runtime/bash_rc/
-cl .vim_runtime/bash_rc/
-ll
-g bak_bashrc
-ll
-cl .vim_runtime/bash_rc/
-ll
-diff ~/.bashrc ./bak_bashrc 
-ge bak_bashrc 
-cl .vim_runtime/bash_rc/
-ll
-g bak_bashrc 
-echo BAK
-echo $BAK
-echo $YL_BAK_DIF
-echo $YL_BAK_DIR
-ge .bashrc 
-g .bashrc 
-echo ${YL_CFG_BAK_DIR}
-cl .vim_runtime/bash_rc/
-g bak_bashrc 
-source ~/.bashrc 
-l
-ll
-diff ~/.bashrc ./.bashrc 
-ge .bashrc 
-g ./.bashrc 
-ll .vim_runtime/bash_rc/
-ge .bashrc 
-gvim diff .bashrc .vim_runtime/bash_rc/.bashrc 
-gvimdiff .bashrc .vim_runtime/bash_rc/.bashrc 
-g .bashrc 
-cl .vim_runtime/bash_rc/
-ll
-ge .bashrc 
-ge bak_bashrc 
-cl ..
-ll
-git status 
-git diff vimrcs/basic.vim
-ge vimrcs/basic.vim
-git restore vimrcs/basic.vim
-git status 
-git diff README.md
-git status 
-git diff vimrcs/extended.vim
-ll
-ll bash_rc/
-cl bash_rc/
-ge .bashrc 
-h
-diff ~/.bashrc ./.bashrc
-cl .vim_runtime/
-cl bash_rc/
-ll
-cl ..
-git status 
-git add bash_rc/
-ll
-git add bash_rc/
-git status 
-git add README.md vimrcs/extended.vim
-git status 
-git commit -m "add the bashrc files and their automaticaly bak script, change some vim file"
-git status 
-git push
-git config 
-git config --list
-ll
-cl .vim_runtime/
-ll
-cl vimrcs/
-g extended.vim 
-cl..
-cl ...
-cl ..
-ll
-g install_awesome_vimrc.sh
-ll
-cl my_plugins/
-ll
-cl ..
-ll
-cl ..
-ll
-g .vimrc
-ll
-g .vimrc
-ge .vimrc
-g .vimrc
-ll
-cl .vim
-cl .vim_runtime/
-git st
-git status 
-git add 
-git add .
-git status 
-git restore --staged sources_non_forked/ack.vim/spell/en.utf-8.add
-git restore --staged sources_non_forked/ack.vim/spell/en.utf-8.add.spl
-git status 
-git commit -m "add my personal config"
-git status 
-git push 
-git config 
-git config --global 
-git config -l
-git remote set-url origin git@github.com:siyueyinghua/vimrc.git
-g README.md 
-git status 
-git add README.md
-git status 
-git commit -m "add some comment"
-cl .vim_runtime/
-ll
-git mv 
-git mv bash_rc bashrc
-git st
-git status 
-ll bashrc/
-git commit -m "rename the bash_rc to bashrc"
-git status 
-git push
-cl ..
-cl .vim_runtime/
-git status
-git remote -v
-git status
-sudo -v && wget -nv -O- https://download.calibre-ebook.com/linux-installer.sh | sudo sh /dev/stdin
-ls
-cl ..
-ll
-cl .vim_runtime/
-ll
-cl my_plugins/
-ll
-mv ~/Downloads/vulkan1.0.vim ./
-ll
-cl ..
-cl .vim_runtime/
-git status 
-cmake --help
-cmake -V
-cmake --version
-sudo apt-get install cmake g++ xorg-dev libglu1-mesa-dev
-cmake -G "Unix Makefiles" -H. -Bbuild/linux -DCMAKE_BUILD_TYPE=Release
-cl ..
-cl -
-ll
-cl vimrcs/
-cl ..
-ll
-cl ..
-ll
-g .bashrc 
-g .vim_runtime/
-ll
-g .vimrc
-g .bashrc 
-nnoremap <F12> "+p
-nnoremap <F12> "+p
-ll
-cl .vim_runtime/
-git status
-ll
-git status my_configs.vim 
-git status
-git add my_configs.vim 
-ll
-g .gitignore 
-git status
-git add .gitignore
-git add my_configs.vim my_plugins/vulkan1.0.vim
-g .gitignore 
-git status
-g .gitignore 
-ll
-ll bashrc/
-git status
-git ci -m "add my_config.vim and my_plugins"
-git commit -m "add my_config.vim and my_plugins"
-h
-git push
-ls
-cl Documents/
-cl Vulkan/
-cl ..
-mkdir ProgramHub
-cl ProgramHub/
-git clone --recurse-submodules git@github.com:siyueyinghua/Vulkan-Samples.git
-cd Vulkan-Samples
-ll
-cmake -G "Unix Makefiles" -H. -Bbuild/linux -DCMAKE_BUILD_TYPE=Release
-cmake --build build/linux --config Release --target vulkan_samples -- -j4
-./build/linux/app/bin/Release/x86_64/vulkan_samples --help
-vulkan_samples hello_triangle
-./build/linux/app/bin/Release/x86_64/vulkan_samples hello_triangle
-echo $PATH
-./build/linux/app/bin/Release/x86_64/vulkan_samples hello_triangle
-ll
-pwd
-source ~/.bashrc 
-echo $PATH
-vulkan_samples hello_triangle
-vulkan_samples --help
-vulkan_samples conservative_rasterization
-vulkan_samples dynamic_uniform_buffers
-vulkan_samples --help
-vulkan_samples texture_loading
-vulkan_samples dynamic_uniform_buffers
-vulkan_samples texture_loading
-vulkan_samples dynamic_uniform_buffers
-vulkan_samples --help
-vulkan_samples surface_rotation
-vulkan_samples --help
-vulkan_samples texture_mipmap_generation
-ll
-l
-cl ProgramHub/
-cl Vulkan-Samples/
-s
-git status 
-g README.md 
-cl ..
-ll Documents/
-ll
-cl .vimrc
-cl .vim
-cl .vim_runtime/
-ll
-cl bashrc/
-git status
-ll
-g bak_bashrc 
-cl ..
-ProgramHub/
-ll
-cl Documents/
-ll
-cl Vulkan/
-cl ..
-cl ...
-cl ..
-cl ProgramHub/
-vulkan_samples
-vulkan_samples pipeline_barriers
-vulkan_samples
-vulkan_samples render_passes
-vulkan_samples texture_loading
-cl ProgramHub/
-cl Vulkan-Samples/
-vulkan_samples 
-vulkan_samples  hello_triangle
-vulkan_samples 
-vulkan_samples surface_rotation
-ll
-mkdir VulkanTest
-cd VulkanTest/
-g main.cpp
-cl ProgramHub/
-grep -r VulkanSDk
-grep -r VulkanSDK
-find --help
-find -name 'VulkanSDK'
-cl ../Documents/
-cl Vulkan/
-mv * ../../ProgramHub/Vulkan-Samples/VulkanTest/
-lll
-ll
-cl ..
-rm -rf Vulkan/
-ll
-cl ../ProgramHub/
-cl Vulkan-Samples/
-ll
-cl VulkanTest/
-g Makefile 
-make VulkanTest
-cl ..
-cl third_party/
-ll
-ll glfw/
-cll glfw/include/
-cl GLFW/
-ll
-cl ..
-ll
-g README.md 
-ll
-pwd
-cl ..
-cl gl
-gl glm
-cl glm
-ll
-gl glm/
-cl glm/
-ll
-cl ..
-cl glfw/
-g README.md 
-cl ProgramHub/
-vulkan_samples 
-vulkan_samples pipeline_barriers
-vulkan_samples push_descriptors
-ll assets/
-ll
-cl Vulkan-Samples/
-ll assets/
-vulkan_samples push_descriptors
-cl ..
-rm -rf assets/
-l
-ll
-cl Vulkan-Samples/
-ll
-cd tests/
-ll
-cd generate_sample/
-ll
-python generate_sample_test.py 
-python3 generate_sample_test.py 
-cl ..
-ll
-cl tests/system_test/
-python3 system_test.py -B sysTst
-python3 system_test.py -B sysTst -C Debug
-cl ../generate_sample/
-..2
-cl VulkanTest/
-ll
-g main.cpp
-g ~/.vimrc
-g main.cpp
-cl ..
-ll
-ll build/
-ll third_party/
-cl third_party/
-cl vulkan/
-ll
-g README.md 
-..3
-find . -name Vulan
-find . -name Vulkan
-cl ..
-ll
-find . -name Vulkan
-cl Documents/
-ll
-ll Vulkan/
-cl ../Do
-cl ../Downloads/
-ll
-cl vulkansdk
-ll
-cl vulkansdk_1.2.135.0/
-ll
-cl x86_64/
-ll
-cl ..
-ll
-g README.txt 
-g ~/.vimrc
-g README.txt 
-g ~/.vimrc
-g README.txt 
-l
-cl x86_64/
-cl ..
-cl samples/
-ll
-cl scripts/
-cl ..
-cl build/
-cl Sample-Programs/
-..3
-vkcube
-cl x86_64/
-..3
-cl ProgramHub/Vulkan-Samples/
-cl VulkanTest/
-g main.cpp 
-ll ../
-ll ../third_party/
-hitory
-history
-make VulkanTest 
-g main.cpp 
-make VulkanTest 
-ll ~/ProgramHub/Vulkan-Samples/third_party/glfw/include/GLFW/glfw3.h
-g main.cpp 
-echo $PKG_CONFIG_PATH
-make VulkanTest 
-echo $PKG_CONFIG_PATH
-echo $VULKAN_SDK 
-echo $VULKAN_SDK_PATH
-PKG_CONFIG_PATH = ~/ProgramHub/Vulkan-Samples/third_party/
-set PKG_CONFIG_PATH = ~/ProgramHub/Vulkan-Samples/third_party/
-echo $VULKAN_SDK_PATH
-make VulkanTest 
-g main.cpp 
-make VulkanTest 
-ll
-cl ProgramHub/Vulkan-Samples/
-cl ..
-ll Documents/
-cl Downloads/
-cl ..
-cl Documents/
-cl git/
-ll
-cl ..
-cl ProgramHub/
-cl Vulkan-Samples/
-cl VulkanTest/
-cl Downloads/
-ll
-cl vulkansdk_1.2.135.0/
-cl x86_64/
-..3
-cl ProgramHub/
-cl Vulkan-Samples/
-ll
-cl VulkanTest/
-g Makefile 
-ll
-make
-echo $PKG_CONFIG_PATH
-export PKG_CONFIG_PATH=~/ProgramHub/Vulkan-Samples/third_party/glfw/src
-echo $PKG_CONFIG_PATH
-make
-echo $PKG_CONFIG_PATH
-ll /home/yesire-lincoln/ProgramHub/Vulkan-Samples/third_party/glfw/src
-make
-g /home/yesire-lincoln/ProgramHub/Vulkan-Samples/third_party/glfw/src/glfw3.pc
-make
-ll
-cl ProgramHub/
-cl Vulkan-Samples/
-cl VulkanTest/
-make VulkanTest
-echo $VULKAN_SDK_PATH
-..3
-ll
-cl ProgramHub/
-mkdir make-Tutorial
-cl make-Tutorial/
-g Makefile
-make
-ll
-./blah 
-make
-make clean 
-ll
-make
-ll
-make clean 
-make
-make clean 
-make
-make clean 
-make
-ll
-./blah 
-make
-./blah 
-make
-./blah 
-make
-./blah 
-cl ../Vulkan-Samples/
-cl VulkanTest/
-make
-cl ../
-ll
-cl third_party/
-cl glfw/
-g README.md 
-ll
-cl examples/
-cat CMakeLists.txt 
-cl ..
-ll
-cmake
-cmake .
-ll
-cl src/
-ll
-echo ~
-ll /home/yesire-lincoln/ProgramHub/Vulkan-Samples/third_party/glfw/src
-env PKG_CONFIG_PATH=/home/yesire-lincoln/ProgramHub/Vulkan-Samples/third_party/glfw/src
-echo P$KG_CONFIG_PATH
-echo $PKG_CONFIG_PATH
-ll
-version
-cl ProgramHub/
-ll
-cl Vulkan-Samples/
-ll
-cl samples/
-ll
-cl api/
-ll
-g README.md 
-cl hello_triangle/
-g CMakeLists.txt 
-g hello_triangle.
-g hello_triangle.cpp 
-cl ..
-ll
-g README.md 
-cl tests/generate_sample/
-g generate_sample_test.py 
-g
-python3 generate_sample_test.py 
-ll
-cl ..
-cl bldsys/
-cl scripts/
-ll
-./generate_sample.sh firstTest basic ../../VulkanTest/
-ll
-cl ..
-ll
-ll samples/
-cl samples/
-ll
-g CMakeLists.txt 
-g vulkan_basics.md
-cl ..
-ll
-g README.md 
-cl tests/
-cl generate_sample/
-python3 generate_sample_test.py 
-cl ProgramHub/Vulkan-Samples/
-ll
-cl VulkanTest/
-ll
-cl first_test/
-g CMakeLists.txt 
-cl ProgramHub/
-cl Vulkan-Samples/
-ll
-cl VulkanTest/
-cl first_test/
-g first_test.cpp 
-cl ProgramHub/
-cl Vulkan-Samples/
-ll
-g README.md 
-ll
-cl ProgramHub/
-cl Vulkan-Samples/
-ll
-g README.md 
-cmake -B"build" -H"." -DVKB_ENTRYPOINTS=ON
-cmake --build build --config Debug --target first_test_app
-cmake --build build --config Debug --target afbc_app
-ll
-cl output/
-l
-ll
-cll ..
-cl a
-cl app/
-ll
-vulkan_samples 
-vulkan_samples afbc
-echo $VULKAN_SDK 
-cl ProgramHub/
-git clone https://github.com/siyueyinghua/Vulkan-Headers.git
-cl 
-cl P
-cl ProgramHub/
-ll
-l Vulkan-Samples/
-cl Vulkan-Samples/
-l
-ll
-cl build/
-ll
-cl samples/
-ll
-cmake -c cmake_install.cmake 
-cl ProgramHub/
-ll
-git clone https://github.com/siyueyinghua/VulkanSamples.git
-ll
-cl VulkanSamples/
-ll
-mkdir build
-cd build/
-cmake -DCMAKE_BUILD_TYPE=Debug       -DVULKAN_HEADERS_INSTALL_DIR=absolute_path_to_install_dir       -DVULKAN_LOADER_INSTALL_DIR=absolute_path_to_install_dir       -DCMAKE_INSTALL_PREFIX=install ..
-ll
-cl ProgramHub/
-cl Vulkan-Samples/
-ll
-cl VulkanTest/
-g Makefile 
-make VulkanTest 
-cl ProgramHub/
-cl Vulkan-Samples/
-g README.md 
-..2
-sudo apt-get update
-sudo apt-get install xcb
-cl ProgramHub/
-git clone https://github.com/siyueyinghua/VulkanDemos.git
-ll
-cl ProgramHub/
-ll
-cl ProgramHub/
-ll Vulkan-Headers/
-grep 'GLFW'
-grep 'GLFW' -r ./
-cl Vulkan-Samples/third_party
-cl glfw/
-ll
-g README.md 
-ll
-cl docs/
-ll
-g .
-cl ProgramHub/
-cl Vulkan-Samples/
-ll
-cl third_party/
-ll
-cl glfw/
-ll
-cl src/
-ll
-..3
-cl ..
-cl OpenGL/
-cl third_party/
-g hellowindow2.cpp
-gcc hellowindow2.cpp 
-ll
-unzip glad.zip 
-ll
-ll src/
-g++ hellowindow2.cpp 
-g++ hellowindow2.cpp -include include/glad/glad.h 
-ll
-cl ..
-ll
-cl third_party/
-mv include/ inc
-ll
-cat hellowindow2.cpp 
-ll
-ll inc/
-ll
-cl ..
-ll
-mv third_party/hellowindow2.cpp ./
-ll
-glad_test
-mkidr glad_test
-mkdir glad_test
-mv third_party/hellowindow2.cpp ./
-mv hellowindow2.cpp glad_test/
-ll
-mv third_party/ thirdParty
-ll
-mv glad_test/ gladTest/
-ll
-cl gladTest/
-g Makefile
-ll
-LL
-ll
-cl ..
-ll
-cl thirdParty/
-cl ../gladTest/
-ll
-../thirdParty/inc/
-cat hellowindow2.cpp 
-ll
-make
-ll /usr/lib
-make
-g Makefile 
-make
-ll
-cl ..
-ll
-mkdir learnOpenGL
-cl learnOpenGL/
-ll
-cp ../gladTest/Makefile ./
-ll
-g hello_window_clear.cpp 
-make
-ll
-make
-pip install --upgrade git+https://github.com/dav1dde/glad.git#egg=glad
-sudo install pip
-git clone https://github.com/Dav1dde/glad.git
-cl glad/
-python -m glad --help
-python3 -m glad --help
-pip install glad
-pip
-apt-get install glad
-sudo apt-get install glad
-pip install --upgrade git+https://github.com/dav1dde/glad.git#egg=glad
-ll
-cl ..
-rm -rf glad/
-ll
-make
-ll
-ll ../thirdParty/src/
-make
-cp ../thirdParty/src/glad.c ./
-make
-ll
-rm glad.c 
-make
-sudo apt-get install build-essential
-sudo apt-get install libgl1-mesa-dev
-g Makefile 
-make
-ll
-./a.out 
-ll
-make
-ll
-g hello_triangle.cpp
-dos2unix hello_
-dos2unix hello_triangle.cpp 
-g Makefile 
-make
-make hello_triangle 
-ll
-./a.out 
-rm a.out 
-make hello_triangle 
-ll
-./a.out 
-ll
-cl ..
-ll
-tree 
-tree | grep 'glw3.h'
-tree | grep 'glw3'
-tree | grep 'glfw3'
-find -n 'glfw3.h'
-find -name 'glfw3.h'
-ll
-cp -r include/GLFW ~/ProgramHub/OpenGL/third_party/inc/
-ll
-g README.md 
-cl cmake_
-ll
-g README.md 
-make
-ll
-ll src/
-cl src/
-cl CMakeFiles/
-ll
-cl glfw.dir/
-ll
-cl ..
-ll
-cmake -G "Unix Makefiles"
-make install
-sudo make install
-ll
-cl ..
-ll
-cl glfw/
-cmake .
-ll
-cl ..
-ll
-cmake ./
-cl ..
-ll
-cl s
-ll
-g hello_window_clear.cpp
-g hello_window_clear.cpp 
-dos2unix
-sudo apt install dos2unix
-dos2unix hello_window_clear.cpp 
-g hello_window_clear.cpp 
-ll
-mv hello_window_clear.cpp ../OpenGL/learnOpenGL/
-cl third_party/
-ll
-cl ProgramHub/
-cl OpenGL/
-cl gladTest/
-cl .
-cl ..
-cl thirdParty/
-ll inc/
-ll inc/glad/
-ll inc/KHR/
-cl ..
-ll
-cl learnOpenGL/
-make
-g Makefile 
-make hello_triangle 
-ll
-./hello_triangle.out 
-make hello_triangle 
-make
-make hello_triangle 
-gcc --version
-sudo apt-get install libglfw3-dev
-cp ~/Downloads/*.pdf ./
-sudo cp ~/Downloads/*.pdf ./
-ll 
-ll .bash
-ll .bash*
-ll .vim_runtime/bashrc/
-g .bashrc 
-source .bashrc 
-ll
-ll .vim_runtime/bashrc/
-g .bashrc 
-source .bashrc 
-ll /home/yesire-lincoln/.vim_runtime/bash_rc
-ll /home/yesire-lincoln/.vim_runtime/
-ll /home/yesire-lincoln/.vim_runtime/bashrc/
-source .bashrc 
-ll /home/yesire-lincoln/.vim_runtime/bashrc/
-g .bashrc 
-source .bashrc 
-gvd
-cl ProgramHub/
-cl OpenGL/
-ll
-ll gladTest/
-mv gladTest/ textExperi
-ll
-mv textExperi/ testExperi/
-ll
-ll thirdParty/
-cl thirdParty/
-rm glad.zip 
-ll
-cl ..
-ll
-cl learnOpenGL/
-ll
-mkdir src
-mv *.cpp src/
-ll
-rm a.out 
-ll
-g Makefile 
-ll
-ll src/
-ll
-cl ../
-ll
-cl ..
-ll
-ll make-Tutorial/
-ll
-mkdir Vulkan
-mv Vulkan-* Vulkan
-mv VulkanSamples Vulkan
-ll
-cl OpenGL/
-cp ../Vulkan/Vulkan-Samples/README.md ./
-g README.md 
-sudo apt-get build-dep glfw3
-sudo apt-get install xorg-dev
-ll
-ll thirdParty/
-ll thirdParty/src/
-tree
-cl ..
-tree OpenGL/
-cl OpenGL/
-ll thirdParty/lib/
-ll
-cl learnOpenGL/
-ll
-mkdir inc
-l
-ll
-g Makefile 
-make
-make hello_window_clear 
-ll
-ll src/
-make
-ll src/
-make
-ll
-ll src/
-ll inc/
-ll ../thirdParty/
-ll ../thirdParty/inc/
-make hello_triangle 
-make
-make hello_triangle 
-make hello_window_clear 
-g++  -o hello_window_clear.o -c src/hello_window_clear.cpp ../thirdParty/inc
-make hello_window_clear 
-ll
-rm hello_triangle.out 
-rm hello_window_clear.o
-rm hello_window_clear.out 
-ll
-make hello_window_clear 
-[A
-make hello_window_clear 
-ll
-make clean
-ll
-make hello_window_clear 
-ll
-make hello_window_clear 
-ll
-make hello_window_clear 
-ll
-make hello_window_clear 
-make clean
-make hello_window_clear 
-ll
-rm hello_window_clear
-ll
-make clean
-ll
-make clean
-ll
-make clean
-ll
-make
 ll inc/
 ll ../thirdParty/inc/
 ll ../thirdParty/inc/glad/
@@ -1998,3 +837,1164 @@ git push
 git config -l
 git push
 git status
+ll
+date
+g .vimrc
+ll .vim_runtime/
+cl .vim_runtime/
+ll bashrc/
+git statu
+git status
+git diff my_configs.vim
+ll
+git status
+git add .
+git status
+git push
+git status
+git commit -m "add some short map in my_config"
+git push
+cl 
+cl ProgramHub/Vulkan/
+cl Vulkan-Samples/
+ll
+cl build/
+ll
+g Makefile 
+make
+make 
+cl ProgramHub/
+cl OpenGL/
+cl learnOpenGL/
+g src/colors.cpp
+./updateSrc.sh src/colors.cpp 
+g updateSrc.sh 
+make
+make run 
+./updateSrc.sh src/basic_lighting_diffuse.cpp 
+sed '/TARGET/p' updateSrc.sh 
+sed -n '/TARGET/p' Makefile 
+sed -n '/TARGET.*Till/p' Makefile 
+sed -n '/.*Till/p' Makefile 
+sed -n '/.*#Till/p' Makefile 
+sed  's/\(.*\) #Till.*//g' Makefile 
+sed  's/\(.*\) #Till.*/\1/g' Makefile 
+sed  's/\(.*\) #Till.*/---\1---/g' Makefile 
+sed -e's/\(.*\) #Till.*/\1/g' -e '/TGT_ALL/a\append' Makefile 
+sed -e's/\(.*\) #Till.*/\1/g' -e '/TGT_ALL.*Till/a\append' Makefile 
+sed -e '/TGT_ALL.*Till/a\append' -e's/\(.*\) #Till.*/\1/g'  Makefile 
+sed -e '/TGT_ALL.*Till/{a\append}' -e's/\(.*\) #Till.*/\1/g'  Makefile 
+sed -e '/TGT_ALL.*Till/{a\append\n}' -e's/\(.*\) #Till.*/\1/g'  Makefile 
+sed -e '/TGT_ALL.*Till/a\append\n' -e's/\(.*\) #Till.*/\1/g'  Makefile 
+sed -e '/TGT_ALL.*Till/a\append\nsdfasdf' -e's/\(.*\) #Till.*/\1/g'  Makefile 
+sed -e '/TGT_ALL.*Till/a\append  #Till\nsdfasdf' -e's/\(.*\) #Till.*/\1/g'  Makefile 
+ll src/
+make
+make run
+make
+g src/basic_lighting_specular.cpp
+./updateSrc.sh src/basic_lighting_specular.cpp
+ge Makefile 
+make
+make run
+cl src/
+cp basic_lighting_specular.cpp basic_lighting_exercise1.cpp
+cl ..
+g src/basic_lighting_exercise1.cpp 
+make
+ll src/shaders
+cp 2.2.basic_lighting.fs 2.2.basic_lighting_exercise2.fs
+cl src/
+cp 2.2.basic_lighting.fs 2.2.basic_lighting_exercise2.fs
+ll
+cl shaders
+cp 2.2.basic_lighting.fs 2.2.basic_lighting_exercise2.fs
+cl ..
+cp basic_lighting_exercise1.cpp basic_lighting_exercise2.cpp
+ll shaders
+cl ..
+make
+./basic_lighting_exercise1.out &
+./basic_lighting_exercise2.out &
+make 
+make all
+ll
+./basic_lighting_exercise1.out
+make
+cl ProgramHub/OpenGL/
+cl learnOpenGL/
+g src/basic_lighting_specular.cpp
+g Makefile 
+make
+make run
+cl 
+cl P
+cl ProgramHub/
+ll
+cl OpenGL/
+cl learnOpenGL/
+g src/materials.cpp
+./updateSrc.sh src/materials.cpp 
+g Makefile 
+make
+ll
+cl ProgramHub/
+cl OpenGL/
+cl learnOpenGL/
+ll
+make clean
+ll
+g src/lighting_maps_diffuse.cpp
+./updateSrc.sh src/lighting_maps_diffuse.cpp 
+g src/shaders/4.1.texture.vs 
+ll
+ll src/
+make
+make run
+make 
+./updateSrc.sh src/lighting_maps_specular.cpp 
+make
+g src/lighting_maps_specular.cpp 
+make 
+ll
+cl ProgramHub/
+cl OpenGL/
+cl learnOpenGL/
+g src/lighting_maps_specular.cpp 
+make clean
+make
+g src/lighting_maps_specular.cpp 
+make
+make run
+make
+./updateSrc.sh src/light_casters_directional.cpp
+make
+./updateSrc.sh src/light_casters_point.cpp 
+make
+./updateSrc.sh src/light_casters_spot.cpp 
+make
+make run
+make
+./updateSrc.sh src/light_casters_spot_soft.cpp 
+make
+./updateSrc.sh  src/multiple_lights.cpp 
+make
+cp src/multiple_lights.cpp src/multiple_lights_exercise1.cpp 
+make
+make clean 
+make
+ll
+make all
+ll
+./lighting_maps_specular.out
+./multiple_lights
+./multiple_lights.out 
+make all
+./multiple_lights.out 
+cl ProgramHub/
+cl OpenGL/
+cl learnOpenGL/
+ll
+ll inc/
+cl inc/
+g mesh.h
+ll
+cl ..
+ll
+ll ../thirdParty/inc/
+cl ../thirdParty/inc/assimp/
+ll
+g camera.h 
+..2
+cl ..
+cl learnOpenGL/
+ll
+make clean
+ll
+ll src/
+./updateSrc.sh src/model_loading.cpp 
+g inc/mesh.h inc/model.h 
+g Makefile 
+ll
+cl ..
+ll thirdParty/
+cp ../Vulkan/Vulkan-Samples/third_party/assimp/bin/* ./thirdParty/lib/
+ll thirdParty/lib/
+cl learnOpenGL/
+make
+make > log.make
+ll
+g log.make 
+make >> log.make
+l
+g inc/shader.h
+g inc/mesh.h 
+make
+g src/model_loading.cpp 
+make >> log.make 
+ll
+ll ../
+ll
+ll src/
+make
+gvd inc/shader.h inc/shader_m.h 
+make
+ll ../thirdParty/lib/
+make
+make clean
+make
+which libglfw3.a
+ll /usr/lib
+ll /usr/lib64
+ll /usr/lib32
+ll /usr/lib
+ll /usr/lib | glfw
+ll /usr/lib | grep "glfw"
+ll /usr/lib | grep gl
+/sbin/
+make
+make clean
+make
+find -name 'glfw'
+locate
+ll ../thirdParty/lib/
+cl
+find --help
+find -name 
+find -name 'libglfw3.a'
+find -name 'libglfw3'
+find -name 'libglfw3*'
+find -name 'libglfw3*' /usr/
+find /usr/ -name 'libglfw3*' 
+cl ProgramHub/OpenGL/learnOpenGL/
+cl .
+cl ..
+cl thirdParty/
+cp ../../Vulkan/Vulkan-Samples/third_party/assimp/bin/* /usr/local/lib/
+sudo cp ../../Vulkan/Vulkan-Samples/third_party/assimp/bin/* /usr/local/lib/
+cl ..
+cl learnOpenGL/
+make
+make clean
+make
+make clean
+make
+make -B
+g /etc/ld.so.conf
+g /etc/ld.so.conf.d/
+cl /etc/ld.so.conf.d/
+ll
+cp x86_64-linux-gnu.conf assimp.conf
+ll /usr/local/lib/
+rm libassimp.so
+ll
+sudo libc.conf libassimp.conf
+ll
+sudo cp libc.conf libassimp.conf
+ll
+g libassimp.conf
+rm libassimp.conf
+ll
+sudo rm libassimp.conf
+ll
+cl /usr/local/lib/
+ll
+rm libassimp.so.5 libassimp.so
+sudo rm libassimp.so.5 libassimp.so
+ll
+ln -s libassimp.so.5 libassimp.so.5.0.1
+ll
+ln -s libassimp.so.5.0.1 libassimp.so.5
+sudo ln -s libassimp.so.5.0.1 libassimp.so.5
+ll
+sudo ln -s libassimp.so.5.0.1 libassimp.so
+l
+ll
+cl
+cl P
+cl ProgramHub/OpenGL/
+cl thirdParty/
+cl lib/
+ll
+rm libassimp.so libassimp.so.5 
+ll
+ln -s libassimp.so.5.0.1 libassimp.so
+ll
+cl ..
+cl learnOpenGL/
+make -B
+make
+echo $LD_LIBRARY_PATH
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/yesire-lincoln/ProgramHub/OpenGL/thirdParty/lib
+echo $LD_LIBRARY_PATH
+make
+make -B
+cl ..
+cl resources/
+unzip backpack.zip 
+ll
+ll [^t*]
+ll [a-s]*
+mkdir objects
+ll [a-s]*
+ll
+mv [a-n]* objects/
+ll
+mv [r-s]* objects/
+ll
+cl objects/
+ll
+mkdir backpack
+ll
+mv backpack.* backpack
+ll
+ll [a,d-s]*
+mv [a,d-s]* backpack/
+ll
+ll backpack/
+..3
+cl OpenGL/
+cl learnOpenGL/
+ll
+make -B
+\
+ll
+cl P
+cl ProgramHub/
+ll
+cl OpenGL/
+cl ..
+cl OpenGL/
+cl thirdParty/
+ll
+cl ..
+cl Vulkan/
+cl Vulkan-Samples/
+ll
+cl third_party/
+ll
+git clone https://github.com/assimp/assimp.git
+ll
+git status
+cl ..
+git status
+cl ..
+git status 
+cl VulkanSamples/
+git status
+ll
+cl ../Vulkan-Samples/
+cl third_party/
+ll
+git clone https://github.com/acgessler/open3mod.git
+ll
+cl assimp/
+ll
+cmake CMakeLists.txt
+make -j4
+ll
+ll bin/
+ll
+ll include/
+cp -r include/assimp ../../../../OpenGL/thirdParty/inc/
+ll
+ll bin/
+cl ..
+cl glfw/
+ll
+g Makefile 
+ll
+cl ..
+cl assimp/
+cl bin/
+ll
+..4
+..2
+..3
+cl /usr/local/lib/
+ll
+ldconfig
+sudo ldconfig
+env
+env | grep LD_LIBRARY_PATH
+cl ProgramHub/OpenGL/
+ll
+cl learnOpenGL/
+make -B
+env | grep LD_LIBRARY_PATH
+make
+make clean
+make -B
+cl /usr/local/lib/
+rm libassimp.so
+sudo rm libassimp.so
+ymg
+sudo rm libassimp.so
+ll
+cl -
+make clean
+make
+cl -
+sudo rm libglfw3.a
+l
+cl -
+make
+ll
+cl ..
+ll
+mkdir doc
+ll
+git status
+git status | grep doc
+ll
+g .gitignore 
+git status
+ll
+cl doc/
+cl ..
+g .gitignore 
+g README.md 
+cl doc/
+ll
+g 
+g NOTE-ABOUT-EVIRENMENT
+ll
+mv NOTE-ABOUT-EVIRENMENT NOTE_BY_YL
+ll
+cl ..
+cl learnOpenGL/
+make clean
+make
+cp ../thirdParty/lib/libglfw3.a ../thirdParty/lib/libassimp.so.5.0.1 /usr/local/lib/
+sudo cp ../thirdParty/lib/libglfw3.a ../thirdParty/lib/libassimp.so.5.0.1 /usr/local/lib/
+ll /usr/local/lib/
+cl /usr/local/lib/
+ll
+ln -s libassimp.so.5.0.1 libassimp.so
+sudo ln -s libassimp.so.5.0.1 libassimp.so
+ll
+cl -
+make
+ldconfig
+g /etc/ld.so.cache 
+g src/model_loading.cpp 
+make
+nm assimp
+nm ../thirdParty/lib/libassimp.so.5.0.1
+cl ..
+cl thirdParty/
+ll
+cl lib/
+ll
+cl ..
+cl learnOpenGL/
+ll 
+make
+make run
+ll
+cp src/model_loading.cpp  src/model_loading_light.cpp 
+g Makefile 
+make
+ll
+make clean
+ll
+cp src/model_loading_light.cpp src/model_loading_multi_light.cpp 
+cl src/shaders
+ll
+cp 6.multiple_lights.fs 3.model_loading_multi_light.fs
+cp 6.multiple_lights.vs 3.model_loading_multi_light.vs
+ll
+..2
+make
+MAKE
+make
+make clean
+make
+make clean
+make
+g src/model_loading.cpp 
+ll
+make clean
+make
+make -B
+make -B >> log.make 
+g log.make 
+make -B >> log.make 
+g log.make 
+make -B >> log.make 
+make -B
+make clean
+make 
+make
+make -B
+make
+make -B
+make
+make -B
+make
+make -B
+ll
+make
+make -B
+cl src/`
+
+
+
+cl src/
+cp model_loading_multi_light.cpp model_loading_multi_light_normal.cpp
+cl shaders
+ll
+cp 3.model_loading_multi_light.vs 3.model_loading_multi_light_normal.vs
+cp 3.model_loading_multi_light.fs 4.model_loading_multi_light_normal.fs
+mv 3.model_loading_multi_light_normal.vs 4.model_loading_multi_light_normal.vs
+..3
+cl learnOpenGL/
+g src/model_loading_multi_light_normal.cpp 
+make
+make -B
+cl ..
+git status 
+g .gitignore 
+git status 
+g .gitignore 
+git add .
+g .gitignore
+git status 
+git commit -m "update till chapter -- model loading"
+git status 
+git commit 
+git config 
+git config --global
+git config -l
+git push
+ll
+cl learnOpenGL/
+ll
+git status 
+cl ..
+g .gitignore 
+git
+cl learnOpenGL/
+git rm log.make 
+git status
+git add .
+git status
+cl ..
+git add .
+git status
+git commit -m "delete useless log file"
+git status
+git push
+ll
+cl learnOpenGL/
+ll
+make clean
+ll
+sudo apt-get install gimp
+sudo apt-get install blender
+blender 
+blender -v
+sudo apt-get update blender
+ll
+mv SoftwareDirect/ Software
+ll
+tar -xvf blender-2.90.1-linux64.tar.xz 
+ll
+cl blender-2.90.1-linux64
+ll
+./blender
+cl ..
+mv blender-2.90.1-linux64 ../SoftwareDirect/
+ll
+ll /usr/sbin/
+cl /usr/bin/
+ll
+ln -h
+ln --help
+ln -s ~/Software/blender-2.90.1-linux64/blender blender2.90
+sudo ln -s ~/Software/blender-2.90.1-linux64/blender blender2.90
+ll blender*
+cl
+blender2.90 
+cl ProgramHub/CG/blender/
+blender2.90 Blender\ 2.blend 
+sudo snap install blender --classic
+cl ProgramHub/
+cl OpenGL/
+cl learnOpenGL/
+g src/model_loading_multi_light_normal.cpp 
+make
+cl src/
+ll
+g model_loading_light.cpp
+cp model_loading.cpp model_loading_normal.cpp
+cl ..
+g src/model_loading_normal.cpp 
+cl src/shaders
+ll
+cp 1.1.model_loading_normal.fs
+cp 1.model_loading.fs 1.1.model_loading_normal.fs
+cp 1.model_loading.vs 1.1.model_loading_normal.vs
+cl ProgramHub/Vulkan/
+cl Vulkan-Samples/
+cl third_party/
+cl gl
+cl glm/
+ll
+g doc/
+cl doc/
+manual.pdf
+cl ProgramHub/OpenGL/
+cl learnOpenGL/
+g src/model_loading_multi_light_normal.cpp
+make
+make clean
+make
+make -B
+LL
+ll
+./model_loading_multi_light_normal.out 
+./model_loading_multi_light.out 
+./model_loading_multi_light_normal.out 
+./model_loading_multi_light.out 
+./model_loading_multi_light_normal.out 
+./model_loading_multi_light.out 
+make
+make -B
+make run
+make -B
+ll src/
+g model_loading_normal.cpp
+g src/model_loading_normal.cpp
+cl src/shaders
+ll
+rm 1.1.model_loading_normal.fs 1.1.model_loading_normal.vs
+cl ..
+rm model_loading_normal.cpp 
+cl ..
+ll
+make
+make clean
+ll
+cl ..
+git status 
+cl learnOpenGL/
+make 
+cp src/model_loading_multi_light_normal.cpp src/model_loading_multi_light_normal_splash_fox.cpp 
+g src/model_loading_multi_light_normal_splash_fox.cpp
+make
+blender2.90 Blender\ 2.blend 
+cl
+cl Documents/
+cl git/
+cl gist/
+git clone https://gist.github.com/9303cbc8fd9f1cb1602e5e0916f7726a.git
+ll
+cl 9303cbc8fd9f1cb1602e5e0916f7726a/
+ll
+git add normalMapping.png 
+git commit -m "Add image"
+git push origin master
+cl ..
+cl ProgramHub/
+cl OpenGL/
+cl learnOpenGL/
+cl src/
+cp model_loading.cpp model_loading_fox.cpp
+cl ..
+g src/model_loading_fox.cpp 
+make
+g Makefile 
+make
+make clean
+make
+ll
+l
+unzip 99-chrysler-imperial-1933.rar
+sudo apt-get install rar
+sudo apt-get install unrar
+rar x 99-chrysler-imperial-1933.rar 
+ll
+blender2.90 Chrysler\ Imperial\ 1933.blend 
+..3
+cl P
+cl ProgramHub/
+cl Vulkan/
+cl ..
+mkdir thirdParty
+ll
+cl thirdParty/
+git clone https://github.com/KhronosGroup/glTF-Sample-Models.git
+ll
+cl ProgramHub/
+cl OpenGL/
+cl learnOpenGL/
+ll
+g src/model_loading_multi_light_normal_splash_fox.cpp 
+make 
+make
+cl src/
+ll
+mv model_loading_multi_light_normal_splash_fox.cpp model_loading_multi_light_normal_ChryslerImperial.cpp
+cl ..
+g Makefile 
+make
+cl src/
+cl shaders
+ll
+mv 4.model_loading_multi_light_normal.fs 4.1.model_loading_multi_light_normal_CI.fs
+mv 4.model_loading_multi_light_normal.vs 4.model_loading_multi_light_normal_CI.vs
+mv 4.model_loading_multi_light_normal_CI.vs 4.1.model_loading_multi_light_normal_CI.vs
+ll
+..2
+make
+make -B
+make
+..2
+cl CG/
+cl blender/
+blender2.90 Chrysler Imperial 1933.blend
+blender2.90 Chrysler\ Imperial\ 1933.blend 
+LL
+ll
+cl Splash_Fox/
+cl ..
+blender2.90 Blender\ 2.blend &
+cl ..
+cl Vulkan/
+cl Vulkan-Samples/
+cl third_party/
+ll
+git sta
+git status 
+ll
+mv assimp open3mod ../../../thirdParty/
+git status 
+ll
+..3
+cl OpenGL/
+blender2.90 &
+cl learnOpenGL/
+ll
+make clean
+ll src/
+ll
+cp updateSrc.sh updateMakefile.sh 
+g updateMakefile.sh 
+bash
+for file in src/*; echo $file
+echo $
+./updateMakefile.sh 
+declare -a
+declare -p
+declare 
+./updateMakefile.sh 
+ll
+cat herdoc.txt 
+./updateMakefile.sh 
+cat herdoc.txt 
+./updateMakefile.sh 
+g herdoc.txt 
+cp Makefile Makefile.bak
+./updateMakefile.sh 
+ll
+./updateMakefile.sh 
+ll
+g Makefile
+make 
+cp Makefile.bak Makefile
+./updateMakefile.sh 
+make 
+./updateMakefile.sh 
+make
+make textures.out
+ll
+./textures.out 
+make camera_class.out
+./updateMakefile.sh 
+make materials
+make model_loading_multi_light_normal
+ll
+make clean
+ll
+mv Makefile.bak Makefile.Manual
+ll
+rm herdoc.txt 
+ll
+gvd Makefile Makefile.Manual 
+cl ProgramHub/
+cl thirdParty/
+git clone https://github.com/KhronosGroup/glTF-Sample-Models.git
+ll
+cl glTF-Sample-Models/
+ll
+cl sourceModels/
+ll
+cl WaterBottle/
+ll
+..3
+cl ..
+cl OpenGL/
+cl learnOpenGL/
+gvd Makefile Makefile.Manual 
+g Makefile.Manual 
+./updateMakefile.sh 
+make hello_window_clear
+ll
+cp Makefile.Manual Makefile
+make hello_window_clear
+make clean
+make
+make model_loading_multi_light_normal_ChryslerImperial.out
+make clean
+make model_loading_multi_light_normal_ChryslerImperial.out
+./updateMakefile.sh 
+make clean
+make hello_triangle
+make clean
+g updateMakefile.sh 
+./updateMakefile.sh 
+
+./updateMakefile.sh 
+ll
+make materials
+make materials.out 
+make camera_circle.out
+cp Makefile.Manual Makefile
+make hello_triangle.out 
+make clean
+make hello_triangle.out 
+ll
+ll src/
+make transformations
+make transformations.out
+g Makefile.Manual 
+ll
+make transformations.out
+make clean
+make transformations.out
+./updateMakefile.sh 
+gvd Makefile Makefile.Manual 
+make textures.out
+make model_loading_multi_light_normal.out
+g model_loading_multi_light_normal.out
+g src/model_loading_multi_light.cpp 
+cp Makefile.Manual Makefile
+g model_loading_multi_light_normal.out
+make clean
+make model_loading_multi_light_normal.out
+git status
+g src/model_loading_multi_light_normal.cpp 
+./updateMakefile.sh 
+make model_loading_multi_light.out
+git status 
+git restore src/shaders/4.model_loading_multi_light_normal.fs
+git status 
+git restore src/shaders/4.model_loading_multi_light_normal.vs
+git status 
+git diff src/model_loading_multi_light_normal.cpp
+make model_loading_multi_light_normal.out
+g src/model_loading_multi_light_normal_ChryslerImperial.cpp 
+git status
+g src/model_loading_multi_light.cpp
+make clean
+make model_loading_multi_light_normal.out
+g src/model_loading_multi_light_normal.cpp 
+cl src/shaders
+cp 4.1.model_loading_multi_light_normal_CI.fs 4.model_loading_multi_light_normal.fs
+cp 4.1.model_loading_multi_light_normal_CI.vs 4.model_loading_multi_light_normal.vs
+ll
+.2
+..2
+make clean
+make model_loading_multi_light_normal.out
+make -B model_loading_multi_light_normal.out
+git status 
+git diff src/shaders/4.model_loading_multi_light_normal.fs
+ll
+git status 
+git add Makefile*
+git status 
+git add src/*
+git status 
+git add updateMakefile.sh 
+git status 
+git commit -m "add auto generate Makefile script, and normal mapping expample"
+git status 
+git push 
+cl ProgramHub/
+cl OpenGL/
+cl learnOpenGL/
+ll
+make clean
+make run 
+make light_casters_point.out
+cl ProgramHub/OpenGL/
+cl learnOpenGL/
+ll
+git status 
+g Makefile
+make all
+make clean
+make basic_lighting_diffuse.out
+ll
+./basic_lighting_diffuse.out 
+mv Makefile Makefile.Auto
+cp Makefile.Manual Makefile
+make clean
+make run
+make clean
+make hello_triangle.out 
+cl ProgramHub/OpenGL/
+cl learnOpenGL/
+make run 
+cl ProgramHub/OpenGL/
+cl learnOpenGL/
+make depth_testing.out 
+make depth_testing.out -b
+make depth_testing.out -B
+g .
+make depth_testing.out
+cl ProgramHub/
+cl OpenGL/
+cl learnOpenGL/
+make run
+ll
+g src/
+ll
+./updateSrc.sh src/depth_testing.cpp 
+ll
+ll src/
+cl src/
+cl shaders
+g 1.1.depth_testing.vs
+cl ..
+ll
+cl ..
+ll
+cl ..
+ll resources/
+ll resources/textures/
+cl ../OpenGL/
+cl learnOpenGL/
+./updateMakefile.sh 
+ll
+make clean 
+make depth_testing.out
+make depth_testing
+make camera_circle.out
+make clean
+make depth_testing.out
+ll
+make depth_testing.out
+make clean
+make run
+make basic_lighting_specular.out
+make model_loading_multi_light.out
+make run --help
+make run -j
+make run -n
+g 
+g updateMakefile.sh 
+./updateMakefile.sh 
+make run
+make transformations.out 
+make run
+make depth_testing.out 
+make textures.out 
+make depth_testing.out 
+ll
+cl ProgramHub/
+cl OpenGL/
+ll
+cl learnOpenGL/
+ll
+cl ProgramHub/
+l ../
+ll
+git clone https://github.com/Atcold/pytorch-Deep-Learning
+cl ../Downloads/
+bash Miniconda3-latest-Linux-x86_64.sh
+ll
+mv Miniconda3-latest-Linux-x86_64.sh.part Miniconda3-latest-Linux-x86_64.sh
+ll
+bash Miniconda3-latest-Linux-x86_64.sh
+cl /usr/bin/
+bash ~/Downloads/Miniconda3-latest-Linux-x86_64.sh 
+mv ~/Downloads/Miniconda3-latest-Linux-x86_64.sh ./
+sudo mv ~/Downloads/Miniconda3-latest-Linux-x86_64.sh ./
+bash Miniconda3-latest-Linux-x86_64.sh 
+mv Miniconda3-latest-Linux-x86_64.sh ~/Downloads/
+sudo mv Miniconda3-latest-Linux-x86_64.sh ~/Downloads/
+bash ~/Downloads/Miniconda3-latest-Linux-x86_64.sh 
+sudo bash ~/Downloads/Miniconda3-latest-Linux-x86_64.sh 
+sudo mv ~/Downloads/Miniconda3-latest-Linux-x86_64.sh ./
+bash ~/Downloads/Miniconda3-latest-Linux-x86_64.sh 
+bash Miniconda3-latest-Linux-x86_64.sh 
+sudo bash Miniconda3-latest-Linux-x86_64.sh 
+rm -rf miniconda3
+sudo rm -rf miniconda3
+sudo bash Miniconda3-latest-Linux-x86_64.sh 
+sudo mv Miniconda3-latest-Linux-x86_64.sh ~/Downloads/
+cl ProgramHub/
+wget <http:// link to miniconda>
+wget -c https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+wget -c https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh
+sudo apt-get install libssl-dev
+wget -c https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+sudo apt-get install openssl
+wget -c https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+yum
+wget -h
+wget -v
+wget --version
+apt-get upgrade wget
+sudo apt-get upgrade wget
+wget -c https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+ll
+cl ..
+ll
+ll /usr/bin/
+diff /usr/bin
+dif -u /usr/bin
+df -a -u /usr/bin
+df -a /usr/bin
+wget -c https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+wget -c https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh --no-check-certificate
+wget http://www.linuxde.net/testfile.zip
+wget -c https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh
+cl ProgramHub/
+git clone git@github.com:micheleg/dash-to-dock.git
+ls -al ~/.ssh
+ssh-keygen -t ed25519 -C 18345179649@163.com
+ll
+ls -al ~/.ssh
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_ed25519
+sudo apt-get install xclip
+xclip -selection clipboard < ~/.ssh/id_ed25519.pub
+wget -h
+wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+wget  https://mirrors.tuna.tsinghua.edu.cn/anaconda/miniconda/
+ll
+rm index.html 
+ll
+cl Downloads/
+wget https://mirrors.tuna.tsinghua.edu.cn/anaconda/miniconda/Miniconda-latest-Linux-x86_64.sh
+ll
+wget https://mirrors.tuna.tsinghua.edu.cn/anaconda/miniconda/Miniconda-3.9.1-Linux-x86_64.sh
+ll
+bash Miniconda-latest-Linux-x86_64.sh
+l
+sudo bash Miniconda-3.9.1-Linux-x86_64.sh
+ll
+rm Miniconda3-latest-Linux-x86_64.sh
+ll
+wget  https://mirrors.tuna.tsinghua.edu.cn/anaconda/miniconda/Miniconda3-latest-Linux-x86_64.sh
+ll
+sha256sum -h
+sha256sum --help
+sha256sum Miniconda3-latest-Linux-x86_64.sh
+sha256sum Miniconda3-latest-Linux-x86_64.sh > checksum.sha256
+echo '1314b90489f154602fd794accfc90446111514a5a72fe1f71ab83e07de9504a7' > golden.sha256
+gvd checksum.sha256 golden.sha256
+cmp checksum.sha256 golden.sha256
+bash Miniconda3-latest-Linux-x86_64.sh
+suco bash Miniconda3-latest-Linux-x86_64.sh
+sudo bash Miniconda3-latest-Linux-x86_64.sh
+rm -rf /usr/bin/miniconda3
+sudo rm -rf /usr/bin/miniconda3
+sudo bash Miniconda3-latest-Linux-x86_64.sh
+conda config --set show_channel_urls
+conda config --set show_channel_urls yes
+conda
+ll /usr/bin/
+ll /usr/bin/miniconda3/
+ll /usr/bin/miniconda3/bin/
+python3.8 
+cl ProgramHub/
+ll
+cl pytorch-Deep-Learning/
+l
+ll
+g README.md
+conda env create -f environment.yml
+ll
+conda env create -f ./environment.yml
+g environment.yml 
+cat environment.yml 
+conda env create -f environment.yml
+conda clean -i
+conda env create -f environment.yml
+conda info
+conda config --show channels
+conda config --show-sources
+conda config --show channels
+conda config --show-sources
+conda clean -i
+conda info
+h
+conda env create -f environment.yml
+conda config --show-sources
+h
+conda clean -i
+conda config --show-sources
+conda env create -f environment.yml
+conda clean -i
+conda config --show-sources
+conda info
+conda env create -f environment.yml
+conda-env 
+conda-env list
+conda activate pDL
+conda init bash
+/home/yesire-lincoln/.bashrc
+g /home/yesire-lincoln/.bashrc
+cl ~
+ll
+cl .vimrc
+cl .vimrc_bak 
+cl .vim_runtime/
+svn st
+git status 
+ll
+cl bashrc/
+ll
+g bak_bashrc
+g .bashrc 
+ll /usr/bin/
+ll /usr/bin/miniconda3/
+cl /usr/bin/miniconda3/
+ll bin/
+conda
+./conda
+ll
+cl bin/
+./conda
+ceho $PATH 
+echo $PATH 
+cat /etc/profile
+g ~/.bashrc 
+source ~/.bashrc 
+echo $PATH 
+conda
+conda config --set show_channel_urls yes
+conda config --set show_channel_urls
+conda --help
+conda config --set show_channel_urls yes
+conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/
+conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/
+conda config --set show_channel_urls yes
+g ~/.condarc 
+conda clean -i
+conda create -n myenv numpy
+g ~/.condarc 
+conda clean -i
+g ~/.condarc 
+conda clean -i
+conda info --envs
+cl ~/ProgramHub/pytorch-Deep-Learning/
+cat environment.yml 
+g ~/.condarc 
+conda clean -i
+conda -h

@@ -17,6 +17,18 @@
 " Sets how many lines of history VIM has to remember
 set number "Show line number
 
+" Set cursor line and column hilight
+if has("gui_running")
+    set cursorline
+    hi cursorline gui=NONE guibg=#666666
+    " hi CursorLine gui=NONE guibg=Grey40
+    set cursorcolumn
+    hi cursorcolumn gui=NONE guibg=#666666
+    " hi CursorColumn guibg=Grey40
+    nnoremap <Leader>c :set cursorline! cursorcolumn!<CR>
+endif
+
+
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Short-cut Mapping
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
