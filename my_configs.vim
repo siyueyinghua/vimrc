@@ -19,8 +19,10 @@ set number "Show line number
 
 " Sets gui fonts depending on the running system
 if has("gui_win32")
-    set guifont=Courier_New:h14:cANSI:qDRAFT
     " echo "You Are Running on Win32 System"
+    set guifont=Courier_New:h14:cANSI:qDRAFT
+    " Use ~x on an English Windows version or ~n for French.
+    au GUIEnter * simalt ~x
 endif
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
