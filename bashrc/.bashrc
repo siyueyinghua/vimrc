@@ -57,7 +57,7 @@ if [ -n "$force_color_prompt" ]; then
 fi
 
 if [ "$color_prompt" = yes ]; then
-    PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
+    PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\n \[\033[01;35m\]Please Input Gently \[\033[00m\]\$ '
 else
     PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '
 fi
@@ -118,6 +118,11 @@ fi
 
 # Add my path
 export PATH=$PATH:/home/yesire-lincoln/ProgramHub/Vulkan-Samples/build/linux/app/bin/Release/x86_64
+export PATH=$PATH:/usr/local/cuda-11.1/bin
+
+# Set my ENV
+export CC=clang
+export CXX=clang++
 
 # bak the bashrc files whenever they are changed
 YL_CFG_BAK_DIR=~/.vim_runtime/bashrc
@@ -129,6 +134,7 @@ fi
 if [ -f ~/Downloads/vulkansdk_1.2.135.0/setup-env.sh ] ; then
     source ~/Downloads/vulkansdk_1.2.135.0/setup-env.sh
 fi
+
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!

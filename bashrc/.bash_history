@@ -1,1156 +1,3 @@
-ll inc/
-ll ../thirdParty/inc/
-ll ../thirdParty/inc/glad/
-ll ../thirdParty/inc/GLFW/
-g Makefile 
-make
-make hello_window_clear 
-ll src/
-make hello_triangle 
-make
-make -n
-ll
-make clean 
-make -n
-make
-make clean 
-make -n
-g Makefile 
-make clean 
-make hello_window_clear 
-ll
-make clean 
-ll
-make -n
-ll
-make -n
-make clean -n
-make 
-ll
-cl ..
-ll thirdParty/
-ll
-ll t
-ll testExperi/
-cl learnOpenGL/
-cl ..
-cl learnOpenGL/
-ll
-g src/shaders_uniform.cpp
-dos2unix src/shaders_uniform.cpp 
-make shaders_uniform 
-g src/shaders_interpolation.cpp
-make 
-g src/shaders_interpolation.cpp
-ll
-cl src/
-ll
-cl ..
-ll
-cl src/
-ll
-mkdir common
-ll
-cl ../
-cl inc/
-ll
-mkdir common
-ll
-cl ..
-cl src/
-cl common/
-g shaders_class.cpp
-cl ../../inc/common/
-g shader_s.h
-cl ..
-ll
-mv src/common/shaders_class.cpp src/
-ll
-rm -rf src/common/
-ll
-mv inc/common/shader_s.h inc/
-rm -rf inc/common/
-ll
-make
-g src/shaders_class.cpp 
-make
-cl src/
-ll
-mkdir shaders
-ll
-cl shaders
-g 3.3.shader.vs
-g 3.3.shader.fs
-cl ..
-ll
-cl ..
-ll
-make
-make -n
-ll src/
-make -n
-make 
-make -n
-make clean
-make -n
-make 
-ll 
-cl src/
-cp shaders/3.3.shader.* ./
-ll
-cl ..
-make
-make clean
-make
-ll
-cp src/*.fs ./
-ll
-make clean
-make
-ll
-make
-ll ../thirdParty/inc/
-ll
-g src/textures.cpp
-ll
-apt install linuxqq_2.0.0-b2-1084_amd64.deb
-sudo apt install linuxqq_2.0.0-b2-1084_amd64.deb
-sudo dpkg -i linuxqq_2.0.0-b2-1084_amd64.deb 
-cl ../ProgramHub/Vulkan/Vulkan-Samples/
-ll
-cl third_party/
-cl glw
-cl glfw/
-ll
-cmake .
-ll
-git st
-git status 
-git pull
-ll
-cl ..
-ll
-mkdir build
-cl build/
-cmake ../glfw/
-cl ..
-cl glfw/
-cmake cmake_uninstall.cmake
-ll
-rm CMakeCache.txt 
-ll
-cl ../build/
-cmake ../glfw
-ll
-make
-make install
-sudo make install
-cp /usr/local/lib/libglfw3.a ~/ProgramHub/OpenGL/thirdParty/lib
-ll ~/ProgramHub/OpenGL/thirdParty/
-rm ~/ProgramHub/OpenGL/thirdParty/lib 
-mkdir ~/ProgramHub/OpenGL/thirdParty/lib 
-cp /usr/local/lib/libglfw3.a ~/ProgramHub/OpenGL/thirdParty/lib
-ll ~/ProgramHub/OpenGL/thirdParty/
-ll ~/ProgramHub/OpenGL/thirdParty/inc/
-ll ~/ProgramHub/OpenGL/thirdParty/inc/GLFW/
-ll /usr/local/lib/
-cl ~
-ll
-git status
-cl .vim_runtime/
-ll
-git status
-ll bashrc/
-g bashrc/
-gvd bashrc/.bashrc ../.bashrc 
-gvimdiff bashrc/.bashrc ../.bashrc 
-g ../.bashrc
-ll bashrc/
-git status
-git diff bashrc/.bash_history
-git diff bashrc/.bash_aliases
-git diff bashrc/.bashrc
-ll
-git status
-cl ..
-cl .vim_runtime/
-git status
-git diff my_configs.vim
-cl ../ProgramHub/
-cl Vulkan/Vulkan-Samples/third_party/
-ll
-cp stb/stb_image.h ~/ProgramHub/OpenGL/thirdParty/inc/
-cl ProgramHub/
-ll
-cl OpenGL/
-cl learnOpenGL/
-gcc -m src/hello_triangle.cpp 
-gcc -M src/hello_triangle.cpp 
-gcc -MM src/hello_triangle.cpp 
-g src/hello_triangle.cpp 
-g++ -MM src/hello_triangle.cpp 
-g++ --help
-g++ --help -v
-g++ --help -v | grep 'MM'
-g++ --help -v | grep '-M'
-g++ --help -v | grep '\-M'
-gcc -M src/hello_triangle.cpp 
-gcc -M src/hello_triangle.cpp -I../thirdParty/inc/
-gcc -MM src/hello_triangle.cpp -I../thirdParty/inc/
-set -e
-shopt
-gcc -MD src/hello_triangle.cpp -I../thirdParty/inc/
-g++ -MD src/hello_triangle.cpp -I../thirdParty/inc/
-cl ProgramHub/OpenGL/learnOpenGL/
-g++ -MD src/hello_triangle.cpp -I../thirdParty/inc/
-g++ -MD src/hello_triangle.cpp -I../thirdParty/inc/ -n
-g++ -MMD src/hello_triangle.cpp -I../thirdParty/inc/ -n
-make
-g++ -MM src/hello_triangle.cpp -I../thirdParty/inc/ -n
-g++ -MM src/hello_triangle.cpp -I../thirdParty/inc/
-g++ -MM src/hello_triangle.cpp -I../thirdParty/inc/ > tmp.txt
-sed 's,\($*\)\.o[ :]*,\1.o $@ : ,g' tmp.txt 
-sed 's,\($*\)\.o[ :]*,\1.o $@ : ,g' < tmp.txt 
-sed 's/\($*\)\.o[ :]*/\1.o $@ : ,g' < tmp.txt 
-sed 's/\($*\)\.o[ :]*/\1.o $@ : /g' < tmp.txt 
-g Makefile 
-make
-ll
-g hello_triangle.d
-make clean
-ll
-make
-ll
-g hello_triangle.d
-rm hello_triangle.d 
-make
-ll
-make clean
-make
-ll
-make clean
-make
-make clean
-make
-make clean
-make
-make clean
-make
-make -n
-make
-make all
-make all -n
-make clean
-make all -n
-make all
-make 
-make clean
-make all
-ll
-rm tmp.txt 3.3.shader.fs 
-ll
-make all -n
-make
-ll
-make
-make clean
-make
-make all -n
-n
-make clean
-make all -n
-make clean
-ll
-make
-ll
-make all
-ll
-make all -n
-cl ..
-git --help
-git init
-ll
-git status
-g .git/
-ll
-cl ..
-git https://github.com/siyueyinghua/glad.git
-git clone https://github.com/siyueyinghua/glad.git
-ll
-cp glad/.gitignore OpenGL/
-cl OpenGL/
-ll
-g .gitignore 
-cl learnOpenGL/
-ll
-cl ..
-git status 
-git add
-git add .
-git status 
-git push
-git config 
-git config --global
-git config -l
-git commit -m "first commit"
-git push
-git config -l
-git push siyueyinghua
-git push -u origin master
-ll
-git push -u origin master
-git remote add origin https://github.com/siyueyinghua/learnOpenGL.git
-git push -u origin master
-git push origin master
-git pull
-git push -u origin master
-git pull
-git pull origin master
-git push -u origin master
-ll
-git
-git ini
-git init
-ll
-git status
-git remote add origin https://github.com/siyueyinghua/learnOpenGL.git
-git push -u origin master
-git pull origin
-git pull origin master
-git pull --rebase
-git pull --rebase master
-git push -u origin master -f
-cl ..
-cl Vulkan/
-cl Vulkan-Samples/
-ll
-cl third_party/
-cl glfw/
-ll
-ll deps/
-cl ..
-cl glfw/deps/glad
-ll
-cl ...
-cl ..
-..3
-cl ..
-ll
-cl .vim_runtime/
-ll
-g .gitignore 
-cl ..
-cl P
-cl ProgramHub/
-g git.help
-git remote add origin https://github.com/siyueyinghua/learnOpenGL.git
-cl
-ll
-cl ProgramHub/
-ll
-cat git.help 
-l
-ll
-cl OpenGL/
-ll
-cl learnOpenGL/
-g++ -MM src/hello_triangle.cpp 
-g++ -M src/hello_triangle.cpp 
-g++ -M src/hello_triangle.cpp -Iinc -I../thirdParty/inc
-g++ -MM src/hello_triangle.cpp -Iinc -I../thirdParty/inc
-g src/hello_triangle.cpp
-g++ -MM src/hello_triangle.cpp -Iinc -I../thirdParty/inc > hello_triangle.d12345
-ll
-cat hello_triangle.d12345 
-sed 's,\($*\).o[ :]*,\1.o $@ : ,g' hello_triangle.d12345
-sed 's,\(hello_triangle\).o[ :]*,\1.o hello_triangle.o : ,g' hello_triangle.d12345
-sed 's,\(hello_triangle\).o[ :]*,\1.o hello_triangle.d : ,g' hello_triangle.d12345
-ll
-make clean
-make
-ll
-rm hello_triangle.d12345
-make clean
-ll
-make clean
-make
-ll
-make
-LL
-ll
-make
-ll
-make clean
-make clean -n
-make
-ll
-rm shaders_class.o 
-ll
-make
-make -n
-
-make
-ll
-make
-ll
-make
-ll
-make
-ll
-make
-ll
-make
-make all
-ll
-./shaders_uniform.out
-g Makefile
-cl ProgramHub/
-cl OpenGL/
-cl learnOpenGL/
-ll
-cl ..
-ll
-g README.md 
-ll
-git status 
-git pull 
-g README.md 
-cl ProgramHub/
-cl OpenGL/
-ll
-cl  learnOpenGL/
-l
-ll
-g Makefile 
-make --help
-make --just-print
-make clean
-ll
-make --just-print
-ll
-make
-ll ~
-make -n
-ll
-make -n
-make
-make --just-print 
-ll
-make --just-print 
-make 
-ll
-make 
-ll
-make 
-ll
-make clean
-make 
-g++ -M src/shaders_class.cpp 
-g++ -M src/shaders_class.cpp ../thirdParty/inc/
-g++ -M src/shaders_class.cpp -I../thirdParty/inc/
-g++ -M src/shaders_class.cpp -I../thirdParty/inc/ -Iinc
-g++ -MM src/shaders_class.cpp -I../thirdParty/inc/ -Iinc
-make
-make -n
-ll
-make -n
-make all
-cl ProgramHub/
-cl OpenGL/
-ll
-cl learnOpenGL/
-ll
-g 
-g Makefile 
-make
-ll
-rm shaders_class.o
-ll
-make
-ll
-rm shaders_class.o
-make
-ll
-make
-ll
-make -o 
-make -n
-make clean
-ll
-make clean
-ll
-ll ../thirdParty/inc/
-ll
-g src/textures.cpp
-ll
-cl src/
-ll
-rm 3.3.shader.*
-ll
-ll shaders
-ll
-cl shaders
-g 4.1.texture.vs
-cl ...
-cl ..
-ll
-cl ..
-cl resource/
-mkdir textures
-ll
-mv container.jpg textures/
-cl .
-cl ..
-mv resource/ resources
-ll
-cl learnOpenGL/
-ll
-ll src/
-make
-ll
-ll  inc/
-ll
-make
-ll src/
-ll 
-ll i
-ll inc/
-make
-ll
-ll inc/
-ll ../thirdParty/
-ll ../thirdParty/inc/
-make
-./textures.out
-make clean
-make 
-ll
-g ~/.vimrc
-g src/textures.cpp 
-make clean 
-make
-make all
-ll
-./shaders_class.out
-./hello_triangle.out 
-cl ProgramHub/
-cl OpenGL/
-cl learnOpenGL/
-cl ProgramHub/
-cp -r Vulkan/Vulkan-Samples/third_party/glm/glm/ OpenGL/thirdParty/inc/
-cl OpenGL/
-cl learnOpenGL/
-ll
-ll src/
-ll src/shaders
-ll src/
-ll
-make
-make --help
-make
-make clean
-make
-ll src/
-ll src/shaders
-ll 
-ll src/
-ll src/shaders
-ll
-ll src/
-ll inc/shader_s.h 
-ll
-ll inc/
-gvd inc/shader_s.h inc/shader_m.h 
-g src/coordinate_systems.cpp
-make
-make run 
-make clean
-make
-ll src/shaders
-cl src/shaders
-mv coordinate_systems.vs 6.1.coordinate_systems.vs 
-mv coordinate_systems.fs 6.1.coordinate_systems.fs 
-cl ../
-cl ..
-make run 
-make clean
-make 
-ll
-cl src/
-cl shaders
-mv 6.1.coordinate_systems.fs 6.1.coordinate_systems.fs.b
-mv 6.1.coordinate_systems.vs 6.1.coordinate_systems.fs
-mv 6.1.coordinate_systems.fs 6.1.coordinate_systems.vs
-ll
-mv 6.1.coordinate_systems.fs.b 6.1.coordinate_systems.fs
-mv 6.1.coordinate_systems.fs.b 6.1.coordinate_systems.fs.d
-mv 6.1.coordinate_systems.fs 6.1.coordinate_systems.fs.d
-mv 6.1.coordinate_systems.vs 6.1.coordinate_systems.fs
-mv 6.1.coordinate_systems.fs.d 6.1.coordinate_systems.vs
-g 6.1.coordinate_systems.vs
-cl ../
-cl ..
-make
-make run
-g src/coordinate_systems.cpp 
-make clean
-make
-ll
-make clean
-make
-ll
-make clean
-make 
-cl ProgramHub/
-cl OpenGL/
-cl learnOpenGL/
-ll
-./textures.out 
-./hello_triangle.out 
-g src/textures.cpp 
-make 
-maek
-make
-make clean
-make
-make clean
-make
-ll
-g src/textures_combined.cpp
-make
-make 
-make src/shaders/4.2.texture.fs src/shaders/4.2.texture.vs
-mv src/shaders/4.2.texture.fs src/shaders/4.2.texture.vs
-g src/shaders/4.2.texture.fs
-make
-make clean
-make
-g src/shaders/4.2.texture.fs 
-make clean
-make 
-make run 
-cl ..
-cl thirdParty/
-cl inc/
-ll glm/
-cl glm/
-ll
-ll detail/ 
-ll
-ll simd/
-ll gtx/
-ll
-cl ../../
-cl ../
-cl learnOpenGL/
-ll src/coordinate_systems_depth.cpp 
-sed ',learnopengl,p' src/coordinate_systems_depth.cpp 
-sed '/learnopengl/p' src/coordinate_systems_depth.cpp 
-sed -n '/learnopengl/p' src/coordinate_systems_depth.cpp 
-sed -n 's/learnopengl//' src/coordinate_systems_depth.cpp 
-sed 's/learnopengl//' src/coordinate_systems_depth.cpp 
-sed 's/learnopengl//' src/coordinate_systems_depth.cpp | egrep 'shader_m.h'
-sed 's/learnopengl///' src/coordinate_systems_depth.cpp | egrep 'shader_m.h'
-sed 's/learnopengl\///' src/coordinate_systems_depth.cpp | egrep 'shader_m.h'
-echo  sed 's/learnopengl\///' 
-echo  sed "'s/learnopengl\///'"
-echo  sed "'s/learnopengl\///'" > updateSrc.sh
-ll
-g updateSrc.sh 
-sed 's/learnopengl\///' src/coordinate_systems_depth.cpp | egrep 'shader_m.h'
-sed -i 's/learnopengl\///' src/coordinate_systems_depth.cpp
-sed -n '/learnopengl/p' src/coordinate_systems_depth.cpp 
-make
-sed "FileSystem::getPath(" src/coordinate_systems_depth.cpp
-sed "/FileSystem::getPath(/p" src/coordinate_systems_depth.cpp
-sed -n "/FileSystem::getPath(/p" src/coordinate_systems_depth.cpp
-egrep -color "FileSystem::getPath(" src/coordinate_systems_depth.cpp
-egrep -color "FileSystem::getPath\(" src/coordinate_systems_depth.cpp
-egrep --color "FileSystem::getPath\(" src/coordinate_systems_depth.cpp
-egrep --color -n "FileSystem::getPath\(" src/coordinate_systems_depth.cpp
-sed -n "/FileSystem::getPath(/p" src/coordinate_systems_depth.cpp
-sed -n "/FileSystem::getPath(\(".*"\)/p" src/coordinate_systems_depth.cpp
-sed -n "/FileSystem::getPath(\(".*"\).c_str/p" src/coordinate_systems_depth.cpp
-sed -n "s/FileSystem::getPath(\(".*"\).c_str()/\1/" src/coordinate_systems_depth.cpp
-sed "s/FileSystem::getPath(\(".*"\).c_str()/\1/" src/coordinate_systems_depth.cpp
-sed "s/FileSystem::getPath(\(".*"\).c_str()/\1/" src/coordinate_systems_depth.cpp | egrep stbi_load
-sed "s/FileSystem::getPath(\(".*"\)).c_str()/\1/" src/coordinate_systems_depth.cpp | egrep stbi_load
-sed "s/FileSystem::getPath(\(".*"\)).c_str()/../\1/" src/coordinate_systems_depth.cpp | egrep stbi_load
-sed "s/FileSystem::getPath(\(".*"\)).c_str()/..\/\1/" src/coordinate_systems_depth.cpp | egrep stbi_load
-sed "s/FileSystem::getPath("\(.*\)").c_str()/..\/\1/" src/coordinate_systems_depth.cpp | egrep stbi_load
-sed "s/FileSystem::getPath("\(.*\)").c_str()/\1/" src/coordinate_systems_depth.cpp | egrep stbi_load
-sed "FileSystem::getPath("\(.*\)").c_str()/p" src/coordinate_systems_depth.cpp | egrep stbi_load
-sed "FileSystem::getPath("\(.*\)").c_str()/p" src/coordinate_systems_depth.cpp
-sed "FileSystem::getPath(\"\(.*\)\").c_str()/p" src/coordinate_systems_depth.cpp
-sed 'FileSystem::getPath(\"\(.*\)\").c_str()/p' src/coordinate_systems_depth.cpp
-sed 'FileSystem::getPath(".*").c_str()/p' src/coordinate_systems_depth.cpp
-sed '/FileSystem::getPath(".*").c_str()/p' src/coordinate_systems_depth.cpp
-sed -n '/FileSystem::getPath(".*").c_str()/p' src/coordinate_systems_depth.cpp
-sed -n '/FileSystem::getPath("\(.*\)").c_str()/p' src/coordinate_systems_depth.cpp
-sed -n 's/FileSystem::getPath("\(.*\)").c_str()/\1/' src/coordinate_systems_depth.cpp
-sed -n 's/FileSystem::getPath("\(.*\)").c_str()/\1/' src/coordinate_systems_depth.cpp | egrep "stbi_load"
-sed 's/FileSystem::getPath("\(.*\)").c_str()/\1/' src/coordinate_systems_depth.cpp | egrep "stbi_load"
-sed 's/FileSystem::getPath("\(.*\)").c_str()/"\1"/' src/coordinate_systems_depth.cpp | egrep "stbi_load"
-sed 's/FileSystem::getPath("\(.*\)").c_str()/"../\1"/' src/coordinate_systems_depth.cpp | egrep "stbi_load"
-sed 's/FileSystem::getPath("\(.*\)").c_str()/"..\/\1"/' src/coordinate_systems_depth.cpp | egrep "stbi_load"
-sed 's/FileSystem::getPath("\(.*\)").c_str()/"../\1"/' src/coordinate_systems_depth.cpp | egrep "stbi_load"
-sed -i[B 's/FileSystem::getPath("\(.*\)").c_str()/"..\/\1"/' src/coordinate_systems_depth.cpp | egrep "stbi_load"
-sed 's/FileSystem::getPath("\(.*\)").c_str()/"..\/\1"/' src/coordinate_systems_depth.cpp | egrep "stbi_load"
-echo sed "'s/FileSystem::getPath("\(.*\)").c_str()/"..\/\1"/'" >> updateSrc.sh 
-g updateSrc.sh 
-sed 's/FileSystem::getPath("\(.*\)").c_str()/"..\/\1"/p' src/coordinate_systems_depth.cpp | egrep "stbi_load"
-sed 's/FileSystem::getPath("\(.*\)").c_str()/"..\/\1"/p' src/coordinate_systems_depth.cpp
-sed -n 's/FileSystem::getPath("\(.*\)").c_str()/"..\/\1"/p' src/coordinate_systems_depth.cpp
-sed --help
-sed -n 's/FileSystem::getPath("\(.*\)").c_str()/"..\/\1"/p' src/coordinate_systems_depth.cpp
-sed 's/FileSystem::getPath("\(.*\)").c_str()/"..\/\1"/p' src/coordinate_systems_depth.cpp | egrep "stbi_load"
-chmod +x updateSrc.sh 
-ll
-ll src/
-rm src/coordinate_systems_depth.cpp\[B 
-ll src/
-./updateSrc.sh src/coordinate_systems
-./updateSrc.sh src/coordinate_systems_depth.cpp 
-which sed
-ll /bin/sed
-/bin/sed --version
-sed --version 
-which sed
-cat updateSrc.sh 
-mv updateSrc.sh updateSrc.sed
-ll
-./updateSrc.sed src/coordinate_systems_depth.cpp 
-g updateSrc.sed 
-./updateSrc.sed src/coordinate_systems_depth.cpp 
-./updateSrc.sed src/coordinate_systems_depth.cpp -n
-./updateSrc.sed src/coordinate_systems_depth.cpp 
-./updateSrc.sed -n src/coordinate_systems_depth.cpp 
-sed '/FileSystem::getPath(".*").c_str()/p' src/coordinate_systems_depth.cpp
-sed -n '/FileSystem::getPath(".*").c_str()/p' src/coordinate_systems_depth.cpp
-sed -n '/learnopengl/p' src/coordinate_systems_depth.cpp 
-sed '/learnopengl/p' src/coordinate_systems_depth.cpp 
-sed -n '/learnopengl/p' src/coordinate_systems_depth.cpp 
-sed -h
-sed -n '/learnopengl/p' src/coordinate_systems_depth.cpp 
-make
-g updateSrc.sed 
-mv updateSrc.sed updateSrc.sh
-g updateSrc.sh 
-./updateSrc.sh 
-./updateSrc.sh src/coordinate_systems_depth.cpp 
-sed -n '/learnopengl/p' src/coordinate_systems_depth.cpp 
-sed '/learnopengl/p' src/coordinate_systems_depth.cpp 
-sed -n '/learnopengl/p' src/coordinate_systems_depth.cpp 
-./updateSrc.sh src/coordinate_systems_depth.cpp
-./updateSrc.sh src/coordinate_systems_depth.cpp 
-make
-./updateSrc.sh src/coordinate_systems_depth.cpp
-sed '/#include <GLFW\/glfw3.h>/a\#define STB_IMAGE_IMPLEMENTATION' src/coordinate_systems_depth.cpp
-./updateSrc.sh src/coordinate_systems_depth.cpp
-cl ProgramHub/OpenGL/
-cl learnOpenGL/
-ll
-ll src/
-cl ..
-cl learnOpenGL/
-make 
-make run 
-ll
-g updateSrc.sh 
-g src/coordinate_systems_depth.cpp 
-ll src/shaders
-sed '/.*.vs.*.fs/p' 
-sed '/.*.vs.*.fs/p' src/coordinate_systems_depth.cpp 
-sed -n '/.*.vs.*.fs/p' src/coordinate_systems_depth.cpp 
-sed -n '/".*.vs".*.fs/p' src/coordinate_systems_depth.cpp 
-sed -n '/".*.vs".*".*.fs"/p' src/coordinate_systems_depth.cpp 
-sed -n '/\(".*.vs"\)\(.*\)\(".*.fs"\)/p' src/coordinate_systems_depth.cpp 
-sed '/\(".*.vs"\)\(.*\)\(".*.fs"\)/p' src/coordinate_systems_depth.cpp | egrep '.vs'
-sed 's/\(".*.vs"\)\(.*\)\(".*.fs"\)/\1\2\3/' src/coordinate_systems_depth.cpp | egrep '.vs'
-sed 's/\(".*.vs"\)\(.*\)\(".*.fs"\)/---\1\2\3---/' src/coordinate_systems_depth.cpp | egrep '.vs'
-sed 's/"\(.*.vs\)"\(.*\)"\(.*.fs\)"/---\1\2\3---/' src/coordinate_systems_depth.cpp | egrep '.vs'
-sed 's/"\(.*.vs\)"\(.*\)"\(.*.fs\)"/".\/src\/shaders\1"\2".\/src\/shaders\3"' src/coordinate_systems_depth.cpp | egrep '.vs'
-sed 's/"\(.*.vs\)"\(.*\)"\(.*.fs\)"/\".\/src\/shaders\1\"\2\".\/src\/shaders\3\"' src/coordinate_systems_depth.cpp | egrep '.vs'
-sed 's/"\(.*.vs\)"\(.*\)"\(.*.fs\)"/---\1\2\3---/' src/coordinate_systems_depth.cpp | egrep '.vs'
-sed 's/"\(.*.vs\)"\(.*\)"\(.*.fs\)"/"\1"\2"\3"/' src/coordinate_systems_depth.cpp | egrep '.vs'
-sed 's/"\(.*.vs\)"\(.*\)"\(.*.fs\)"/".\1"\2"\3"/' src/coordinate_systems_depth.cpp | egrep '.vs'
-sed 's/"\(.*.vs\)"\(.*\)"\(.*.fs\)"/"./src/\1"\2"\3"/' src/coordinate_systems_depth.cpp | egrep '.vs'
-sed 's/"\(.*.vs\)"\(.*\)"\(.*.fs\)"/".\/src\/\1"\2"\3"/' src/coordinate_systems_depth.cpp | egrep '.vs'
-sed 's/"\(.*.vs\)"\(.*\)"\(.*.fs\)"/".\/src\/shaders\/\1"\2"\3"/' src/coordinate_systems_depth.cpp | egrep '.vs'
-sed 's/"\(.*.vs\)"\(.*\)"\(.*.fs\)"/".\/src\/shaders\/\1"\2".\/src\/shaders\/\3"/' src/coordinate_systems_depth.cpp | egrep '.vs'
-ll
-./updateSrc.sh src/coordinate_systems_depth.cpp 
-sed '/"\(.*.vs\)"\(.*\)"\(.*.fs\)"/{s/"\(.*.vs\)"\(.*\)"\(.*.fs\)"/".\/src\/shaders\/\1"\2".\/src\/shaders\/\3"/; p}' src/coordinate_systems_depth.cpp | egrep '.vs'
-sed '/"\(.*.vs\)"\(.*\)"\(.*.fs\)"/{=; p; s/"\(.*.vs\)"\(.*\)"\(.*.fs\)"/".\/src\/shaders\/\1"\2".\/src\/shaders\/\3"/; p}' src/coordinate_systems_depth.cpp | egrep '.vs'
-./updateSrc.sh src/coordinate_systems_depth.cpp
-sed -n -e '/#include <GLFW\/glfw3.h>/{=; p; a\#define STB_IMAGE_IMPLEMENTATION; p}' src/coordinate_systems_depth.cpp 
-sed -n -e '/#include <GLFW\/glfw3.h>/{=;}' src/coordinate_systems_depth.cpp 
-sed -n -e '/#include <GLFW\/glfw3.h>/{=; p; a\#define STB_IMAGE_IMPLEMENTATION}' src/coordinate_systems_depth.cpp 
-sed -n -e '/#include <GLFW\/glfw3.h>/{=; p;}' src/coordinate_systems_depth.cpp 
-sed -n -e '/#include <GLFW\/glfw3.h>/{=; p; a\#define STB_IMAGE_IMPLEMENTATION;}' src/coordinate_systems_depth.cpp 
-sed -n -e '/#include <GLFW\/glfw3.h>/{a\#define STB_IMAGE_IMPLEMENTATION;}' src/coordinate_systems_depth.cpp 
-sed -n -e '/#include <GLFW\/glfw3.h>/{a\#define STB_IMAGE_IMPLEMENTATION}' src/coordinate_systems_depth.cpp 
-sed -n -e '/#include <GLFW\/glfw3.h>/{a#define STB_IMAGE_IMPLEMENTATION}' src/coordinate_systems_depth.cpp 
-sed -n -e '/#include <GLFW\/glfw3.h>/{a\#define STB_IMAGE_IMPLEMENTATION}' src/coordinate_systems_depth.cpp 
-make clean
-make 
-make all
-ll
-./coordinate_systems.out 
-g src/coordinate_systems_multiple.cpp
-g src/camera_circle.cpp
-./updateSrc.sh src/coordinate_systems_multiple.cpp
-ll
-cat Makefile 
-g Makefile 
-ll
-ll src/coordinate_systems_multiple.cpp 
-make 
-ll
-ll src/
-./updateSrc.sh src/camera_circle.cpp 
-make
-./updateSrc.sh src/camera_keyboard_dt.cpp 
-make
-./updateSrc.sh src/camera_mouse_zoom.cpp 
-make
-ll
-ll src/
-g src/camera_class.cpp 
-./updateSrc.sh src/camera_class.cpp 
-make
-make clean 
-make
-make run 
-ll
-git status 
-git add
-git add .
-ll
-cl ..
-git status
-git add .
-git status
-git commit -m "add the basic chapter of learnOpenGL and some scripts"
-git status
-git push
-git config -l
-git push
-git status
-ll
-date
-g .vimrc
-ll .vim_runtime/
-cl .vim_runtime/
-ll bashrc/
-git statu
-git status
-git diff my_configs.vim
-ll
-git status
-git add .
-git status
-git push
-git status
-git commit -m "add some short map in my_config"
-git push
-cl 
-cl ProgramHub/Vulkan/
-cl Vulkan-Samples/
-ll
-cl build/
-ll
-g Makefile 
-make
-make 
-cl ProgramHub/
-cl OpenGL/
-cl learnOpenGL/
-g src/colors.cpp
-./updateSrc.sh src/colors.cpp 
-g updateSrc.sh 
-make
-make run 
-./updateSrc.sh src/basic_lighting_diffuse.cpp 
-sed '/TARGET/p' updateSrc.sh 
-sed -n '/TARGET/p' Makefile 
-sed -n '/TARGET.*Till/p' Makefile 
-sed -n '/.*Till/p' Makefile 
-sed -n '/.*#Till/p' Makefile 
-sed  's/\(.*\) #Till.*//g' Makefile 
-sed  's/\(.*\) #Till.*/\1/g' Makefile 
-sed  's/\(.*\) #Till.*/---\1---/g' Makefile 
-sed -e's/\(.*\) #Till.*/\1/g' -e '/TGT_ALL/a\append' Makefile 
-sed -e's/\(.*\) #Till.*/\1/g' -e '/TGT_ALL.*Till/a\append' Makefile 
-sed -e '/TGT_ALL.*Till/a\append' -e's/\(.*\) #Till.*/\1/g'  Makefile 
-sed -e '/TGT_ALL.*Till/{a\append}' -e's/\(.*\) #Till.*/\1/g'  Makefile 
-sed -e '/TGT_ALL.*Till/{a\append\n}' -e's/\(.*\) #Till.*/\1/g'  Makefile 
-sed -e '/TGT_ALL.*Till/a\append\n' -e's/\(.*\) #Till.*/\1/g'  Makefile 
-sed -e '/TGT_ALL.*Till/a\append\nsdfasdf' -e's/\(.*\) #Till.*/\1/g'  Makefile 
-sed -e '/TGT_ALL.*Till/a\append  #Till\nsdfasdf' -e's/\(.*\) #Till.*/\1/g'  Makefile 
-ll src/
-make
-make run
-make
-g src/basic_lighting_specular.cpp
-./updateSrc.sh src/basic_lighting_specular.cpp
-ge Makefile 
-make
-make run
-cl src/
-cp basic_lighting_specular.cpp basic_lighting_exercise1.cpp
-cl ..
-g src/basic_lighting_exercise1.cpp 
-make
-ll src/shaders
-cp 2.2.basic_lighting.fs 2.2.basic_lighting_exercise2.fs
-cl src/
-cp 2.2.basic_lighting.fs 2.2.basic_lighting_exercise2.fs
-ll
-cl shaders
-cp 2.2.basic_lighting.fs 2.2.basic_lighting_exercise2.fs
-cl ..
-cp basic_lighting_exercise1.cpp basic_lighting_exercise2.cpp
-ll shaders
-cl ..
-make
-./basic_lighting_exercise1.out &
-./basic_lighting_exercise2.out &
-make 
-make all
-ll
-./basic_lighting_exercise1.out
-make
-cl ProgramHub/OpenGL/
-cl learnOpenGL/
-g src/basic_lighting_specular.cpp
-g Makefile 
-make
-make run
-cl 
-cl P
-cl ProgramHub/
-ll
-cl OpenGL/
-cl learnOpenGL/
-g src/materials.cpp
-./updateSrc.sh src/materials.cpp 
-g Makefile 
-make
-ll
-cl ProgramHub/
-cl OpenGL/
-cl learnOpenGL/
-ll
-make clean
-ll
-g src/lighting_maps_diffuse.cpp
-./updateSrc.sh src/lighting_maps_diffuse.cpp 
-g src/shaders/4.1.texture.vs 
-ll
-ll src/
-make
-make run
-make 
-./updateSrc.sh src/lighting_maps_specular.cpp 
-make
-g src/lighting_maps_specular.cpp 
-make 
-ll
-cl ProgramHub/
-cl OpenGL/
-cl learnOpenGL/
-g src/lighting_maps_specular.cpp 
-make clean
-make
-g src/lighting_maps_specular.cpp 
-make
-make run
-make
-./updateSrc.sh src/light_casters_directional.cpp
-make
-./updateSrc.sh src/light_casters_point.cpp 
-make
-./updateSrc.sh src/light_casters_spot.cpp 
-make
-make run
-make
-./updateSrc.sh src/light_casters_spot_soft.cpp 
-make
-./updateSrc.sh  src/multiple_lights.cpp 
-make
-cp src/multiple_lights.cpp src/multiple_lights_exercise1.cpp 
-make
-make clean 
-make
-ll
-make all
-ll
-./lighting_maps_specular.out
-./multiple_lights
-./multiple_lights.out 
-make all
-./multiple_lights.out 
-cl ProgramHub/
-cl OpenGL/
-cl learnOpenGL/
-ll
-ll inc/
-cl inc/
-g mesh.h
-ll
-cl ..
-ll
-ll ../thirdParty/inc/
-cl ../thirdParty/inc/assimp/
-ll
-g camera.h 
-..2
-cl ..
-cl learnOpenGL/
-ll
-make clean
-ll
-ll src/
-./updateSrc.sh src/model_loading.cpp 
-g inc/mesh.h inc/model.h 
-g Makefile 
-ll
-cl ..
-ll thirdParty/
-cp ../Vulkan/Vulkan-Samples/third_party/assimp/bin/* ./thirdParty/lib/
-ll thirdParty/lib/
-cl learnOpenGL/
-make
-make > log.make
-ll
-g log.make 
-make >> log.make
-l
-g inc/shader.h
-g inc/mesh.h 
-make
-g src/model_loading.cpp 
-make >> log.make 
-ll
-ll ../
-ll
-ll src/
-make
-gvd inc/shader.h inc/shader_m.h 
-make
-ll ../thirdParty/lib/
-make
-make clean
-make
-which libglfw3.a
-ll /usr/lib
-ll /usr/lib64
-ll /usr/lib32
-ll /usr/lib
-ll /usr/lib | glfw
-ll /usr/lib | grep "glfw"
-ll /usr/lib | grep gl
-/sbin/
-make
-make clean
-make
-find -name 'glfw'
-locate
-ll ../thirdParty/lib/
-cl
-find --help
-find -name 
-find -name 'libglfw3.a'
-find -name 'libglfw3'
-find -name 'libglfw3*'
-find -name 'libglfw3*' /usr/
-find /usr/ -name 'libglfw3*' 
-cl ProgramHub/OpenGL/learnOpenGL/
-cl .
-cl ..
-cl thirdParty/
-cp ../../Vulkan/Vulkan-Samples/third_party/assimp/bin/* /usr/local/lib/
-sudo cp ../../Vulkan/Vulkan-Samples/third_party/assimp/bin/* /usr/local/lib/
-cl ..
-cl learnOpenGL/
-make
-make clean
-make
-make clean
-make
-make -B
-g /etc/ld.so.conf
-g /etc/ld.so.conf.d/
-cl /etc/ld.so.conf.d/
-ll
-cp x86_64-linux-gnu.conf assimp.conf
-ll /usr/local/lib/
-rm libassimp.so
-ll
-sudo libc.conf libassimp.conf
-ll
-sudo cp libc.conf libassimp.conf
-ll
-g libassimp.conf
-rm libassimp.conf
-ll
-sudo rm libassimp.conf
-ll
-cl /usr/local/lib/
-ll
-rm libassimp.so.5 libassimp.so
-sudo rm libassimp.so.5 libassimp.so
-ll
-ln -s libassimp.so.5 libassimp.so.5.0.1
-ll
-ln -s libassimp.so.5.0.1 libassimp.so.5
-sudo ln -s libassimp.so.5.0.1 libassimp.so.5
-ll
-sudo ln -s libassimp.so.5.0.1 libassimp.so
-l
-ll
-cl
-cl P
-cl ProgramHub/OpenGL/
-cl thirdParty/
-cl lib/
-ll
-rm libassimp.so libassimp.so.5 
-ll
-ln -s libassimp.so.5.0.1 libassimp.so
-ll
-cl ..
-cl learnOpenGL/
-make -B
-make
-echo $LD_LIBRARY_PATH
-export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/yesire-lincoln/ProgramHub/OpenGL/thirdParty/lib
-echo $LD_LIBRARY_PATH
-make
-make -B
-cl ..
-cl resources/
-unzip backpack.zip 
-ll
-ll [^t*]
-ll [a-s]*
-mkdir objects
-ll [a-s]*
-ll
-mv [a-n]* objects/
-ll
-mv [r-s]* objects/
-ll
-cl objects/
-ll
-mkdir backpack
-ll
-mv backpack.* backpack
-ll
-ll [a,d-s]*
-mv [a,d-s]* backpack/
-ll
 ll backpack/
 ..3
 cl OpenGL/
@@ -1998,3 +845,1156 @@ cat environment.yml
 g ~/.condarc 
 conda clean -i
 conda -h
+ll
+python3 hellow_TF.py 
+conda
+conda install tensorflow
+cl ProgramHub/
+ll
+mkdir tensorflow
+ll
+mv tensorflow tensorFlow
+ll
+mv tensorFlow/ TensorFlow/
+l
+sudo apt-get install python-pip python-dev python-virtualenv
+ll
+cl TensorFlow/
+ll
+g environment.yml 
+g ~/.vimrc
+g environment.yml 
+g ~/.vimrc
+g environment.yml 
+g ~/.vimrc
+g environment.yml 
+g ~/.vimrc
+conda activwe
+cat environment.yml 
+conda activate TensorFlow
+conda info --envs
+conda env create -f environment.yml 
+conda config --show channels
+conda config --show-sources
+g ~/.condarc 
+ll
+g hellow_TF.py
+ll
+python3.8 hellow_TF.py
+pip install tensorflow --upgrade
+ll
+python3 hellow_TF.py 
+conda install tensorflow-gpu cudatoolkit=10.1
+sudo conda install tensorflow-gpu cudatoolkit=10.1
+conda install tensorflow-gpu cudatoolkit=10.1
+python3 hellow_TF.py 
+sudo conda install tensorflow-gpu cudatoolkit=10.1
+sudo
+sudo conda
+nvcc --version
+cat /usr/local/cuda/version.t
+conda uninstall tensorflow-gpu cudatoolkit=10.1
+conda install tensorflow-gpu cudatoolkit=10.1
+ll
+sudo chown -R $USER:$USER anaconda3
+sudo chown -R $USER:$USER /usr/bin/miniconda3
+conda info –envs
+conda-env 
+conda-env  list
+conda-env create --name py3-TF2.0 python=3
+g ~/.condarc 
+conda -h
+conda clean
+conda clean -i
+conda clean -h
+conda-env create --name py3-TF2.0 python=3
+conda-env  list
+conda-env create --name py3-TF2.0 python=3
+conda-env create --name py3-TF2.4 python=3.8
+conda clean -i
+conda-env create --name py3-TF2.4 python=3.8
+conda clean -i
+conda-env create --name py3-TF2.4 python=3.8
+conda create -n tensorflow python=3.8
+conda create -n pyTF python=3.8
+conda create -h
+conda-env create --name py3.8-TF2.4 python=3.8 -c https://mirrors.tuna.tsinghua.edu.cn/pypi/web/simple/tensorflow/
+conda-env create --name py3.8-TF2.4 python=3.8 -c 'https://mirrors.tuna.tsinghua.edu.cn/pypi/web/simple/tensorflow'
+conda create --name py3.8-TF2.4 python=3.8 -c 'https://mirrors.tuna.tsinghua.edu.cn/pypi/web/simple/tensorflow'
+conda config --show-sources
+conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/
+conda config --show-sources
+conda config --set show_channel_urls yes
+conda create -n pyTF2.4 python=3.8
+conda activate pyTF2.4
+conda create -h
+conda-env -h
+conda-env remove pyTF2.4
+conda-env list
+h
+conda activate base
+conda-env remove pyTF2.4
+conda-env remove -n pTF2.4 
+h
+conda-env list
+conda create -n pyTF2.4 python=3.8
+conda activate pyTF2.4
+pip install -i https://pypi.tuna.tsinghua.edu.cn/simple tensorflow-2.4.0rc4-cp38-cp38-manylinux2010_x86_64.whl
+pip install -i https://pypi.tuna.tsinghua.edu.cn/simple https://pypi.tuna.tsinghua.edu.cn/simple/tensorflow/tensorflow-2.4.0rc4-cp38-cp38-manylinux2010_x86_64.whl
+pip install tensorflow==2.4.0rc4
+https://blog.csdn.net/weixin_43774880/article/details/100122390 tensorflow==2.4.0rc4
+pip install -i https://pypi.tuna.tsinghua.edu.cn/simple tensorflow==2.4.0rc4
+ll
+jupyter
+conda-env  list
+conda atc
+conda activate
+conda activate pDL
+g environment.yml 
+\
+conda-env list
+conda-env -h
+conda-env list
+conda activate pyTF2.4
+conda env update -h
+onda env update --name=pyTF2.4 --file=environment.yml
+conda env update --name=pyTF2.4 --file=environment.yml
+conda config --show channels
+g environment.yml 
+conda env update --name=pyTF2.4 --file=environment.yml
+conda env update --name=pyTF2.4 --file=./environment.yml
+conda-env 
+conda info --envs
+conda activate pDL
+conda-env update
+conda-env update -h
+conda env update -n pyTF2.4
+conda activate pyTF2.4
+jupyter-notebook 
+jupyter-lab
+mv hellow_TF.py hellow_TF.ipynb
+h
+jupyter-lab
+mv hellow_TF.ipynb hellow_TF.py
+jupyter-lab &
+jobs
+kill %+
+jupyter-lab
+pip install -h
+h
+pip install tensorflow
+pip install -h tensorflow
+pip install -i https://pypi.tuna.tsinghua.edu.cn/simple tensorflow
+pip install --upgrade tensorflow
+cl ..
+cl ~/.vim_runtime/
+git status
+git diff bashrc/.bash_history
+git status
+git diff bashrc/.bashrc
+git status
+git diff my_configs.vim
+git push 
+git status 
+git commit "update .bashrc for conda and my_config.vim for cursorline/column"
+git commit -m "update .bashrc for conda and my_config.vim for cursorline/column"
+git commit -a -m "update .bashrc for conda and my_config.vim for cursorline/column"
+git status
+cl ~/ProgramHub/TensorFlow/
+pip -h
+pip uninstall tensorflow
+pip uninstall tensorflow -h
+pip uninstall -r tensorflow
+pip -h
+pip show
+pip list
+ll
+rm -rf 00-logic_neuron_programming.ipynb 01-tensor_tutorial.ipynb
+ll
+git up
+git pull
+ll
+git status
+git restore 
+git restore 00-logic_neuron_programming.ipynb 01-tensor_tutorial.ipynb
+ll
+git resotre 02-space_stretching.ipynb
+git restore 02-space_stretching.ipynb
+ll
+git status 
+rm docs/Untitled.ipynb
+ll
+git status 
+tensorflow
+ll
+cp environment.yml ../TensorFlow/
+pip -v
+pip -V
+cl ../TensorFlow/
+cat environment.yml 
+cl -
+conda activate pDL
+conda-env info
+conda-env
+conda 
+conda info
+
+conda activate pyTF2.4
+conda init
+conda info
+h
+conda activate pDL
+g environment.yml 
+cl ../TensorFlow/
+conda activate pyTF2.4
+conda info
+python3 hellow_TF.py 
+conda deac
+conda deactivate
+python3 hellow_TF.py 
+conda activate pyTF2.4
+python3 hellow_TF.py 
+nvcc -V
+g environment.yml 
+wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/cuda-ubuntu2004.pin
+sudo mv cuda-ubuntu2004.pin /etc/apt/preferences.d/cuda-repository-pin-600
+sudo apt-key adv --fetch-keys https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/7fa2af80.pub
+sudo add-apt-repository "deb https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/ /"
+sudo apt-get update
+sudo apt-get -y install cuda
+wget https://developer.download.nvidia.com/compute/cuda/11.1.1/local_installers/cuda_11.1.1_455.32.00_linux.run
+wget https://mirrors.aliyun.com/nvidia-cuda/ubuntu2004/x86_64/cuda-11-0_11.0.3-1_amd64.deb
+wget https://mirrors.aliyun.com/nvidia-cuda/ubuntu2004/x86_64/cuda-ubuntu2004.pin
+sudo mv cuda-ubuntu2004.pin /etc/apt/preferences.d/cuda-repository-pin-600
+sudo apt-key adv --fetch-keys https://mirrors.aliyun.com/nvidia-cuda/ubuntu2004/x86_64/7fa2af80.pub
+sudo add-apt-repository "deb https://mirrors.aliyun.com/nvidia-cuda/ubuntu2004/x86_64/ /"
+sudo apt-get update
+sudo apt-get -y install cuda
+wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/cuda-ubuntu2004.pin
+wget https://developer.download.nvidia.com/compute/cuda/11.1.1/local_installers/cuda-repo-ubuntu2004-11-1-local_11.1.1-455.32.00-1_amd64.deb
+sudo dpkg -i cuda-repo-ubuntu2004-11-1-local_11.1.1-455.32.00-1_amd64.deb
+ll
+sudo dpkg -i  cuda-repo-ubuntu2004-11-1-local_11.1.1-455.32.00-1_amd64.deb
+sudo apt-get update
+sudo apt-get -y install cuda-11-0
+gcc --version
+h
+wget https://mirrors.aliyun.com/nvidia-cuda/ubuntu2004/x86_64/cuda-ubuntu2004.pin
+sudo mv cuda-ubuntu2004.pin /etc/apt/preferences.d/cuda-repository-pin-600
+sudo apt-key adv --fetch-keys https://mirrors.aliyun.com/nvidia-cuda/ubuntu2004/x86_64/7fa2af80.pub
+sudo add-apt-repository "deb https://mirrors.aliyun.com/nvidia-cuda/ubuntu2004/x86_64/ /"
+sudo apt-get update
+sudo apt-get -y install 
+sudo apt-get -y install cuda
+wget https://developer.download.nvidia.com/compute/cuda/11.1.1/local_installers/cuda_11.1.1_455.32.00_linux.run
+l
+ll
+cuda_11.1.1_455.32.00_linux.run.1
+rm cuda_11.1.1_455.32.00_linux.run.1
+ll
+udo sh cuda_11.1.1_455.32.00_linux.run cuda_11.1.1_455.32.00_linux.run
+sudo sh cuda_11.1.1_455.32.00_linux.run cuda_11.1.1_455.32.00_linux.run
+df -h /tmp
+ls -g cuda_11.1.1_455.32.00_linux.run
+rm cuda_11.1.1_455.32.00_linux.run
+ll
+wget https://developer.download.nvidia.com/compute/cuda/11.1.1/local_installers/cuda_11.1.1_455.32.00_linux.run
+l
+ll
+sh cuda_11.1.1_455.32.00_linux.run
+rm cuda_11.1.1_455.32.00_linux.run
+g ~/.bashrc 
+cl ProgramHub/
+cl pytorch-Deep-Learning/
+ll
+conda-env 
+conda-env list
+conda deactive
+conda deactivate base
+conda deactivate
+conda acti
+conda activate -h
+conda-env list
+conda activate pDL
+jupyter lab
+ll
+sudo sh cuda_11.0.3_450.51.06_linux.run
+ll
+rm cuda_11.1.1_455.32.00_linux.run
+ll
+sudo sh cuda_11.1.0_455.23.05_linux.run
+g /var/log/cuda-installer.log
+cl ProgramHub/
+cl TensorFlow/
+ll
+python3.8 hellow_TF.py 
+conda-env list
+conda activate pyTF2.4
+python3.8 hellow_TF.py 
+ll
+sh cuda_11.0.3_450.51.06_linux.run
+g /tmp/cuda-installer.log
+sudo sh cuda_11.0.3_450.51.06_linux.run
+g /var/log/cuda-installer.log
+ubuntu-drivers devices
+nvidia-smi
+cl ../yesire-lincoln/Downloads/
+ll
+lspci | grep -i nvidia
+uname -m && cat /etc/*release
+sudo apt-get purge nvidia*
+sudo apt-get autoremove
+sudo apt-get autoclean
+gcc --version
+uname -r
+sudo rm /etc/apt/preferences.d/cuda-repository-pin-600 
+apt update
+sudo apt update
+sudo apt-get purge nvidia*
+sudo apt-get autoclean
+ll /usr/local/
+sudo apt-get autoclean
+sudo rm -rf /usr/local/cuda*
+nvidia-smi
+ll
+sudo apt-get install linux-headers-$(uname -r)
+sudo /usr/bin/nvidia-uninstall
+lsmod | grep nouveau
+blacklist nouveau
+g /etc/modprobe.d/blacklist-nouveau.conf
+sudo g /etc/modprobe.d/blacklist-nouveau.conf
+sudo gvim /etc/modprobe.d/blacklist-nouveau.conf
+g /etc/modprobe.d/blacklist-nouveau.conf
+sudo update-initramfs -u
+lsmod | grep nouveau
+ls
+ll
+conda-env 
+conda-env  list
+python3 hellow_TF.py 
+conda activate pyTF2.4
+python3 hellow_TF.py 
+nvcc -V
+sudo apt install nvidia-cuda-tool
+nvcc
+sudo apt install nvidia-cuda-toolkit
+ubuntu-drivers devices
+lsmod | grep nvidia
+sudo ubuntu-drivers autoinstall
+sudo apt update
+ll
+g environment.yml 
+g ~/.condarc 
+apt-get list
+apt-get -h
+ubuntu-drivers devices
+cd /etc/rc3.d
+ls
+lsmod | grep nouveau
+sudo gdm-stop
+cd Downloads/
+ll
+sudo sh cuda_11.1.0_455.23.05_linux.run
+nvidia-detector 
+runlevel
+init 3
+gcc --version
+sudo apt-get install linux-headers-$(uname -r)
+sudo /usr/bin/nvidia-uninstall
+nvidia-smi
+sudo apt-get --purge remove nvidia*
+sudo apt-get --purge remove "*nvidia*"
+sudo apt-get --purge remove "*cublas*" "cuda*"
+sudo apt autoremove
+init lsmod | grep nouveau
+init 3
+cd Downloads/
+ll
+sudo sh cuda_
+sudo sh cuda_11.1.0_455.23.05_linux.run
+init 5
+reboot
+echo $PATH
+g /var/log/cuda-installer.log 
+h
+nvidia-smi
+g .bashrc 
+cd ProgramHub/OpenGL/
+cl learnOpenGL/
+make run
+ll
+make 
+h
+conda-env list
+conda remove -n pyTF2.4
+conda clean -i
+conda remove -n pyTF2.4
+conda remove -n pyTF2.4 -all
+conda remove -n pyTF2.4 --all
+conda-env list
+cl ../
+cl ..
+cl TensorFlow/
+ll
+g environment.yml 
+conda env remove --name pyTF2.4
+ll /usr/local/cuda
+conda env create -f environment.yml 
+g environment.yml 
+conda env create -f environment.yml 
+g environment.yml 
+conda env create -f environment.yml 
+conda activate pyTF2.4
+pip install -i https://pypi.tuna.tsinghua.edu.cn/simple tensorflow-gpu==2.4.0RC4
+LL
+ll
+python hellow_TF.py 
+source ~/.bashrc 
+echo $
+echo $LD_LIBRARY_PATH 
+python hellow_TF.py 
+conda activate pyTF2.4
+python hellow_TF.py 
+g tensorflow/stream_executor/platform/default/dso_loader.cc
+source ~/.bashrc 
+conda activate pyTF2.4
+python hellow_TF.py 
+echo $PATh
+echo $PATH
+echo $LD_LIBRARY_PATH 
+g /etc/ld.so.conf
+echo $PATH
+echo $PATH | grep 'cuda'
+cd ProgramHub/
+ll
+cd TensorFlow/
+ll
+python3 hellow_TF.py 
+conda-env list
+conda activate pyTF2.4
+python3 hellow_TF.py 
+pip -h
+pip uninstall
+pip uninstall -h
+pip uninstall tensorflow
+pip list
+conda-env list
+conda 
+conda env
+conda env list
+conda
+conda clean
+conda deactivate
+conda remove pyTF2.4
+cat /proc/driver/nvidia/version
+nvcc -V
+cd ~/NVIDIA_CUDA-11.1_Samples
+ll
+make 
+ll
+cl bin/
+cl x86_64/linux/
+cl release/
+./deviceQuery
+ll
+matrixMul
+./matrixMul
+c..3
+cl ..
+cl ~/ProgramHub/
+g ~/.bashrc 
+ll /usr/local/cuda-11.1/lib64
+cl ProgramHub/
+cl TensorFlow/
+ll
+conda env list
+conda activate pyTF2.4
+jupyter lab
+jupyter lab &
+jobs
+kill %+
+conda info --envs
+conda search
+conda search | grep keras
+cl ProgramHub/TensorFlow/
+conda env list
+conda activate pyTF2.4
+conda install keras
+conda env -h
+g environment.yml 
+conda env update pyTF2.4
+conda env list
+conda activate pyTF2.4
+cl ProgramHub/TensorFlow/
+cl MNIST/
+jupyter-lab &
+cl ..
+cl MNIST/
+ll
+g input_data.py
+ll
+g input_data.py 
+python input_data.py 
+ll
+h
+jupyter-lab &
+python mnist_begin.py 
+ll
+mv input_data.py input_data.py.bak 
+g input_data.py
+jupyter-lab &
+ls
+python input_data.py 
+\
+ll
+conda activate pyTF2.4
+python mnist_begin.py 
+\
+ll
+\
+cl ProgramHub/TensorFlow/
+ll
+mkdir MNIST
+mv .ipynb_checkpoints/ MINST_demo.ipynb MNIST
+ll
+mkdir helloTF
+mv hellow_TF.py helloTF.py hello
+mv hellow_TF.py helloTF.py helloTF/
+ll
+ll helloTF/
+cd helloTF/
+mv hellow_TF.py helloTF.py 
+ll
+cl ..
+ll
+rm cuda-repo-ubuntu2004-11-1-local_11.1.1-455.32.00-1_amd64.deb
+rm cuda-11-0_11.0.3-1_amd64.deb 
+ll
+rm cuda-ubuntu2004.pin.1 
+y
+ll
+cd MNIST/
+ll
+mv MINST_demo.ipynb MNIST_demo.ipynb 
+cl 
+cl ProgramHub/TensorFlow/
+g input.py
+cl ..
+cl TensorFlow/
+mkdir sourceCode
+cl sourceCode/
+git clone https://github.com/tensorflow/tensorflow.git
+py
+pyghon
+python
+cl ProgramHub/
+ll
+rm -rf glad/
+ll
+ll CG/
+LL
+git clone https://github.com/siyueyinghua/Python.git
+ll
+mkdir ProgramLanguageLearn
+ll
+mv Python/ ProgramLanguageLearn/
+ll
+mv ProgramLanguageLearn/ programLanguageLearn/
+cl programLanguageLearn/
+cl Python/
+ll
+conda env list
+conda list
+conda -h
+conda env -h
+conda env list
+ll /usr/bin/miniconda3
+ll /usr/bin/miniconda3/e
+ll /usr/bin/miniconda3/envs/
+ll /usr/bin/miniconda3/envs/pyTF2.4/
+conda env list
+ll /home/yesire-lincoln/.conda/envs/pDL
+cl ../
+cl ..
+cl TensorFlow/
+cl ..
+conda env list
+conda env -h
+conda env list
+conda list
+conda info --envs
+conda list -n pyTF2.4
+jupyter-lab &
+cl
+jupyter-lab &
+whic tcl
+which tcl
+tcl
+jupyter kernelspec list
+perl
+which per
+perl -v
+perl -V
+sudo apt update
+sudo install tcl
+sudo apt-get install tcl
+wish8.6 
+tcl -v
+tclsh -v
+tclsh -V
+tclsh --version
+tclsh -h
+jupyter kernelspec list
+pip install bash_kernel
+python -m bash_kernel.install
+jupyter kernelspec list
+jupyter-lab &
+ll 
+g .ipython/profile_default/startup/README 
+ll
+sudo apt install flameshot
+flameshot gui
+ipython
+\
+ll
+cl programLanguageLearn/
+cl Python/
+ipyton
+ipython
+pip install pyreadline
+ipython
+conda env
+conda env -list
+conda env list
+conda activate pDL
+ipython
+cl .
+cl ..
+cl pytorch-Deep-Learning/
+ll
+cp environment.yml ../programLanguageLearn/Python/
+cl ../programLanguageLearn/Python/
+ll
+g environment.yml 
+conda deactivate 
+conda env -list
+conda env -h
+conda env update environment.yml 
+conda list -n base
+ipython
+conda env list
+conda activate pDL
+ipython
+conda evn list
+conda env list
+conda env -h
+conda env export > environment_pDL.yml 
+g environment_pDL.yml
+conda deactivate
+conda env export > environment_base.yml 
+gvd environment_pDL.yml environment_base.yml
+conda env -list
+conda env list
+conda env remove base
+conda env remove --name base
+conda deactivate
+conda env remove --name base
+conda activate
+conda deactivate
+conda env list
+conda env remove --name base
+conda activate pDL
+conda env remove --name base
+conda env list
+conda list -n base
+cl ProgramHub/programLanguageLearn/Python/
+ll
+ll env*
+g environment_base.yml
+g environment.yml
+rm environment.yml
+ll
+conda env update environment_base.yml 
+conda deactivate
+conda activate base
+conda env update environment_base.yml 
+cp ../../pytorch-Deep-Learning/environment.yml ./
+ll
+ll env
+ll env*
+rm environment_pDL.yml
+rm environment_base.yml
+ll environment.yml 
+g environment.yml 
+conda env update environment.yml 
+conda list -n base
+conda uninstall jupyter
+conda list -n base
+conda uninstall jupyterlab 
+conda list -n base
+conda uninstall jupyter_client jupyter_core bash-kernel
+conda uninstall jupyter_client
+conda uninstall jupyter_core
+conda uninstall  bash-kernel
+conda list -n base
+pip uninstall bash-kernel
+conda activate pDL
+conda list -n pDL
+jupyter-lab &
+cl ProgramHub/pytorch-Deep-Learning/
+ll
+conda activate pDL
+jupyter lab &
+conda env list
+conda activate pDL
+cl ProgramHub/
+cl programLanguageLearn/
+cl Python/
+ll
+jupyter lab &
+wish
+ll
+cl ProgramHub/
+cl programLanguageLearn/
+cl Python/
+conda activate pDL
+jupyter-lab &
+cl .
+cl ..
+cl thirdParty/
+git clone https://github.com/jdc8/tclzmq
+git clone http://github.com/andreas-kupries/critcl
+cl ProgramHub/
+cl programLanguageLearn/
+cl thirdParty/
+ll
+git clone https://github.com/mpcjanssen/tcljupyter.git
+jupyter --paths
+conda activate pDL
+jupyter --paths
+ll /usr/local/share/jupyter
+ll /usr/share/jupyter
+ll /usr/local/etc/jupyter
+ll /home/yesire-lincoln/.local/share/jupyter/runtime
+l
+cl rl_json/
+ll
+./configure 
+ll tclconfig/
+g get_tclconfig.tcl
+tclsh get_tclconfig.tcl 
+cl ../
+cl tcljupyter/
+ll
+g .
+g environment.yml 
+cl ..
+cl rl_json/
+ll
+ll bench/
+./configure 
+ll /System/Library/Frameworks/
+cl ..
+cl tcllib-1.20/
+ll
+./installer.tcl 
+cl ..
+cl rl_json/
+./configure 
+./configure --with-tcl /home/yesire-lincoln/.conda/envs/pDL/lib/tcllib1.20
+which tclsh
+./configure --with-tcl /home/yesire-lincoln/.conda/envs/pDL/bin/tclsh
+ll /usr/bin/miniconda3/bin/tclsh
+./configure --with-tcl /usr/bin/miniconda3/bin/tclsh
+sudo apt-get install tcl-dev tk-dev mesa-common-dev libjpeg-dev libtogl-dev
+./configure 
+ll
+make install
+sudo make install
+cl ../
+cl tcljupyter/
+g kernel.json.linux 
+jupyter --paths
+ll /home/yesire-lincoln/.local/share/jupyter
+cl ..
+ll
+cp -r tcljupyter/ /home/yesire-lincoln/.local/share/jupyter
+ll /home/yesire-lincoln/.local/share/jupyter
+tcljupyter/
+cl /home/yesire-lincoln/.local/share/jupyter
+ll tcljupyter/
+ll
+cl tcljupyter/
+ll\
+g kernel.json.linux
+ll tcljupyter/
+cl ..
+ll
+ll kernels/
+ll
+ll tcljupyter/
+cp kernel.json.linux kernel.json
+cl tcljupyter/
+cp kernel.json.linux kernel.json
+g kernel.json
+cl ...
+cl ..
+ll
+ll /home/yesire-lincoln/.conda/envs/pDL/lib/tcllib1.20
+ll /home/yesire-lincoln/.conda/envs/pDL/lib/
+ll /home/yesire-lincoln/.conda/envs/pDL/lib/tcl8.6/
+ll /home/yesire-lincoln/.conda/envs/pDL/lib/tk8.6/
+whic tclsh
+which tclsh
+conda activate pDL
+jupyter lab &
+jupyter::display mimetype body
+pip install jupyter_kernel_test
+python -m tests.test_tcljupyter
+conda activate pDL
+ll
+cl ~/ProgramHub/programLanguageLearn/
+mkdir TCL
+cl TCL/
+jupyter-lab &
+cl ..
+mv TCL/ Tcl
+cl Tcl/
+jupyter-lab &
+conda activate pDL
+jupyter --paths
+ll /home/yesire-lincoln/.conda/envs/pDL/share/jupyter
+ll /home/yesire-lincoln/.local/share/jupyter
+cl /home/yesire-lincoln/.local/share/jupyter
+mv tcljupyter/ kernels/
+ll
+ll kernels/
+jupyter-lab &
+ll /home/yesire-lincoln/.local/share/jupyter/tcljupyter/
+ll
+rm HelloTCL.ipynb 
+ll
+cl kernels/
+cl tcljupyter/
+g kernel.json
+cl ..
+cl ~/ProgramHub/programLanguageLearn/
+cl thirdParty/
+cl tclzmq/
+ll
+tclsh build.tcl 
+tclsh build.tcl gui
+ll ../libzmq/
+cl ..
+ll
+cl Tcl/
+cl ..
+cl thirdParty/
+cl rl_json/
+ll
+make test
+make install-libraries
+sudo make install-libraries
+sudo make install-lib-binaries
+make test
+make install
+sudo make install
+cl ..
+cl Tcl/
+jupyter-lab &
+conda activate pDL
+jupyter-lab &
+kill -9 %+
+conda deactivate
+tclsh
+conda activate pDL
+cl ProgramHub/
+cl programLanguageLearn/
+cl thirdParty/
+cl rl_json/
+ll
+./config
+./configure 
+make 
+make
+ll
+g Makefile
+make shell 
+make all
+make clean
+make depend 
+./configure 
+ll
+make install
+make clean
+ll
+sudo ./config
+./config
+sudo ./configure 
+sudo make 
+sudo make install
+jupyter-lab &
+jobs
+kill -9 %+
+ll
+make clean
+ll
+rm Untitled.ipynb 
+ll
+./configure 
+sudo make test
+make 
+sudo make 
+sudo make install
+jupyter-lab &
+g /home/yesire-lincoln/.local/share/jupyter/kernels/tcljupyter/modules/jmsg-0.0.1.tm
+ll
+rm Untitled.ipynb 
+kill -9 %+
+cl ..
+cl rl_json/
+ll
+ll tclconfig/
+cl tclconfig/
+g tcl.m4 
+tclsh
+ll
+g README.txt 
+cl ..
+ll
+g README.md 
+tclsh
+tclsh8.6 
+ll
+make test
+conda activate pDL
+cmake
+cmake -v
+cmake -version
+sudo update cmake
+sudo apt update cmake
+sudo apt update
+\
+sudo apt install cmake
+cmake --version
+cl P
+cl ProgramHub/
+ll
+ll thirdParty/
+ll Vulkan/
+ll Vulkan/Vulkan-Samples/
+cl thirdParty/
+git clone https://github.com/openglredbook/examples.git
+ll
+mv examples/ OpenGlRedBook
+cl OpenGlRedBook/
+g README.md 
+cl build/
+ll
+ll templates/
+cmake ../
+ll
+make 
+ll
+make
+make 
+make 09-teapot
+g /home/yesire-lincoln/ProgramHub/thirdParty/OpenGlRedBook/lib/vdds.cpp
+ll
+cl ..
+g src/
+ll
+ll lib/
+ll
+ll vermilion/
+make
+cl ..
+cl bu
+cl OpenGlRedBook/
+cl b
+cl build/
+make
+sudo apt-get install clang
+clang
+clang --version
+g ~/.bashrc 
+echo $CC
+echo $Cxx
+env
+env | grep cc
+env | grep CC
+ll
+rm *
+ll
+rm  -rf *
+ll
+g ./
+ll
+cl ProgramHub/
+cl OpenGL/
+cl learnOpenGL/
+ll
+ll src/
+cl src/
+ll
+g .
+cp basic_lighting_diffuse.cpp tessellation_demo.cpp
+cl ..
+g .
+cl ProgramHub/
+cl OpenGL/learnOpenGL/
+g .
+ll
+cl ProgramHub/
+cl OpenGL/
+cl ..
+cl thirdParty/
+ll
+ll gist/
+ll gist/9303cbc8fd9f1cb1602e5e0916f7726a/
+ll
+cl OpenGlRedBook/
+cl build/
+cmake ../
+make
+g /home/yesire-lincoln/ProgramHub/thirdParty/OpenGlRedBook/lib/vdds.cpp
+make
+g /home/yesire-lincoln/ProgramHub/thirdParty/OpenGlRedBook/include/vapp.h
+\
+cl ..
+egrep 'timeval'
+egrep 'timeval' src include
+egrep -R 'timeval' src include
+
+egrep 'timeval' src include vermilion/
+egrep -R 'timeval' src include vermilion/
+egrep -R 'm_app' src include vermilion/
+make
+cl build/
+make
+/home/yesire-lincoln/ProgramHub/thirdParty/OpenGlRedBook/src/12-particlesimulator/12-particlesimulator.cpp
+g /home/yesire-lincoln/ProgramHub/thirdParty/OpenGlRedBook/src/12-particlesimulator/12-particlesimulator.cpp
+g ../CMakeLists.txt 
+make
+make 09-teapot
+g /home/yesire-lincoln/ProgramHub/thirdParty/OpenGlRedBook/include/vec.h
+ll
+cmake ../
+g ../CMakeLists.txt 
+cl ..
+cl src/
+ll
+cl ..
+ll
+cl b
+cl bin/
+ll
+./09-teapot 
+./12-simplecompute 
+./12-raytracer 
+cl ProgramHub/
+cl OpenGL/
+cl learnOpenGL/
+ll src/
+cl src/
+g hello_triangle.cpp
+ll
+cl ProgramHub/
+cl OpenGL/
+cl learnOpenGL/
+cl src/
+ll
+g hello_triangle.cpp
+g hello_triangle_indexed.cpp
+cl ..
+ll
+./updateMakefile.sh 
+make hello_triangle_indexed.out 
+make run
+ll
+./hello_triangle_indexed.out
+make hello_triangle_indexed.out 
+./hello_triangle_indexed.out 
+make hello_triangle_indexed.out 
+ll
+g src/instancing_quads.cpp
+./updateSrc.sh src/instancing_quads.cpp 
+ll
+ll src/
+./updateMakefile.sh 
+ll
+make instancing_quads.out 
+./instancing_quads.out 
+make instancing_quads.out 
+ll
+cl ProgramHub/
+ll
+cl OpenGL/
+cl learnOpenGL/
+ll
+g .
+make hello_triangle_indexed.out 
+make run
+./hello_triangle_indexed.out 
+make run
+make hello_triangle_indexed.out 
+ll
+l
+cl ProgramHub/
+ll
+ll programLanguageLearn/
+ll
+cl programLanguageLearn/
+mkdir SystemVerilog
+ll
+cl SystemVerilog/
+mv ~/Downloads/example_and_uvm_source_code.tar.gz ./
+ll
+unzip -h
+ll
+unzip -x example_and_uvm_source_code.tar.gz
+ll
+tar -h
+tar --help
+tar -xvf example_and_uvm_source_code.tar.gz 
+ll
+cl example_and_uvm_source_code
+cl ..
+tar -xvzf example_and_uvm_source_code.tar.gz 
+cl example_and_uvm_source_code
+gzip --help
+cl ..
+rm -rf example_and_uvm_source_code/
+ll
+gzip -vdk example_and_uvm_source_code.tar.gz 
+ll
+rm -rf example_and_uvm_source_code.tar
+ll
+tar --h
+tar --help
+tar -xzf example_and_uvm_source_code.tar.gz 
+ll
+cl example_and_uvm_source_code
+tar -xf puvm.tar.gz 
+ll
+ll puvm
+ll
+tar -xf uvm-1.1d.tar.gz 
+ll
+rm puvm.tar.gz 
+rm uvm-1.1d.tar.gz 
+ll
+cl ..
+ll
+cl example_and_uvm_source_code
+cl uvm-1.1d/
+ll
+g ~/.bashrc 
+source ~/.bashrc 
+cl ~/
+ll
+cl .vim_runtime/
+ll
+g my_configs.vim 
+ll bashrc/
+source ~/.bashrc 
