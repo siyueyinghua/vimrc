@@ -1,0 +1,57 @@
+1.git a new project, from (https://stackoverflow.com/questions/2337281/how-do-i-do-an-initial-push-to-a-remote-repository-with-git)
+
+On server:
+mkdir my_project.git
+cd my_project.git
+git --bare init
+
+On client:
+mkdir my_project
+cd my_project
+touch .gitignore
+git init
+git add .
+git commit -m "Initial commit"
+git remote add origin your_project_address(http or ssh protocol, if addr is wrong, use: git remote rm origin, and add again)
+git pull --rebase origin master (if remote repository is not null)
+git push -u origin master
+
+[NOTE] if git push fail, try add -f option. git push -u origin master
+from->: 
+https://stackoverflow.com/questions/14609263/getting-an-error-pushing-to-github-updates-were-rejected-because-a-pushed-bran
+https://stackoverflow.com/questions/39399804/updates-were-rejected-because-the-tip-of-your-current-branch-is-behind-its-remot
+https://stackoverflow.com/questions/22532943/how-to-resolve-git-error-updates-were-rejected-because-the-tip-of-your-current
+
+2.cancel local commit but retain the content
+
+1)git log --online
+
+will git the commit log, first coloum is the commit tag, other is message
+ <id>   <message>
+373c5ff (HEAD -> master, origin/master, origin/HEAD) Merge branch 'master' of github.com:siyueyinghua/vimrc
+22bc0f6 update bashrc to update PS1
+93768b4 Update my_configs.vim
+8bf1e5b Update my_configs.vim
+d763056 update .bashrc for conda and my_config.vim for cursorline/column
+762c4b3 add some short map in my_config
+bd6d3c7 add my_config.vim and my_plugins
+b7f1812 rename the bash_rc to bashrc
+5780561 add some comment
+7f44e7b add my personal config
+e595fb2 add the bashrc files and their automaticaly bak script, change some vim file
+1d312d3 (grafted) Merge branch 'master' of github.com:amix/vimrc
+
+2)git reset --soft <commit_id>
+  git reset <commit_id>
+
+difference of parameter hard and soft is as flowings:
+
+If you want to keep the locally changed files, and just delete commit message:
+git reset --soft commit_id
+
+If you want to delete all locally changed files and the commit message:
+git reset --hard commit_id
+
+
+[from->]:
+https://stackoverflow.com/questions/4850717/how-to-cancel-a-local-git-commit
