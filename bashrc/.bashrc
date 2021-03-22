@@ -76,8 +76,8 @@ esac
 if [ -x /usr/bin/dircolors ]; then
     test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"
     alias ls='ls --color=auto'
-    #alias dir='dir --color=auto'
-    #alias vdir='vdir --color=auto'
+    alias dir='dir --color=auto'
+    alias vdir='vdir --color=auto'
 
     alias grep='grep --color=auto'
     alias fgrep='fgrep --color=auto'
@@ -119,10 +119,23 @@ fi
 # Add my path
 export PATH=$PATH:/home/yesire-lincoln/ProgramHub/Vulkan-Samples/build/linux/app/bin/Release/x86_64
 export PATH=$PATH:/usr/local/cuda-11.1/bin
+export PATH=$PATH:/usr/synopsys/installer
+export PATH=$PATH:/usr/synopsys/vcs_vL-2016.06/bin
+export PATH=$PATH:/usr/synopsys/scl_11.9/amd64/bin
+export LD_LIBRARY_PATH="/usr/lib/x86_64-linux-gnu:${LD_LIBRARY_PATH:-}"
+
 
 # Set my ENV
+# compiler
 export CC=clang
 export CXX=clang++
+
+# vcs
+export VCS_HOME=/usr/synopsys/vcs_vL-2016.06/linux64
+export LM_LICENSE_FILE=27000@Lenovo-Gaming
+export VCS_ARCH_OVERRIDE=linux
+alias lmgrd_vcs='lmgrd -c /usr/synopsys/vcs_vL-2016.06/license/Synopsys.dat'
+alias lmgrd_full_path_vcs='sudo /usr/synopsys/scl_11.9/amd64/bin/lmgrd -c /usr/synopsys/vcs_vL-2016.06/license/Synopsys.dat'
 
 # bak the bashrc files whenever they are changed
 YL_CFG_BAK_DIR=~/.vim_runtime/bashrc

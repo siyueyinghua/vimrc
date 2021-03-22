@@ -1,1407 +1,3 @@
-ll backpack/
-..3
-cl OpenGL/
-cl learnOpenGL/
-ll
-make -B
-\
-ll
-cl P
-cl ProgramHub/
-ll
-cl OpenGL/
-cl ..
-cl OpenGL/
-cl thirdParty/
-ll
-cl ..
-cl Vulkan/
-cl Vulkan-Samples/
-ll
-cl third_party/
-ll
-git clone https://github.com/assimp/assimp.git
-ll
-git status
-cl ..
-git status
-cl ..
-git status 
-cl VulkanSamples/
-git status
-ll
-cl ../Vulkan-Samples/
-cl third_party/
-ll
-git clone https://github.com/acgessler/open3mod.git
-ll
-cl assimp/
-ll
-cmake CMakeLists.txt
-make -j4
-ll
-ll bin/
-ll
-ll include/
-cp -r include/assimp ../../../../OpenGL/thirdParty/inc/
-ll
-ll bin/
-cl ..
-cl glfw/
-ll
-g Makefile 
-ll
-cl ..
-cl assimp/
-cl bin/
-ll
-..4
-..2
-..3
-cl /usr/local/lib/
-ll
-ldconfig
-sudo ldconfig
-env
-env | grep LD_LIBRARY_PATH
-cl ProgramHub/OpenGL/
-ll
-cl learnOpenGL/
-make -B
-env | grep LD_LIBRARY_PATH
-make
-make clean
-make -B
-cl /usr/local/lib/
-rm libassimp.so
-sudo rm libassimp.so
-ymg
-sudo rm libassimp.so
-ll
-cl -
-make clean
-make
-cl -
-sudo rm libglfw3.a
-l
-cl -
-make
-ll
-cl ..
-ll
-mkdir doc
-ll
-git status
-git status | grep doc
-ll
-g .gitignore 
-git status
-ll
-cl doc/
-cl ..
-g .gitignore 
-g README.md 
-cl doc/
-ll
-g 
-g NOTE-ABOUT-EVIRENMENT
-ll
-mv NOTE-ABOUT-EVIRENMENT NOTE_BY_YL
-ll
-cl ..
-cl learnOpenGL/
-make clean
-make
-cp ../thirdParty/lib/libglfw3.a ../thirdParty/lib/libassimp.so.5.0.1 /usr/local/lib/
-sudo cp ../thirdParty/lib/libglfw3.a ../thirdParty/lib/libassimp.so.5.0.1 /usr/local/lib/
-ll /usr/local/lib/
-cl /usr/local/lib/
-ll
-ln -s libassimp.so.5.0.1 libassimp.so
-sudo ln -s libassimp.so.5.0.1 libassimp.so
-ll
-cl -
-make
-ldconfig
-g /etc/ld.so.cache 
-g src/model_loading.cpp 
-make
-nm assimp
-nm ../thirdParty/lib/libassimp.so.5.0.1
-cl ..
-cl thirdParty/
-ll
-cl lib/
-ll
-cl ..
-cl learnOpenGL/
-ll 
-make
-make run
-ll
-cp src/model_loading.cpp  src/model_loading_light.cpp 
-g Makefile 
-make
-ll
-make clean
-ll
-cp src/model_loading_light.cpp src/model_loading_multi_light.cpp 
-cl src/shaders
-ll
-cp 6.multiple_lights.fs 3.model_loading_multi_light.fs
-cp 6.multiple_lights.vs 3.model_loading_multi_light.vs
-ll
-..2
-make
-MAKE
-make
-make clean
-make
-make clean
-make
-g src/model_loading.cpp 
-ll
-make clean
-make
-make -B
-make -B >> log.make 
-g log.make 
-make -B >> log.make 
-g log.make 
-make -B >> log.make 
-make -B
-make clean
-make 
-make
-make -B
-make
-make -B
-make
-make -B
-make
-make -B
-ll
-make
-make -B
-cl src/`
-
-
-
-cl src/
-cp model_loading_multi_light.cpp model_loading_multi_light_normal.cpp
-cl shaders
-ll
-cp 3.model_loading_multi_light.vs 3.model_loading_multi_light_normal.vs
-cp 3.model_loading_multi_light.fs 4.model_loading_multi_light_normal.fs
-mv 3.model_loading_multi_light_normal.vs 4.model_loading_multi_light_normal.vs
-..3
-cl learnOpenGL/
-g src/model_loading_multi_light_normal.cpp 
-make
-make -B
-cl ..
-git status 
-g .gitignore 
-git status 
-g .gitignore 
-git add .
-g .gitignore
-git status 
-git commit -m "update till chapter -- model loading"
-git status 
-git commit 
-git config 
-git config --global
-git config -l
-git push
-ll
-cl learnOpenGL/
-ll
-git status 
-cl ..
-g .gitignore 
-git
-cl learnOpenGL/
-git rm log.make 
-git status
-git add .
-git status
-cl ..
-git add .
-git status
-git commit -m "delete useless log file"
-git status
-git push
-ll
-cl learnOpenGL/
-ll
-make clean
-ll
-sudo apt-get install gimp
-sudo apt-get install blender
-blender 
-blender -v
-sudo apt-get update blender
-ll
-mv SoftwareDirect/ Software
-ll
-tar -xvf blender-2.90.1-linux64.tar.xz 
-ll
-cl blender-2.90.1-linux64
-ll
-./blender
-cl ..
-mv blender-2.90.1-linux64 ../SoftwareDirect/
-ll
-ll /usr/sbin/
-cl /usr/bin/
-ll
-ln -h
-ln --help
-ln -s ~/Software/blender-2.90.1-linux64/blender blender2.90
-sudo ln -s ~/Software/blender-2.90.1-linux64/blender blender2.90
-ll blender*
-cl
-blender2.90 
-cl ProgramHub/CG/blender/
-blender2.90 Blender\ 2.blend 
-sudo snap install blender --classic
-cl ProgramHub/
-cl OpenGL/
-cl learnOpenGL/
-g src/model_loading_multi_light_normal.cpp 
-make
-cl src/
-ll
-g model_loading_light.cpp
-cp model_loading.cpp model_loading_normal.cpp
-cl ..
-g src/model_loading_normal.cpp 
-cl src/shaders
-ll
-cp 1.1.model_loading_normal.fs
-cp 1.model_loading.fs 1.1.model_loading_normal.fs
-cp 1.model_loading.vs 1.1.model_loading_normal.vs
-cl ProgramHub/Vulkan/
-cl Vulkan-Samples/
-cl third_party/
-cl gl
-cl glm/
-ll
-g doc/
-cl doc/
-manual.pdf
-cl ProgramHub/OpenGL/
-cl learnOpenGL/
-g src/model_loading_multi_light_normal.cpp
-make
-make clean
-make
-make -B
-LL
-ll
-./model_loading_multi_light_normal.out 
-./model_loading_multi_light.out 
-./model_loading_multi_light_normal.out 
-./model_loading_multi_light.out 
-./model_loading_multi_light_normal.out 
-./model_loading_multi_light.out 
-make
-make -B
-make run
-make -B
-ll src/
-g model_loading_normal.cpp
-g src/model_loading_normal.cpp
-cl src/shaders
-ll
-rm 1.1.model_loading_normal.fs 1.1.model_loading_normal.vs
-cl ..
-rm model_loading_normal.cpp 
-cl ..
-ll
-make
-make clean
-ll
-cl ..
-git status 
-cl learnOpenGL/
-make 
-cp src/model_loading_multi_light_normal.cpp src/model_loading_multi_light_normal_splash_fox.cpp 
-g src/model_loading_multi_light_normal_splash_fox.cpp
-make
-blender2.90 Blender\ 2.blend 
-cl
-cl Documents/
-cl git/
-cl gist/
-git clone https://gist.github.com/9303cbc8fd9f1cb1602e5e0916f7726a.git
-ll
-cl 9303cbc8fd9f1cb1602e5e0916f7726a/
-ll
-git add normalMapping.png 
-git commit -m "Add image"
-git push origin master
-cl ..
-cl ProgramHub/
-cl OpenGL/
-cl learnOpenGL/
-cl src/
-cp model_loading.cpp model_loading_fox.cpp
-cl ..
-g src/model_loading_fox.cpp 
-make
-g Makefile 
-make
-make clean
-make
-ll
-l
-unzip 99-chrysler-imperial-1933.rar
-sudo apt-get install rar
-sudo apt-get install unrar
-rar x 99-chrysler-imperial-1933.rar 
-ll
-blender2.90 Chrysler\ Imperial\ 1933.blend 
-..3
-cl P
-cl ProgramHub/
-cl Vulkan/
-cl ..
-mkdir thirdParty
-ll
-cl thirdParty/
-git clone https://github.com/KhronosGroup/glTF-Sample-Models.git
-ll
-cl ProgramHub/
-cl OpenGL/
-cl learnOpenGL/
-ll
-g src/model_loading_multi_light_normal_splash_fox.cpp 
-make 
-make
-cl src/
-ll
-mv model_loading_multi_light_normal_splash_fox.cpp model_loading_multi_light_normal_ChryslerImperial.cpp
-cl ..
-g Makefile 
-make
-cl src/
-cl shaders
-ll
-mv 4.model_loading_multi_light_normal.fs 4.1.model_loading_multi_light_normal_CI.fs
-mv 4.model_loading_multi_light_normal.vs 4.model_loading_multi_light_normal_CI.vs
-mv 4.model_loading_multi_light_normal_CI.vs 4.1.model_loading_multi_light_normal_CI.vs
-ll
-..2
-make
-make -B
-make
-..2
-cl CG/
-cl blender/
-blender2.90 Chrysler Imperial 1933.blend
-blender2.90 Chrysler\ Imperial\ 1933.blend 
-LL
-ll
-cl Splash_Fox/
-cl ..
-blender2.90 Blender\ 2.blend &
-cl ..
-cl Vulkan/
-cl Vulkan-Samples/
-cl third_party/
-ll
-git sta
-git status 
-ll
-mv assimp open3mod ../../../thirdParty/
-git status 
-ll
-..3
-cl OpenGL/
-blender2.90 &
-cl learnOpenGL/
-ll
-make clean
-ll src/
-ll
-cp updateSrc.sh updateMakefile.sh 
-g updateMakefile.sh 
-bash
-for file in src/*; echo $file
-echo $
-./updateMakefile.sh 
-declare -a
-declare -p
-declare 
-./updateMakefile.sh 
-ll
-cat herdoc.txt 
-./updateMakefile.sh 
-cat herdoc.txt 
-./updateMakefile.sh 
-g herdoc.txt 
-cp Makefile Makefile.bak
-./updateMakefile.sh 
-ll
-./updateMakefile.sh 
-ll
-g Makefile
-make 
-cp Makefile.bak Makefile
-./updateMakefile.sh 
-make 
-./updateMakefile.sh 
-make
-make textures.out
-ll
-./textures.out 
-make camera_class.out
-./updateMakefile.sh 
-make materials
-make model_loading_multi_light_normal
-ll
-make clean
-ll
-mv Makefile.bak Makefile.Manual
-ll
-rm herdoc.txt 
-ll
-gvd Makefile Makefile.Manual 
-cl ProgramHub/
-cl thirdParty/
-git clone https://github.com/KhronosGroup/glTF-Sample-Models.git
-ll
-cl glTF-Sample-Models/
-ll
-cl sourceModels/
-ll
-cl WaterBottle/
-ll
-..3
-cl ..
-cl OpenGL/
-cl learnOpenGL/
-gvd Makefile Makefile.Manual 
-g Makefile.Manual 
-./updateMakefile.sh 
-make hello_window_clear
-ll
-cp Makefile.Manual Makefile
-make hello_window_clear
-make clean
-make
-make model_loading_multi_light_normal_ChryslerImperial.out
-make clean
-make model_loading_multi_light_normal_ChryslerImperial.out
-./updateMakefile.sh 
-make clean
-make hello_triangle
-make clean
-g updateMakefile.sh 
-./updateMakefile.sh 
-
-./updateMakefile.sh 
-ll
-make materials
-make materials.out 
-make camera_circle.out
-cp Makefile.Manual Makefile
-make hello_triangle.out 
-make clean
-make hello_triangle.out 
-ll
-ll src/
-make transformations
-make transformations.out
-g Makefile.Manual 
-ll
-make transformations.out
-make clean
-make transformations.out
-./updateMakefile.sh 
-gvd Makefile Makefile.Manual 
-make textures.out
-make model_loading_multi_light_normal.out
-g model_loading_multi_light_normal.out
-g src/model_loading_multi_light.cpp 
-cp Makefile.Manual Makefile
-g model_loading_multi_light_normal.out
-make clean
-make model_loading_multi_light_normal.out
-git status
-g src/model_loading_multi_light_normal.cpp 
-./updateMakefile.sh 
-make model_loading_multi_light.out
-git status 
-git restore src/shaders/4.model_loading_multi_light_normal.fs
-git status 
-git restore src/shaders/4.model_loading_multi_light_normal.vs
-git status 
-git diff src/model_loading_multi_light_normal.cpp
-make model_loading_multi_light_normal.out
-g src/model_loading_multi_light_normal_ChryslerImperial.cpp 
-git status
-g src/model_loading_multi_light.cpp
-make clean
-make model_loading_multi_light_normal.out
-g src/model_loading_multi_light_normal.cpp 
-cl src/shaders
-cp 4.1.model_loading_multi_light_normal_CI.fs 4.model_loading_multi_light_normal.fs
-cp 4.1.model_loading_multi_light_normal_CI.vs 4.model_loading_multi_light_normal.vs
-ll
-.2
-..2
-make clean
-make model_loading_multi_light_normal.out
-make -B model_loading_multi_light_normal.out
-git status 
-git diff src/shaders/4.model_loading_multi_light_normal.fs
-ll
-git status 
-git add Makefile*
-git status 
-git add src/*
-git status 
-git add updateMakefile.sh 
-git status 
-git commit -m "add auto generate Makefile script, and normal mapping expample"
-git status 
-git push 
-cl ProgramHub/
-cl OpenGL/
-cl learnOpenGL/
-ll
-make clean
-make run 
-make light_casters_point.out
-cl ProgramHub/OpenGL/
-cl learnOpenGL/
-ll
-git status 
-g Makefile
-make all
-make clean
-make basic_lighting_diffuse.out
-ll
-./basic_lighting_diffuse.out 
-mv Makefile Makefile.Auto
-cp Makefile.Manual Makefile
-make clean
-make run
-make clean
-make hello_triangle.out 
-cl ProgramHub/OpenGL/
-cl learnOpenGL/
-make run 
-cl ProgramHub/OpenGL/
-cl learnOpenGL/
-make depth_testing.out 
-make depth_testing.out -b
-make depth_testing.out -B
-g .
-make depth_testing.out
-cl ProgramHub/
-cl OpenGL/
-cl learnOpenGL/
-make run
-ll
-g src/
-ll
-./updateSrc.sh src/depth_testing.cpp 
-ll
-ll src/
-cl src/
-cl shaders
-g 1.1.depth_testing.vs
-cl ..
-ll
-cl ..
-ll
-cl ..
-ll resources/
-ll resources/textures/
-cl ../OpenGL/
-cl learnOpenGL/
-./updateMakefile.sh 
-ll
-make clean 
-make depth_testing.out
-make depth_testing
-make camera_circle.out
-make clean
-make depth_testing.out
-ll
-make depth_testing.out
-make clean
-make run
-make basic_lighting_specular.out
-make model_loading_multi_light.out
-make run --help
-make run -j
-make run -n
-g 
-g updateMakefile.sh 
-./updateMakefile.sh 
-make run
-make transformations.out 
-make run
-make depth_testing.out 
-make textures.out 
-make depth_testing.out 
-ll
-cl ProgramHub/
-cl OpenGL/
-ll
-cl learnOpenGL/
-ll
-cl ProgramHub/
-l ../
-ll
-git clone https://github.com/Atcold/pytorch-Deep-Learning
-cl ../Downloads/
-bash Miniconda3-latest-Linux-x86_64.sh
-ll
-mv Miniconda3-latest-Linux-x86_64.sh.part Miniconda3-latest-Linux-x86_64.sh
-ll
-bash Miniconda3-latest-Linux-x86_64.sh
-cl /usr/bin/
-bash ~/Downloads/Miniconda3-latest-Linux-x86_64.sh 
-mv ~/Downloads/Miniconda3-latest-Linux-x86_64.sh ./
-sudo mv ~/Downloads/Miniconda3-latest-Linux-x86_64.sh ./
-bash Miniconda3-latest-Linux-x86_64.sh 
-mv Miniconda3-latest-Linux-x86_64.sh ~/Downloads/
-sudo mv Miniconda3-latest-Linux-x86_64.sh ~/Downloads/
-bash ~/Downloads/Miniconda3-latest-Linux-x86_64.sh 
-sudo bash ~/Downloads/Miniconda3-latest-Linux-x86_64.sh 
-sudo mv ~/Downloads/Miniconda3-latest-Linux-x86_64.sh ./
-bash ~/Downloads/Miniconda3-latest-Linux-x86_64.sh 
-bash Miniconda3-latest-Linux-x86_64.sh 
-sudo bash Miniconda3-latest-Linux-x86_64.sh 
-rm -rf miniconda3
-sudo rm -rf miniconda3
-sudo bash Miniconda3-latest-Linux-x86_64.sh 
-sudo mv Miniconda3-latest-Linux-x86_64.sh ~/Downloads/
-cl ProgramHub/
-wget <http:// link to miniconda>
-wget -c https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
-wget -c https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh
-sudo apt-get install libssl-dev
-wget -c https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
-sudo apt-get install openssl
-wget -c https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
-yum
-wget -h
-wget -v
-wget --version
-apt-get upgrade wget
-sudo apt-get upgrade wget
-wget -c https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
-ll
-cl ..
-ll
-ll /usr/bin/
-diff /usr/bin
-dif -u /usr/bin
-df -a -u /usr/bin
-df -a /usr/bin
-wget -c https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
-wget -c https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh --no-check-certificate
-wget http://www.linuxde.net/testfile.zip
-wget -c https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh
-cl ProgramHub/
-git clone git@github.com:micheleg/dash-to-dock.git
-ls -al ~/.ssh
-ssh-keygen -t ed25519 -C 18345179649@163.com
-ll
-ls -al ~/.ssh
-eval "$(ssh-agent -s)"
-ssh-add ~/.ssh/id_ed25519
-sudo apt-get install xclip
-xclip -selection clipboard < ~/.ssh/id_ed25519.pub
-wget -h
-wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
-wget  https://mirrors.tuna.tsinghua.edu.cn/anaconda/miniconda/
-ll
-rm index.html 
-ll
-cl Downloads/
-wget https://mirrors.tuna.tsinghua.edu.cn/anaconda/miniconda/Miniconda-latest-Linux-x86_64.sh
-ll
-wget https://mirrors.tuna.tsinghua.edu.cn/anaconda/miniconda/Miniconda-3.9.1-Linux-x86_64.sh
-ll
-bash Miniconda-latest-Linux-x86_64.sh
-l
-sudo bash Miniconda-3.9.1-Linux-x86_64.sh
-ll
-rm Miniconda3-latest-Linux-x86_64.sh
-ll
-wget  https://mirrors.tuna.tsinghua.edu.cn/anaconda/miniconda/Miniconda3-latest-Linux-x86_64.sh
-ll
-sha256sum -h
-sha256sum --help
-sha256sum Miniconda3-latest-Linux-x86_64.sh
-sha256sum Miniconda3-latest-Linux-x86_64.sh > checksum.sha256
-echo '1314b90489f154602fd794accfc90446111514a5a72fe1f71ab83e07de9504a7' > golden.sha256
-gvd checksum.sha256 golden.sha256
-cmp checksum.sha256 golden.sha256
-bash Miniconda3-latest-Linux-x86_64.sh
-suco bash Miniconda3-latest-Linux-x86_64.sh
-sudo bash Miniconda3-latest-Linux-x86_64.sh
-rm -rf /usr/bin/miniconda3
-sudo rm -rf /usr/bin/miniconda3
-sudo bash Miniconda3-latest-Linux-x86_64.sh
-conda config --set show_channel_urls
-conda config --set show_channel_urls yes
-conda
-ll /usr/bin/
-ll /usr/bin/miniconda3/
-ll /usr/bin/miniconda3/bin/
-python3.8 
-cl ProgramHub/
-ll
-cl pytorch-Deep-Learning/
-l
-ll
-g README.md
-conda env create -f environment.yml
-ll
-conda env create -f ./environment.yml
-g environment.yml 
-cat environment.yml 
-conda env create -f environment.yml
-conda clean -i
-conda env create -f environment.yml
-conda info
-conda config --show channels
-conda config --show-sources
-conda config --show channels
-conda config --show-sources
-conda clean -i
-conda info
-h
-conda env create -f environment.yml
-conda config --show-sources
-h
-conda clean -i
-conda config --show-sources
-conda env create -f environment.yml
-conda clean -i
-conda config --show-sources
-conda info
-conda env create -f environment.yml
-conda-env 
-conda-env list
-conda activate pDL
-conda init bash
-/home/yesire-lincoln/.bashrc
-g /home/yesire-lincoln/.bashrc
-cl ~
-ll
-cl .vimrc
-cl .vimrc_bak 
-cl .vim_runtime/
-svn st
-git status 
-ll
-cl bashrc/
-ll
-g bak_bashrc
-g .bashrc 
-ll /usr/bin/
-ll /usr/bin/miniconda3/
-cl /usr/bin/miniconda3/
-ll bin/
-conda
-./conda
-ll
-cl bin/
-./conda
-ceho $PATH 
-echo $PATH 
-cat /etc/profile
-g ~/.bashrc 
-source ~/.bashrc 
-echo $PATH 
-conda
-conda config --set show_channel_urls yes
-conda config --set show_channel_urls
-conda --help
-conda config --set show_channel_urls yes
-conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/
-conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/
-conda config --set show_channel_urls yes
-g ~/.condarc 
-conda clean -i
-conda create -n myenv numpy
-g ~/.condarc 
-conda clean -i
-g ~/.condarc 
-conda clean -i
-conda info --envs
-cl ~/ProgramHub/pytorch-Deep-Learning/
-cat environment.yml 
-g ~/.condarc 
-conda clean -i
-conda -h
-ll
-python3 hellow_TF.py 
-conda
-conda install tensorflow
-cl ProgramHub/
-ll
-mkdir tensorflow
-ll
-mv tensorflow tensorFlow
-ll
-mv tensorFlow/ TensorFlow/
-l
-sudo apt-get install python-pip python-dev python-virtualenv
-ll
-cl TensorFlow/
-ll
-g environment.yml 
-g ~/.vimrc
-g environment.yml 
-g ~/.vimrc
-g environment.yml 
-g ~/.vimrc
-g environment.yml 
-g ~/.vimrc
-conda activwe
-cat environment.yml 
-conda activate TensorFlow
-conda info --envs
-conda env create -f environment.yml 
-conda config --show channels
-conda config --show-sources
-g ~/.condarc 
-ll
-g hellow_TF.py
-ll
-python3.8 hellow_TF.py
-pip install tensorflow --upgrade
-ll
-python3 hellow_TF.py 
-conda install tensorflow-gpu cudatoolkit=10.1
-sudo conda install tensorflow-gpu cudatoolkit=10.1
-conda install tensorflow-gpu cudatoolkit=10.1
-python3 hellow_TF.py 
-sudo conda install tensorflow-gpu cudatoolkit=10.1
-sudo
-sudo conda
-nvcc --version
-cat /usr/local/cuda/version.t
-conda uninstall tensorflow-gpu cudatoolkit=10.1
-conda install tensorflow-gpu cudatoolkit=10.1
-ll
-sudo chown -R $USER:$USER anaconda3
-sudo chown -R $USER:$USER /usr/bin/miniconda3
-conda info –envs
-conda-env 
-conda-env  list
-conda-env create --name py3-TF2.0 python=3
-g ~/.condarc 
-conda -h
-conda clean
-conda clean -i
-conda clean -h
-conda-env create --name py3-TF2.0 python=3
-conda-env  list
-conda-env create --name py3-TF2.0 python=3
-conda-env create --name py3-TF2.4 python=3.8
-conda clean -i
-conda-env create --name py3-TF2.4 python=3.8
-conda clean -i
-conda-env create --name py3-TF2.4 python=3.8
-conda create -n tensorflow python=3.8
-conda create -n pyTF python=3.8
-conda create -h
-conda-env create --name py3.8-TF2.4 python=3.8 -c https://mirrors.tuna.tsinghua.edu.cn/pypi/web/simple/tensorflow/
-conda-env create --name py3.8-TF2.4 python=3.8 -c 'https://mirrors.tuna.tsinghua.edu.cn/pypi/web/simple/tensorflow'
-conda create --name py3.8-TF2.4 python=3.8 -c 'https://mirrors.tuna.tsinghua.edu.cn/pypi/web/simple/tensorflow'
-conda config --show-sources
-conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/
-conda config --show-sources
-conda config --set show_channel_urls yes
-conda create -n pyTF2.4 python=3.8
-conda activate pyTF2.4
-conda create -h
-conda-env -h
-conda-env remove pyTF2.4
-conda-env list
-h
-conda activate base
-conda-env remove pyTF2.4
-conda-env remove -n pTF2.4 
-h
-conda-env list
-conda create -n pyTF2.4 python=3.8
-conda activate pyTF2.4
-pip install -i https://pypi.tuna.tsinghua.edu.cn/simple tensorflow-2.4.0rc4-cp38-cp38-manylinux2010_x86_64.whl
-pip install -i https://pypi.tuna.tsinghua.edu.cn/simple https://pypi.tuna.tsinghua.edu.cn/simple/tensorflow/tensorflow-2.4.0rc4-cp38-cp38-manylinux2010_x86_64.whl
-pip install tensorflow==2.4.0rc4
-https://blog.csdn.net/weixin_43774880/article/details/100122390 tensorflow==2.4.0rc4
-pip install -i https://pypi.tuna.tsinghua.edu.cn/simple tensorflow==2.4.0rc4
-ll
-jupyter
-conda-env  list
-conda atc
-conda activate
-conda activate pDL
-g environment.yml 
-\
-conda-env list
-conda-env -h
-conda-env list
-conda activate pyTF2.4
-conda env update -h
-onda env update --name=pyTF2.4 --file=environment.yml
-conda env update --name=pyTF2.4 --file=environment.yml
-conda config --show channels
-g environment.yml 
-conda env update --name=pyTF2.4 --file=environment.yml
-conda env update --name=pyTF2.4 --file=./environment.yml
-conda-env 
-conda info --envs
-conda activate pDL
-conda-env update
-conda-env update -h
-conda env update -n pyTF2.4
-conda activate pyTF2.4
-jupyter-notebook 
-jupyter-lab
-mv hellow_TF.py hellow_TF.ipynb
-h
-jupyter-lab
-mv hellow_TF.ipynb hellow_TF.py
-jupyter-lab &
-jobs
-kill %+
-jupyter-lab
-pip install -h
-h
-pip install tensorflow
-pip install -h tensorflow
-pip install -i https://pypi.tuna.tsinghua.edu.cn/simple tensorflow
-pip install --upgrade tensorflow
-cl ..
-cl ~/.vim_runtime/
-git status
-git diff bashrc/.bash_history
-git status
-git diff bashrc/.bashrc
-git status
-git diff my_configs.vim
-git push 
-git status 
-git commit "update .bashrc for conda and my_config.vim for cursorline/column"
-git commit -m "update .bashrc for conda and my_config.vim for cursorline/column"
-git commit -a -m "update .bashrc for conda and my_config.vim for cursorline/column"
-git status
-cl ~/ProgramHub/TensorFlow/
-pip -h
-pip uninstall tensorflow
-pip uninstall tensorflow -h
-pip uninstall -r tensorflow
-pip -h
-pip show
-pip list
-ll
-rm -rf 00-logic_neuron_programming.ipynb 01-tensor_tutorial.ipynb
-ll
-git up
-git pull
-ll
-git status
-git restore 
-git restore 00-logic_neuron_programming.ipynb 01-tensor_tutorial.ipynb
-ll
-git resotre 02-space_stretching.ipynb
-git restore 02-space_stretching.ipynb
-ll
-git status 
-rm docs/Untitled.ipynb
-ll
-git status 
-tensorflow
-ll
-cp environment.yml ../TensorFlow/
-pip -v
-pip -V
-cl ../TensorFlow/
-cat environment.yml 
-cl -
-conda activate pDL
-conda-env info
-conda-env
-conda 
-conda info
-
-conda activate pyTF2.4
-conda init
-conda info
-h
-conda activate pDL
-g environment.yml 
-cl ../TensorFlow/
-conda activate pyTF2.4
-conda info
-python3 hellow_TF.py 
-conda deac
-conda deactivate
-python3 hellow_TF.py 
-conda activate pyTF2.4
-python3 hellow_TF.py 
-nvcc -V
-g environment.yml 
-wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/cuda-ubuntu2004.pin
-sudo mv cuda-ubuntu2004.pin /etc/apt/preferences.d/cuda-repository-pin-600
-sudo apt-key adv --fetch-keys https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/7fa2af80.pub
-sudo add-apt-repository "deb https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/ /"
-sudo apt-get update
-sudo apt-get -y install cuda
-wget https://developer.download.nvidia.com/compute/cuda/11.1.1/local_installers/cuda_11.1.1_455.32.00_linux.run
-wget https://mirrors.aliyun.com/nvidia-cuda/ubuntu2004/x86_64/cuda-11-0_11.0.3-1_amd64.deb
-wget https://mirrors.aliyun.com/nvidia-cuda/ubuntu2004/x86_64/cuda-ubuntu2004.pin
-sudo mv cuda-ubuntu2004.pin /etc/apt/preferences.d/cuda-repository-pin-600
-sudo apt-key adv --fetch-keys https://mirrors.aliyun.com/nvidia-cuda/ubuntu2004/x86_64/7fa2af80.pub
-sudo add-apt-repository "deb https://mirrors.aliyun.com/nvidia-cuda/ubuntu2004/x86_64/ /"
-sudo apt-get update
-sudo apt-get -y install cuda
-wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/cuda-ubuntu2004.pin
-wget https://developer.download.nvidia.com/compute/cuda/11.1.1/local_installers/cuda-repo-ubuntu2004-11-1-local_11.1.1-455.32.00-1_amd64.deb
-sudo dpkg -i cuda-repo-ubuntu2004-11-1-local_11.1.1-455.32.00-1_amd64.deb
-ll
-sudo dpkg -i  cuda-repo-ubuntu2004-11-1-local_11.1.1-455.32.00-1_amd64.deb
-sudo apt-get update
-sudo apt-get -y install cuda-11-0
-gcc --version
-h
-wget https://mirrors.aliyun.com/nvidia-cuda/ubuntu2004/x86_64/cuda-ubuntu2004.pin
-sudo mv cuda-ubuntu2004.pin /etc/apt/preferences.d/cuda-repository-pin-600
-sudo apt-key adv --fetch-keys https://mirrors.aliyun.com/nvidia-cuda/ubuntu2004/x86_64/7fa2af80.pub
-sudo add-apt-repository "deb https://mirrors.aliyun.com/nvidia-cuda/ubuntu2004/x86_64/ /"
-sudo apt-get update
-sudo apt-get -y install 
-sudo apt-get -y install cuda
-wget https://developer.download.nvidia.com/compute/cuda/11.1.1/local_installers/cuda_11.1.1_455.32.00_linux.run
-l
-ll
-cuda_11.1.1_455.32.00_linux.run.1
-rm cuda_11.1.1_455.32.00_linux.run.1
-ll
-udo sh cuda_11.1.1_455.32.00_linux.run cuda_11.1.1_455.32.00_linux.run
-sudo sh cuda_11.1.1_455.32.00_linux.run cuda_11.1.1_455.32.00_linux.run
-df -h /tmp
-ls -g cuda_11.1.1_455.32.00_linux.run
-rm cuda_11.1.1_455.32.00_linux.run
-ll
-wget https://developer.download.nvidia.com/compute/cuda/11.1.1/local_installers/cuda_11.1.1_455.32.00_linux.run
-l
-ll
-sh cuda_11.1.1_455.32.00_linux.run
-rm cuda_11.1.1_455.32.00_linux.run
-g ~/.bashrc 
-cl ProgramHub/
-cl pytorch-Deep-Learning/
-ll
-conda-env 
-conda-env list
-conda deactive
-conda deactivate base
-conda deactivate
-conda acti
-conda activate -h
-conda-env list
-conda activate pDL
-jupyter lab
-ll
-sudo sh cuda_11.0.3_450.51.06_linux.run
-ll
-rm cuda_11.1.1_455.32.00_linux.run
-ll
-sudo sh cuda_11.1.0_455.23.05_linux.run
-g /var/log/cuda-installer.log
-cl ProgramHub/
-cl TensorFlow/
-ll
-python3.8 hellow_TF.py 
-conda-env list
-conda activate pyTF2.4
-python3.8 hellow_TF.py 
-ll
-sh cuda_11.0.3_450.51.06_linux.run
-g /tmp/cuda-installer.log
-sudo sh cuda_11.0.3_450.51.06_linux.run
-g /var/log/cuda-installer.log
-ubuntu-drivers devices
-nvidia-smi
-cl ../yesire-lincoln/Downloads/
-ll
-lspci | grep -i nvidia
-uname -m && cat /etc/*release
-sudo apt-get purge nvidia*
-sudo apt-get autoremove
-sudo apt-get autoclean
-gcc --version
-uname -r
-sudo rm /etc/apt/preferences.d/cuda-repository-pin-600 
-apt update
-sudo apt update
-sudo apt-get purge nvidia*
-sudo apt-get autoclean
-ll /usr/local/
-sudo apt-get autoclean
-sudo rm -rf /usr/local/cuda*
-nvidia-smi
-ll
-sudo apt-get install linux-headers-$(uname -r)
-sudo /usr/bin/nvidia-uninstall
-lsmod | grep nouveau
-blacklist nouveau
-g /etc/modprobe.d/blacklist-nouveau.conf
-sudo g /etc/modprobe.d/blacklist-nouveau.conf
-sudo gvim /etc/modprobe.d/blacklist-nouveau.conf
-g /etc/modprobe.d/blacklist-nouveau.conf
-sudo update-initramfs -u
-lsmod | grep nouveau
-ls
-ll
-conda-env 
-conda-env  list
-python3 hellow_TF.py 
-conda activate pyTF2.4
-python3 hellow_TF.py 
-nvcc -V
-sudo apt install nvidia-cuda-tool
-nvcc
-sudo apt install nvidia-cuda-toolkit
-ubuntu-drivers devices
-lsmod | grep nvidia
-sudo ubuntu-drivers autoinstall
-sudo apt update
-ll
-g environment.yml 
-g ~/.condarc 
-apt-get list
-apt-get -h
-ubuntu-drivers devices
-cd /etc/rc3.d
-ls
-lsmod | grep nouveau
-sudo gdm-stop
-cd Downloads/
-ll
-sudo sh cuda_11.1.0_455.23.05_linux.run
-nvidia-detector 
-runlevel
-init 3
-gcc --version
-sudo apt-get install linux-headers-$(uname -r)
-sudo /usr/bin/nvidia-uninstall
-nvidia-smi
-sudo apt-get --purge remove nvidia*
-sudo apt-get --purge remove "*nvidia*"
-sudo apt-get --purge remove "*cublas*" "cuda*"
-sudo apt autoremove
-init lsmod | grep nouveau
-init 3
-cd Downloads/
-ll
-sudo sh cuda_
-sudo sh cuda_11.1.0_455.23.05_linux.run
-init 5
-reboot
-echo $PATH
-g /var/log/cuda-installer.log 
-h
-nvidia-smi
-g .bashrc 
-cd ProgramHub/OpenGL/
-cl learnOpenGL/
-make run
-ll
-make 
-h
-conda-env list
-conda remove -n pyTF2.4
-conda clean -i
-conda remove -n pyTF2.4
-conda remove -n pyTF2.4 -all
-conda remove -n pyTF2.4 --all
-conda-env list
-cl ../
-cl ..
-cl TensorFlow/
-ll
-g environment.yml 
-conda env remove --name pyTF2.4
-ll /usr/local/cuda
-conda env create -f environment.yml 
-g environment.yml 
-conda env create -f environment.yml 
-g environment.yml 
-conda env create -f environment.yml 
-conda activate pyTF2.4
-pip install -i https://pypi.tuna.tsinghua.edu.cn/simple tensorflow-gpu==2.4.0RC4
-LL
-ll
-python hellow_TF.py 
-source ~/.bashrc 
-echo $
-echo $LD_LIBRARY_PATH 
-python hellow_TF.py 
-conda activate pyTF2.4
-python hellow_TF.py 
-g tensorflow/stream_executor/platform/default/dso_loader.cc
-source ~/.bashrc 
-conda activate pyTF2.4
-python hellow_TF.py 
-echo $PATh
-echo $PATH
-echo $LD_LIBRARY_PATH 
-g /etc/ld.so.conf
-echo $PATH
-echo $PATH | grep 'cuda'
-cd ProgramHub/
-ll
-cd TensorFlow/
-ll
-python3 hellow_TF.py 
-conda-env list
-conda activate pyTF2.4
-python3 hellow_TF.py 
-pip -h
-pip uninstall
-pip uninstall -h
-pip uninstall tensorflow
-pip list
-conda-env list
-conda 
-conda env
-conda env list
-conda
-conda clean
-conda deactivate
-conda remove pyTF2.4
-cat /proc/driver/nvidia/version
-nvcc -V
-cd ~/NVIDIA_CUDA-11.1_Samples
-ll
-make 
-ll
-cl bin/
-cl x86_64/linux/
-cl release/
-./deviceQuery
-ll
-matrixMul
-./matrixMul
-c..3
-cl ..
-cl ~/ProgramHub/
-g ~/.bashrc 
-ll /usr/local/cuda-11.1/lib64
-cl ProgramHub/
-cl TensorFlow/
-ll
-conda env list
-conda activate pyTF2.4
-jupyter lab
-jupyter lab &
-jobs
-kill %+
-conda info --envs
-conda search
-conda search | grep keras
-cl ProgramHub/TensorFlow/
-conda env list
-conda activate pyTF2.4
-conda install keras
-conda env -h
-g environment.yml 
-conda env update pyTF2.4
-conda env list
-conda activate pyTF2.4
-cl ProgramHub/TensorFlow/
-cl MNIST/
-jupyter-lab &
-cl ..
-cl MNIST/
-ll
-g input_data.py
-ll
-g input_data.py 
-python input_data.py 
-ll
-h
-jupyter-lab &
-python mnist_begin.py 
-ll
-mv input_data.py input_data.py.bak 
-g input_data.py
-jupyter-lab &
-ls
-python input_data.py 
-\
-ll
-conda activate pyTF2.4
-python mnist_begin.py 
-\
-ll
-\
-cl ProgramHub/TensorFlow/
-ll
-mkdir MNIST
-mv .ipynb_checkpoints/ MINST_demo.ipynb MNIST
-ll
-mkdir helloTF
-mv hellow_TF.py helloTF.py hello
-mv hellow_TF.py helloTF.py helloTF/
-ll
-ll helloTF/
-cd helloTF/
-mv hellow_TF.py helloTF.py 
-ll
-cl ..
-ll
-rm cuda-repo-ubuntu2004-11-1-local_11.1.1-455.32.00-1_amd64.deb
-rm cuda-11-0_11.0.3-1_amd64.deb 
-ll
-rm cuda-ubuntu2004.pin.1 
-y
-ll
-cd MNIST/
-ll
-mv MINST_demo.ipynb MNIST_demo.ipynb 
-cl 
-cl ProgramHub/TensorFlow/
-g input.py
-cl ..
-cl TensorFlow/
-mkdir sourceCode
-cl sourceCode/
-git clone https://github.com/tensorflow/tensorflow.git
-py
-pyghon
-python
-cl ProgramHub/
-ll
-rm -rf glad/
-ll
-ll CG/
-LL
-git clone https://github.com/siyueyinghua/Python.git
-ll
-mkdir ProgramLanguageLearn
-ll
-mv Python/ ProgramLanguageLearn/
-ll
-mv ProgramLanguageLearn/ programLanguageLearn/
-cl programLanguageLearn/
-cl Python/
 ll
 conda env list
 conda list
@@ -1998,3 +594,1407 @@ ll
 g my_configs.vim 
 ll bashrc/
 source ~/.bashrc 
+ll
+ll bashrc/
+ll ~/.vim_runtime/
+ll ~/.vim_runtime/bashrc/
+cl ~/.vim_runtime/bashrc/
+g .bashrc 
+cl ..
+ll
+git status
+git add
+git add .
+git status
+git commit -m "update bashrc to update PS1"
+git status
+git push
+git up
+git update
+git --help
+git push
+git pull
+git status
+g my_configs.vim 
+it merge --abort
+git merge --abort
+git status
+ll
+mv my_configs.vim my_configs.vim.local 
+git pull
+ll
+gvd  my_configs.vim my_configs.vim.local
+git status
+gvd  my_configs.vim my_configs.vim.local
+g my_configs.vim
+git stataus
+git status
+ll
+gvd my_configs.vim my_configs.vim.local 
+git status
+git add my_configs.vim
+git status
+git commit "add maximize window in linux"
+git status
+git pull
+git commit
+git status
+git push
+git config
+git config -list
+git config --list
+git push
+git status
+ll
+gvd my_*
+gvd my_configs.vim*
+git status
+l
+ll
+rm my_configs.vim.local 
+ll
+git status
+cl
+cl ProgramHub/
+cl programLanguageLearn/
+cl SystemVerilog/
+cl example_and_uvm_source_code
+cl uvm-1.1d/
+g .
+g ~/.bashrc 
+vdir 
+dir
+source ~/.bashrc 
+dir
+vdir
+ll
+grep 'run_test'
+grep -R 'run_test'
+ll
+firefox &
+firefox .
+cl src/
+gl ..
+cl ..
+ll
+gl ..
+cl ..
+ll
+g readme.txt 
+cl puvm/
+cat readme.txt 
+ll src/
+ll src/ch2/section2.2/2.2.1/
+cl src/ch2/section2.2/2.2.1/
+cat run 
+ll
+cl ..
+..4
+..3
+cl ..
+ll
+cl ..
+cl example_and_uvm_source_code
+git init --help
+git status
+cl ProgramHub/
+ll
+ll thirdParty/
+ll git.help 
+ll
+cl thirdParty/
+ll
+ll gist/
+ll
+cl ..
+ll
+cl ..
+ll
+l
+ll NVIDIA_CUDA-11.1_Samples/
+mv NVIDIA_CUDA-11.1_Samples/ ProgramHub/
+ll
+l
+cl ProgramHub/
+l
+ll
+find -name vim
+ll
+cl ..
+find -name vim
+cmake -v
+cmake --help
+cmake -V
+cmake --version
+cl ProgramHub/
+cl thirdParty/
+ll
+git clone https://github.com/steveicarus/iverilog.git
+cl iverilog/
+ll
+g README.txt
+ll autoconf.sh 
+sh autoconf.sh 
+g autoconf.sh 
+apt-get install gperf
+sudo apt-get install gperf
+atp-get list
+sudo apt-get install readline
+sudo apt-get install termcap
+bash autoconf.sh 
+chmod +x autoconf.sh 
+./autoconf.sh 
+chmod -x autoconf.sh 
+l
+sh autoconf.sh 
+g autoconf.sh 
+sudo apt-get install autoconf
+sh autoconf.sh 
+./configure 
+sudo apt-get install flex
+./configure 
+make check
+make install
+sudo make install
+ll
+cl
+ll
+cl ProgramHub/
+ll thirdParty/
+ll
+cl thirdParty/
+ll
+cl iverilog/
+ll
+ll scripts/
+ll
+mkdir examples
+ll examples/
+cl examples/
+ll
+iverilog hello
+iverilog hello.vl 
+ll
+./a.out 
+which iverilog
+which vvp
+which gtkwave
+cl .
+cl ..
+..
+cat git.help 
+ll
+cl thirdParty/
+ll
+ll lc3/
+cl lc3/
+ll
+ll .git/
+cl ..
+ll
+git clone https://github.com/github/gitignore.git
+ll cl gitignore/
+ll
+cl iverilog/
+ll
+fll
+ll
+cl ..
+find -name *.gitignore
+cl ./open3mod/
+ll
+cl ..
+ll
+cl ..
+ll
+cat git.help 
+ll
+g git.help 
+ll
+g
+cat git.help 
+git push -u origin master
+h
+cat git.help 
+g git.help 
+git init
+git status
+ll
+rm -rf .git/
+ll
+git status
+cat git.help 
+cl ..
+..3
+ll
+g ~/.bashrc 
+ll
+cl Pro
+cl
+cl ProgramHub/
+ll
+cl programLanguageLearn/
+cl SystemVerilog/
+cl example_and_uvm_source_code
+cl puvm/
+cl s
+cl src/
+cl ch2/
+cl section2.2/2.2.1/
+cat run 
+iverilog -o wave top_tb.sv 
+ll
+..3
+cl ..
+ll
+cl ..
+ll
+git init
+ll
+git status
+git add .
+git status
+ll .git/
+ll
+cl puvm/
+cl src/
+cl ch2/section2.2/2.2.1/
+cat run 
+ll
+..3
+cl ..
+ll
+cat ../../thirdParty/
+git status
+git commit -m "Initial commit of the code of UVM Practices by zhangqiang"
+git remote add origin 18345179649@163.com:https://github.com/siyueyinghua/UVMInPracticesByZhangQiang.git
+git push -u origin master
+git remote add origin https://github.com/siyueyinghua/UVMInPracticesByZhangQiang.git
+git status
+git remote -v
+git remote rm origin
+git remote -v
+git remote add origin https://github.com/siyueyinghua/UVMInPracticesByZhangQiang.git
+git push -u origin master
+git status
+git pull origin master:master
+git status
+git pull --rebase origin master
+git status
+git push -u origin master
+ll
+rm -rf .git/
+ll
+git status
+touch .gitignore
+ll
+git init
+git init --help
+git add .
+git pull origin master
+h
+git remote add origin https://github.com/siyueyinghua/UVMInPracticesByZhangQiang.git
+git pull origin master
+git pull
+git branch
+git pull --rebase origin master
+ll
+rm -rf .git
+ll
+git init
+git status
+git add .
+git status
+ll
+git commit -m "Initial commit"
+h
+git remote add origin https://github.com/siyueyinghua/UVMInPracticesByZhangQiang.git
+git pull --rebase origin master
+git push -u origin master
+ll
+cl uvm-1.1d/
+cl src/
+grep -R 'run_test'
+grep -R 'run_test' | awk -F: '{print $1}'
+grep -R 'run_test' | awk -F: '{print $1}' | g
+grep -R 'run_test' | awk -F: '{print $1}' | xargs 
+grep -R 'run_test' | awk -F: '{print $1}' | xargs g
+grep -R 'run_test' | awk -F: '{print $1}' | xargs gvim
+ll
+cl ProgramHub/
+cl programLanguageLearn/
+cl SystemVerilog/
+cl example_and_uvm_source_code
+git status
+cl ProgramHub/
+cl programLanguageLearn/
+cl SystemVerilog/
+cl example_and_uvm_source_code
+g .
+cl uvm-1.1d/
+find -name 'uvm_ref_root'
+find -name 'uvm_ref_root' .
+find . -name 'uvm_ref_root' .
+sudo apt-get install snap
+sudo snap install p3x-onenote
+ll
+firefox .
+ll
+g vcs-mx_INSTALL_README.txt
+cksum vcs-mx_INSTALL_README.txt
+cksum vcs-mx_vL-2016.06_linux64.spf
+ll
+unrar -h
+unrar --hlep
+unrar --help
+unrar SynopsysInstaller.rar
+ll
+unrar SynopsysInstaller.rar ./SynopsysInstaller
+unrar -x SynopsysInstaller.rar 
+ll
+unrar x SynopsysInstaller.rar 
+ll
+ll 3.3/
+mv 3.3/ SynopsysInstaller3.3
+ll
+cl SynopsysInstaller
+g 
+ll
+cl SynopsysInstaller3.3/
+g installer_INSTALL_README.txt 
+ll
+mkdir /usr/synopsys/installer
+sudo mkdir /usr/synopsys/installer
+sudo mkdir /usr/synopsys/
+sudo mkdir /usr/synopsys/installer
+ll /usr/synopsys/installer/
+ll
+chmod +x SynopsysInstaller_v3.3.run
+ll
+SynopsysInstaller_v3.3.run -d /usr/synopsys/installer
+./SynopsysInstaller_v3.3.run -d /usr/synopsys/installer
+sudo ./SynopsysInstaller_v3.3.run -d /usr/synopsys/installer
+g ~/.bashrc 
+source ~/.bashrc 
+installer -gui
+installer
+which installer
+g /usr/synopsys/installer/installer
+which csh
+sudo apt-get install csh
+csh
+which csh
+installer -gui
+ll
+cl ..
+mv SynopsysInstaller3.3/* ./
+ll
+h
+sudo ./SynopsysInstaller_v3.3.run -d /usr/synopsys/installer
+sudo installer 
+which installer
+installer
+sudo installer
+chmod 755 /usr/synopsys/installer
+sudo chmod 755 /usr/synopsys/installer
+ll /usr/synopsys/installer
+ll /usr/synopsys/
+installer 
+ll/usr/synopsys/
+ll /usr/synopsys/
+sudo chmod 755 /usr/synopsys/
+installer 
+mkdir /usr/synopsys/vcs-mx_vL201606
+sudo mkdir /usr/synopsys/vcs-mx_vL201606
+sudo installer
+installer 
+group
+groups
+sudo -i
+ll
+installer 
+groups | grep sudo
+sudo apt-get update
+sudo installer
+sudo /usr/synopsys/installer/installer 
+sudo /usr/synopsys/installer/installer -install_as_root
+ll /usr/synopsys/vcs-mx_vL201606/
+sudo /usr/synopsys/installer/installer -install_as_root
+ll
+vcs
+ll /usr/synopsys/vcs-mx_vL201606/
+ll /usr/synopsys/vcs-mx_vL201606/bin/
+ll /usr/synopsys/vcs-mx_vL201606/bin
+source ~/.bashrc 
+ll
+vcs
+vcs -h
+ll /usr/synopsys/vcs-mx_vL201606
+ll
+cl
+ll
+cl -
+cl ProgramHub/
+cl programLanguageLearn/
+cl SystemVerilog/
+cl example_and_uvm_source_code
+cl puvm/
+ll
+g readme.txt 
+cat setup.vcs 
+g setup.vcs 
+ll
+cl ..
+cl uvm-1.1d/
+ll
+cl ..
+cl puvm/
+./setup.vcs 
+ll
+. setup.vcs 
+cl src/ch2/section2.2/2.2.1/
+ll
+./run 
+vcs
+source ~/.bashrc 
+./run 
+cat run 
+echo $SIM_TOOL
+vcs -sverilog $UVM_HOME/src/dpi/uvm_dpi.cc -CFLAGS -DVCS -timescale=1ns/1ps -f filelist.f
+vcs 
+which vcs
+/usr/synopsys/vcs-mx_vL201606/bin/
+vcdiff
+vcsgrep
+ll /bin/
+ll /bin/sh
+ll /bin/bash
+cl /bin/
+ll sh
+rm sh
+sudo rm sh
+ll sh
+ln -s bash sh
+sudo ln -s bash sh
+ll sh
+cl ..
+cl
+cl ProgramHub/
+cl programLanguageLearn/
+cl SystemVerilog/
+cl example_and_uvm_source_code
+cl puvm/
+cl s
+cl src/
+cl ch2/section2.2/2.2.1/
+ll
+./run 
+cl ..
+./setup.vcs 
+cl ..
+cl puvm/src/ch2/section2.2/2.2.1
+./run 
+cl ../../../../
+. setup.vcs 
+cl -
+./run 
+ll /usr/synopsys/vcs-mx_vL201606/linux/bin/
+ll /usr/synopsys/vcs-mx_vL201606/bin/
+ll /usr/synopsys/vcs-mx_vL201606/
+ll /usr/synopsys/vcs-mx_vL201606/linux64/
+ll /usr/synopsys/vcs-mx_vL201606/linux64/bin/
+./run 
+cl -
+g setup.vcs 
+source setup.vcs 
+echo $VCS_HOME 
+cl -
+./run 
+ll
+apt-get install  libncurses.so.5
+sudo apt-get install  libncurses.so.5
+ll
+urar x opSYspGvL1606.rar
+unrar x opSYspGvL1606.rar
+ll
+cl opSYspGvL1606.rar 
+cl 'Synopsys SpyGlass vL-2016.06'
+cl spyglass/
+tar -xvf *
+tar -xzvf *
+ll
+tar -xvf eetop.cn_Installation_L2016.06.tar.gz
+ll
+tar -xvf eetop.cn_SpyBuilder_vL-2016.06.tar.gz
+ll
+tar -xvf eetop.cn_SpyGlass_vL-2016.06_BuilderHtml.tar.gz
+ll
+tar -xvf eetop.cn_SpyGlass_vL-2016.06_BuilderPdf.tar.gz
+tar -xvf SpyGlass_vL-2016.06_CheckerHtml.tar.gz
+ll
+tar -xvf SpyGlass_vL-2016.06_CheckerPdf.tar.gz
+ll
+tar -xvf SpyGlass_vL-2016.06_common.tar.gz
+ll
+tar -xvf SpyGlass_vL-2016.06_Linux_64.tar.gz
+ll
+h
+ll
+ll SpyGlass-L2016.06/
+ll SpyGlass-L2016.06/SPYGLASS_HOME/
+ll SpyGlass-L2016.06/SPYGLASS_HOME/obj/
+ll
+ll SpyGlass-L2016.06/
+ll
+cl ..
+ll
+cp spyglass/SpyGlass-L2016.06/SPYGLASS_HOME/obj/check.Linux4 spyglass/SpyGlass-L2016.06/SPYGLASS_HOME/obj/check.Linux4.bak
+ll spyglass/SpyGlass-L2016.06/SPYGLASS_HOME/obj/
+cp crack/check.Linux4 spyglass/SpyGlass-L2016.06/SPYGLASS_HOME/obj/check.Linux4
+ll spyglass/SpyGlass-L2016.06/SPYGLASS_HOME/obj/
+ll
+cl spyglass/
+cl SpyGlass-L2016.06/
+cl SPYGLASS_HOME/
+ll
+ll bin/
+cl bin/
+./spyglass
+vcs
+cl ProgramHub/
+cl programLanguageLearn/
+cl SystemVerilog/
+cl example_and_uvm_source_code
+cl puvm/
+. setup.vcs 
+vcs
+cl src/ch2/section2.2/2.2.1
+,/run
+ll
+./run 
+sudo apt-get install lib32ncurses5
+sudo apt-get install ia32-libs
+dpkg
+dpkg --print-architecture 
+dpkg --print-foreign-architectures 
+sudo apt-get dist-upgrade 
+./run 
+sudo apt-get install lib32ncursesw5
+sudo apt install lib32ncursesw5 lib32ncursesw5-dev 
+sudo apt install lib32ncursesw5 lib32ncursesw-dev 
+sudo apt-get install lib32ncurses5
+yum install libncurses.so.5 
+sudo apt-get install libncurses5:i386
+./run
+ll  /usr/lib/libncursesw
+ll  /usr/lib/
+./run 
+find -name libncurse
+find -name libncurse /usr
+find /usr -name libncurse
+find /usr -name libncurse*
+h
+sudo apt-get install libncurses5:x86_64
+find /usr -name libncurse*
+ll /usr/lib/x86_64-linux-gnu/libncurses
+ll /usr/lib/x86_64-linux-gnu/libncurses*
+./run 
+ln -s /usr/lib/x86_64-linux-gnu/libncurses.so.5 /usr/lib/x86_64-linux-gnu/libncurses.so.6.2
+ln -s /usr/lib/x86_64-linux-gnu/libncurses.so.6.2 /usr/lib/x86_64-linux-gnu/libncurses.so.5
+sudo ln -s /usr/lib/x86_64-linux-gnu/libncurses.so.6.2 /usr/lib/x86_64-linux-gnu/libncurses.so.5
+ll /usr/lib/x86_64-linux-gnu/libncurses*
+./run 
+blender
+which blender
+ll
+cl Software/
+cl vcs-mx_vL-2016.06/q
+cl vcs-mx_vL-2016.06/
+ll
+rm -rf snps_installer_temp_root_7060/ snps_installer_temp_yesire-lincoln_5922/
+sudo rm -rf snps_installer_temp_root_7060/ snps_installer_temp_yesire-lincoln_5922/
+ll
+mv SynopsysInstaller* ../
+ll
+cl ..
+cl vcs-mx_vL-2016.06/
+g vcs-mx_INSTALL_README.txt
+ll
+installer
+ll
+cl ..
+ll SynopsysInstaller3.3/
+./SynopsysInstaller_v3.3.run 
+ll
+rm -rf batch_installer install_bin/ installer install.now setup.sh
+ll
+ll scl_keygen/
+ll
+cl scl_v11.9/
+g ~/.bashrc 
+installer 
+sudo -l
+sudo -i
+ll
+cl Software/
+cl Synopsys-2016.06/
+cl scl_v11.9/
+installer 
+sudo -i
+ll /usr/synopsys/scl_11_9/
+ifconfig
+ipconfig
+ifconfig
+sudo apt install net-tools
+ifconfig
+hostname
+ifconfig
+hostname
+cl Software/
+cl Synopsys-2016.06/
+g Synopsys.dat 
+dos2unix Synopsys.dat 
+ll
+cp Synopsys.dat /usr/synopsys/vcs-mx_vL201606/lic
+cl /usr/synopsys/vcs-mx_vL201606/
+ll
+sudo mkdir license
+ll
+cl -
+ll
+cp Synopsys.dat /usr/synopsys/vcs-mx_vL201606/license/
+sudo cp Synopsys.dat /usr/synopsys/vcs-mx_vL201606/license/
+g ~/.bashrc 
+hostname
+cl ..
+cl /usr/synopsys/scl_11_9/
+find ./ -name snpslmd
+ll
+cl amd64/
+cl bin/
+pwd
+cl ..
+ll
+ll amd64/
+cl bin
+pwd
+cl amd64/bin
+pwd
+sudo apt-get install lsb-core
+cl ..
+cl vcs-mx_vL201606/
+cl license/
+pwd
+source ~/.bashrc 
+lmgrd -c /usr/synopsys/vcs-mx_vL201606/license/Synopsys.dat
+vcs
+source ~/.bashrc 
+lmgrd -c /usr/synopsys/vcs-mx_vL201606/license/Synopsys.dat
+sudo netstat -ap | grep 27000
+kill -9 6294
+sudo -i 
+sudo lmgrd -c /usr/synopsys/vcs-mx_vL201606/license/Synopsys.dat
+source ~/.bashrc 
+sudo lmgrd -c /usr/synopsys/vcs-mx_vL201606/license/Synopsys.dat
+sudo -i 
+cl Software/
+cl Synopsys-2016.06/
+ll
+ll SynopsysInstaller3.3/
+ll /usr/synopsys/scl_11_9/
+rm -rf  /usr/synopsys/scl_11_9/
+sudo rm -rf  /usr/synopsys/scl_11_9/
+ll /usr/synopsys/vcs-mx_vL201606/
+sudo rm -rf  /usr/synopsys/vcs-mx_vL201606/
+ll
+cl scl_v11.9/
+ll
+installer 
+sudo -i 
+g ~/.bashrc 
+ll /usr/synopsys/
+source ~/.bashrc 
+vcs
+g ~/.bashrc 
+ifconfig -a
+gvd Synopsys.dat Synopsys-enp.dat 
+ll /usr/synopsys/scl_11.9/
+g Synopsys-enp.dat 
+gvd Synopsys-enp.dat Synopsys-wlp.dat 
+dos2unix Synopsys-enp.dat Synopsys-wlp.dat 
+gvd Synopsys-enp.dat Synopsys-wlp.dat 
+g ~/.bashrc 
+cl /usr/synopsys/vcs_vL-2016.06/bin
+cl ..
+mkdir license
+sudo mkdir license
+ll
+cp ~/Software/Synopsys-2016.06/scl_keygen/Synopsys-wlp.dat license/Synopsys.dat
+ll license/
+sudo cp ~/Software/Synopsys-2016.06/scl_keygen/Synopsys-wlp.dat license/Synopsys.dat
+ll li
+ll license/
+cl license/
+source ~/.bashrc 
+echo $VCS_H
+echo $VCS_HOME 
+cl /usr/synopsys/vcs_vL-2016.06
+cl ..
+cl 
+cl Software/
+lmgrd -c /usr/synopsys/vcs_vL-2016.06/license/Synopsys.dat
+/sbin/iptables -L -n
+sudo /sbin/iptables -L -n
+sudo ufw status
+sudo ufw allow 2700
+sudo ufw status
+sudo ufw enable
+sudo ufw reload
+sudo ufw status
+g ~/.bashrc 
+sudo ufw status
+source ~/.bashrc 
+l
+lmgrd_vcs 
+ll
+gvd Synopsys-enp.dat Synopsys-enp-gen-by-win.dat
+gvd Synopsys-wlp.dat Synopsys-wlp-gen-by-win.dat
+cp Synopsys-wlp-gen-by-win.dat /usr/synopsys/vcs_vL-2016.06/license/Synopsys.dat 
+sudo cp Synopsys-wlp-gen-by-win.dat /usr/synopsys/vcs_vL-2016.06/license/Synopsys.dat 
+g /usr/synopsys/vcs_vL-2016.06/license/Synopsys.dat
+lmgrd_vcs 
+sudo lmgrd_vcs 
+sudo env PATH=$PATH lmgrd_vcs
+source ~/.bashrc 
+sudouser 
+sudouser lmgrd_vcs 
+g /etc/sudoers
+g /etc/
+g /etc/su*
+ll /etc/su*
+g /etc/sudoers
+g ~/.bashrc 
+g /etc/sudoers
+sudo g /etc/sudoers
+sudo gvim /etc/sudoers
+ll /etc/sudoers.d/
+ll /etc/sudoers.d/99-snapd.conf 
+g /etc/sudoers.d/99-snapd.conf 
+g /etc/sudoers.d/README 
+sudo g /etc/sudoers.d/README 
+sudo gvim /etc/sudoers.d/README 
+visudo 
+sudo visudo 
+ll /etc/su*
+cl /etc/sudoers.d/
+sudo cp README user_more.conf
+g user_more.conf 
+sudo g user_more.conf 
+sudo gvim user_more.conf 
+g ../sudoers
+visudo
+cl ..
+cl
+visudo 
+sudo visudo
+sudo lmgrd_vcs 
+visudo 
+sudo visudo
+sudo --help
+g ~/.bashrc 
+cl /usr/synopsys/scl_11.9/
+find -name lgmrd
+ll amd64/
+ll amd64/bin/
+cl amd64/bin/
+sudo 
+sudo lmgrd_vcs 
+which lmgrd_vcs
+alias lmgrd_vcs
+sudo lmgrd -c /usr/synopsys/vcs_vL-2016.06/license/Synopsys.dat
+which lmgrd
+alias lmgrd_vcs
+which lmgrd
+sudo /usr/synopsys/scl_11.9/amd64/bin/lmgrd -c /usr/synopsys/vcs_vL-2016.06/license/Synopsys.dat
+mdkir /usr/tmp/.flexlm
+mkdir /usr/tmp/.flexlm
+sduo mkdir /usr/tmp/.flexlm
+sudo mkdir /usr/tmp/.flexlm
+sudo mkdir /usr/tmp
+sudo /usr/synopsys/scl_11.9/amd64/bin/lmgrd -c /usr/synopsys/vcs_vL-2016.06/license/Synopsys.dat
+lmdown
+sudo /usr/synopsys/scl_11.9/amd64/bin/lmgrd -c /usr/synopsys/vcs_vL-2016.06/license/Synopsys.dat
+lmdown
+sudo /usr/synopsys/scl_11.9/amd64/bin/lmgrd -c /usr/synopsys/vcs_vL-2016.06/license/Synopsys.dat
+vcs
+alias lmgrd_vcs
+wchih lmgrd
+g ~/.bashrc 
+which lmgrd
+source ~/.bashrc 
+alias lmgrd_full_path_vcs
+sudo /usr/synopsys/scl_11.9/amd64/bin/lmgrd -c /usr/synopsys/vcs_vL-2016.06/license/Synopsys.dat
+source ~/.bashrc 
+lmgrd_full_path_vcs 
+sudo ufw status
+lmdown
+sudo ufw status
+lmgrd_full_path_vcs 
+g /usr/synopsys/vcs_vL-2016.06/license/Synopsys.dat
+lmgrd_full_path_vcs 
+sudo ufw status
+lmdown
+lmgrd_full_path_vcs 
+sudo gvim /usr/synopsys/vcs_vL-2016.06/license/Synopsys.dat
+lmgrd_full_path_vcs 
+lmdown
+lmgrd_full_path_vcs 
+cl ProgramHub/
+cl programLanguageLearn/
+cl SystemVerilog/
+cl example_and_uvm_source_code
+cl puvm/
+g setup.vcs 
+g ~/.bashrc 
+. setup.vcs 
+echo $SIM_TOOL 
+ll
+cl s
+cl src/
+cl ch2/section2.2/2.2.1/
+./run 
+ll /usr/synopsys/vcs_vL-2016.06
+g ../../../../setup.vcs 
+source ~/.bashrc 
+echo $VCS_HOME 
+./run 
+cat run 
+vcs -sverilog $UVM_HOME/src/dpi/uvm_dpi.cc -CFLAGS -DVCS -timescale=1ns/1ps -f filelist.f +vcs+lic+wait
+lmgrd_full_path_vcs 
+ll
+cl ProgramHub/
+cl OpenGL/
+cl learnOpenGL/
+ll
+ll src/
+ll model_loading_multi_light_normal.cpp
+g src/model_loading_multi_light_normal.cpp
+make model_loading_multi_light_normal.
+make model_loading_multi_light_normal
+ll
+cl ..
+l
+g README.md 
+ll
+cl learnOpenGL/
+./model_loading_multi_light.out 
+make camera_circle.out
+make clean
+ll
+make model_loading_multi_light_normal.out 
+ll
+ll src/
+ll src/shaders
+ll
+cl ..
+ll resources/
+ll resources/textures/
+ll resources/objects/
+ll
+cl learnOpenGL/
+g src/model_loading_multi_light_normal.cpp 
+cl src/
+cp model_loading_multi_light_normal.cpp model_loading_multi_light_normal_for_demo.cpp
+ll
+cl ..
+./updateMakefile.sh 
+make model_loading_multi_light_normal_for_demo.out 
+g .
+ll
+cp offscreen.cpp src
+ll src/
+g .
+ll
+mv offscreen.cpp src/
+ll 
+ll src/
+sudo apt-get install libpng-dev libavcodec-dev libavutil-dev
+gcc -DPPM=1 -DLIBPNG=1 -DFFMPEG=1 -ggdb3 -std=c99 -O0 -Wall -Wextra   -o offscreen offscreen.c -lGL -lGLU -lglut -lpng -lavcodec -lswscale -lavutil
+gcc -DPPM=1 -DLIBPNG=1 -DFFMPEG=1 -ggdb3 -std=c99 -O0 -Wall -Wextra   -o offscreen src/offscreen.c -lGL -lGLU -lglut -lpng -lavcodec -lswscale -lavutil
+ll
+gcc -DPPM=1 -DLIBPNG=1 -DFFMPEG=1 -ggdb3 -std=c99 -O0 -Wall -Wextra   -o offscreen ./src/offscreen.c -lGL -lGLU -lglut -lpng -lavcodec -lswscale -lavutil
+ll src/offscreen.cpp 
+gcc -DPPM=1 -DLIBPNG=1 -DFFMPEG=1 -ggdb3 -std=c99 -O0 -Wall -Wextra   -o offscreen ./src/offscreen.cpp -lGL -lGLU -lglut -lpng -lavcodec -lswscale -lavutil
+mv src/offscreen.cpp src/offscreen.c
+gcc -DPPM=1 -DLIBPNG=1 -DFFMPEG=1 -ggdb3 -std=c99 -O0 -Wall -Wextra   -o offscreen ./src/offscreen.c -lGL -lGLU -lglut -lpng -lavcodec -lswscale -lavutil
+g .
+cl ProgramHub/
+cl OpenGL/
+cl learnOpenGL/
+g .
+ll
+cl src/
+ll
+g offscreen.c
+cl ..
+ll
+cl src/
+cl ..
+ll inc/
+ll
+ll inc/camera.h 
+g inc/camera.h 
+cp src/offscreen.c inc/offscreen.h
+g inc/offscreen.h 
+ll src/
+ll src/shaders
+g src/framebuffers.cpp
+g src/shaders/5.1.framebuffers.vs
+g src/shaders/5.1.framebuffers.fs
+g src/shaders/5.1.framebuffers_screen.vs
+g src/shaders/5.1.framebuffers_screen.fs
+ll
+ll ../resources/
+ll ../resources/textures/
+ll
+./updateSrc.sh src/framebuffers.cpp 
+ll
+./updateMakefile.sh 
+make framebuffers.out 
+g src/framebuffers.cpp 
+cp src/framebuffers.cpp src/framebuffers_demo.cpp 
+g src/framebuffers_demo.cpp 
+./updateMakefile.sh 
+make framebuffers_demo.out 
+g src/offscreen.c 
+make framebuffers_demo.out 
+sudo apt update
+sudo apt install ffmpeg
+ffmpeg -v
+ffmpeg -list
+ffmpeg --list
+ffmpeg -encoders
+make framebuffers_demo.out 
+find -name swscale.h
+ffmpeg -version
+apt-get install libswscale-dev
+sudo apt-get install libswscale-dev
+make framebuffers_demo.out 
+ffmpeg 
+ll /usr/include/x86_64-linux-gnu
+ll /usr/lib/x86_64-linux-gnu/
+ll /usr/include/x86_64-linux-gnu
+ll /usr/include/x86_64-linux-gnu/libswscale/
+ll /usr/lib/x86_64-linux-gnu/libswscale/
+cl ProgramHub/
+cl OpenGL/
+cl learnOpenGL/
+make framebuffers_demo.out 
+ffmpeg --version
+ffmpeg -version
+ll
+g Makefile
+make framebuffers_demo.out 
+echo $LD_LIBRARY_PATH
+g ~/.bashrc 
+echo $LD_LIBRARY_PATH
+qgrep 
+grep 'vulkansdk_1.2.135.0/x86_64/lib'
+grep 'vulkansdk_1.2.135.0/x86_64/lib' ~/
+grep 'vulkansdk_1.2.135.0/x86_64/lib' ~
+grep 'vulkansdk_1.2.135.0/x86_64/lib' ~/*
+grep -R 'vulkansdk_1.2.135.0/x86_64/lib' ~/*
+grep -R 'vulkansdk_1.2.135.0/x86_64' ~/*
+grep -R 'vulkansdk_1.2.135.0/x86_64' ~/.bashrc 
+grep -R 'x86_64' ~/.bashrc 
+grep -R 'LD_LIBRARY_PATH' ~/.bashrc 
+grep -R 'LD_LIBRARY_PATH' ~/*
+g /home/yesire-lincoln/Downloads/vulkansdk_1.2.135.0/setup-env.sh
+ll /usr/lib/x86_64-linux-gnu
+h
+echo $LD_LIBRARY_PATH
+source  ~/.bashrc 
+echo $LD_LIBRARY_PATH
+source  ~/.bashrc 
+echo $LD_LIBRARY_PATH
+cl ProgramHub/
+cl OpenGL/
+cl learnOpenGL/
+h
+make framebuffers_demo.out 
+cl learnOpenGL/
+echo $LD_LIBRARY_PATH
+ll /usr/lib/x86_64-linux-gnu/libavutil
+locate glfw3
+find -name glfw3
+find /usr -name glfw3
+ll /usr/local/lib/cmake/glfw3
+find -name /usr -lpthread
+find /usr -name  pthread
+sudo apt-get install libavutil-dev
+gcc -lhdf5
+gcc -lX11
+gcc -lX11 --verbose
+gcc -llibavutil --verbose
+gcc -libavutil --verbose
+g /etc/ld.so.conf
+h
+make framebuffers_demo.out
+ll /usr/lib/x86_64-linux-gnu/libavformat.so.58
+make framebuffers_demo.out
+gcc -lavformat
+gcc -lavformat --verbose
+gcc -libavformat --verbose
+gcc -avformat --verbose
+gcc -Lavformat --verbose
+gcc -Lavformat --verbose | grep 'avfor'
+make framebuffers_demo.out
+ll /usr/lib/x86_64-linux-gnu/libavformat.so.58
+make framebuffers_demo.out
+gcc -lavformat
+gcc -lavformat -version
+gcc -lavformat -verbose
+gcc -lavformat --verbose
+ll /usr/lib/x86_64-linux-gnu/
+ll /usr/lib/x86_64-linux-gnu/libav*
+ll /usr/lib/x86_64-linux-gnu/libav*.a
+make framebuffers_demo.out
+sudo apt-get install libavformat
+sudo apt-get install libavformat-dev
+make framebuffers_demo.out
+sudo apt-get install libavdevice-dev
+make framebuffers_demo.out
+sudo apt-get install -libavresample-dev
+sudo apt-get install libavresample-dev
+make framebuffers_demo.out
+cl ProgramHub/
+cl OpenGL/
+cl learnOpenGL/
+ll
+g src/framebuffers_demo.cpp 
+gdb framebuffers_demo.out core &
+next
+gdb framebuffers_demo.out core
+ll
+cl ..
+cl thirdParty/
+cl cpp-cheat/
+cl ffmpeg/
+cl ..
+cl opengl/
+g offscreen.c 
+cl ..
+cl FFmpeg
+g README.md 
+make toos
+make tools
+ll
+cl tools/
+ll
+lcl ..
+cl ..
+ll
+./configure --help
+./configure --help | grep ffplay
+make install
+sudo make install
+make tools
+ll 
+ll fftools/
+cl fftools/
+ll
+make 
+make clean
+make 
+make install
+cl ..
+ll
+ll ffbuild/
+make 
+make clean
+ll
+./configure 
+sudo ./configure 
+ll
+g config
+g configure 
+./configure --enable-ffplay
+sudo apt-get install ffmpeg
+ffplay 
+ll
+cl ProgramHub/
+cl OpenGL/
+cl learnOpenGL/
+g src/framebuffers_demo.cpp 
+make clean
+make -f Makefile.example 
+make framebuffers_demo.out 
+h
+gdb framebuffers_demo.out core
+make clean
+make -f Makefile.example 
+ll
+make framebuffers_demo.out 
+ll
+make clean
+make -f Makefile.example 
+make framebuffers_demo.out 
+gdb framebuffers_demo.out core
+ll
+./framebuffers_demo.out &
+gdb framebuffers_demo.out core 
+ll
+rm -rf core 
+ll
+./framebuffers_demo.out 
+ll
+h
+ulimit -a
+ulimit -a unlimit
+ulimit -a ulimit
+limit -c unlimited
+ulimit -c unlimited
+ulimit -a 
+./framebuffers_demo.out 
+ll
+gdb framebuffers_demo.out core
+make clean
+make -f Makefile.example 
+ll
+make framebuffers_demo.out 
+./framebuffers_demo.out 
+ll
+ffprobe 
+ffmpeg 
+sudo apt-get install ffplay
+ll
+ffprobe tmp.mpg 
+ll
+ffplay tmp.mpg 
+cl ProgramHub/thirdParty/
+cl FFmpegExamples/
+ll
+g encode_video.c  decode_video.c 
+ll
+cl ..
+ll
+cl OpenGlRedBook/
+grep 'queryReady' src
+grep -R 'queryReady' src
+grep -R 'query' src
+grep -R 'query' .
+grep -R 'glGet' src 
+grep -R 'glGetQuery' src 
+grep -R 'glGetQuery' .
+grep -R 'RGB565' .
+G ./include/GL/glext.h
+g ./include/GL/glext.h
+egrep  'GL_UNSIGNED_SHORT_5_6_5' .
+egrep -R 'GL_UNSIGNED_SHORT_5_6_5' .
+cl ProgramHub/
+cl OpenGL/
+cl learnOpenGL/
+cp src/framebuffers_demo.cpp src/framebuffers_demo_v1.cpp 
+g src/framebuffers_demo_v1.cpp 
+ll
+rm framebuffers_demo.out
+framebuffers_demo.o
+rm framebuffers_demo.o
+ll
+g Makefile
+make framebuffers_demo_v1.out 
+./framebuffers_demo_v1.out 
+ll
+ffplay tmp.mpg 
+ffmpeg -h
+ffmpeg -format
+ffmpeg -formats
+ffmpeg -i tmp.mpg tmp.mp4
+ll
+ffplay tmp.mp4 
+make framebuffers_demo_v1.out 
+./framebuffers_demo_v1.out 
+ll
+./framebuffers_demo_v1.out 
+make framebuffers_demo_v1.out 
+ffplay tmp.mpg 
+make framebuffers_demo_v1.out 
+./framebuffers_demo_v1.out 
+rm framebuffers_demo_v1.out 
+make framebuffers_demo_v1.out 
+./framebuffers_demo_v1.out 
+ffplay tmp.mp
+ffplay tmp.mpg
+rm framebuffers_demo_v1.out 
+make framebuffers_demo_v1.out 
+ll
+ffplay tmp_v1.mp4 
+ll
+make clean
+make -f Makefile.example 
+ll
+make framebuffers_demo_v1.out 
+ll
+ffplay tmp_v1.mp4
+make clean
+make -f Makefile.example 
+make framebuffers_demo_v1.out 
+ffplay tmp_v1.mp4
+make clean 
+make -f Makefile.example 
+ll
+make framebuffers_demo_v1.out 
+clang++ -o framebuffers_demo_v1.o -c ./src/framebuffers_demo_v1.cpp  -I/usr/local/include -std=c++17 -Wall -g -I./inc -I../thirdParty/inc
+make framebuffers_demo_v1.out 
+ffplay tmp_v1.mp4 
+make framebuffers_demo_v1.out 
+ffplay tmp_v1.mp4 
+make clan
+make clean
+make -f Makefile.example 
+ll
+make framebuffers_demo_v1.out 
+ll
+ffplay tmp_v1.mp4 
+make clean
+make -f Makefile.example 
+ll
+make -f Makefile.example \
+make -f Makefile.example
+ll
+make framebuffers_demo_v1.out 
+ll
+ffplay framebuffer_demo_v1.mp4 
+ll src/framebuffers*
+gvd src/framebuffers_demo*
+make framebuffers_demo_v1.out 
+ffplay framebuffer_demo_v1.mp4
+ll
+make framebuffers_demo_v1.out 
+ll
+ff framebuffer_demo_v1.mp4
+ffplay framebuffer_demo_v1.mp4
+make framebuffers_demo_v1.out 
+ll
+ffplay framebuffer_demo_v1.mp4
+cl src/
+ll model_loading*
+cl ..
+ll
+rm framebuffer_demo_v1.mp4 
+ll
+make framebuffers_demo_v1.out 
+ll
+make framebuffers_demo_v1.out 
+ll
+ffplay framebuffer_demo_v1.mp4 
+ll
+make framebuffers_demo_v1.out 
+ll
+ffplay framebuffer_demo_v1.mp4 
+make framebuffers_demo_v1.out 
+ll
+framebuffer_demo_v1.mp4
+rm framebuffer_demo_v1.mp4
+ll
+make framebuffers_demo_v1.out 
+ll
+ffplay framebuffer_demo_v1.mp4 
+ll
+git status
+ll
+cl ..
+git status
+ll
+cl learnOpenGL/
+ll
+cl ..;
+cl ..
+ll
+cl OpenGL/
+ll
+git status
+cl learnOpenGL/
+rm tmp*
+ll
+cl ..
+git status
+cl learnOpenGL/
+make framebuffers_demo_v1.out 
+ll
+make clean
+ll
+make framebuffers_demo_v1.out 
+ll
+ffplay framebuffer_demo_v1.mp4
+make framebuffers_demo_v1.out 
+ll
+ffplay framebuffer_demo_v1.mp4 
+make model_loading_multi_light_normal_for_demo.out 
+make framebuffers_demo_v1.out 
+ll
+make model_loading_multi_light_normal_for_demo.out 
+ll
+make model_loading_multi_light_normal_for_demo.out 
+ll
+ffplay model_loading_light_noraml_demo_v1.mp4
+make model_loading_multi_light_normal_for_demo.out 
+ffplay model_loading_light_noraml_demo_v1.mp4
+make framebuffers_demo_v1.out 
+ll
+ffplay framebuffer_demo_v1.mp4
+make framebuffers_demo_v1.out 
+ffplay framebuffer_demo_v1.mp4
+make framebuffers_demo_v1.out 
+ffplay framebuffer_demo_v1.mp4
+make framebuffers_demo_v1.out 
+ffplay framebuffer_demo_v1.mp4
+make framebuffers_demo_v1.out 
+ffplay framebuffer_demo_v1.mp4
+make framebuffers_demo_v1.out 
+ffplay framebuffer_demo_v1.mp4
+make framebuffers_demo_v1.out 
+ffplay framebuffer_demo_v1.mp4
+ll
+cl ..
+git status
+rm learnOpenGL/core
+ll
+rm learnOpenGL/core
+git status
+cl learnOpenGL/
+ll
+make clean 
+ll
+rm  framebuffer_demo_v1.mp4 model_loading_light_noraml_demo_v1.mp4
+ll
+cl ..
+git status
+git add .
+git status
+git add
+git add .
+git status
+git diff learnOpenGL/updateMakefile.sh
+git commit 'add framebuffer and ffmpeg'
+git commit -m 'add framebuffer and ffmpeg'
+git status
+git push 
+git config
+git config --list
+git push 
+git revert resources/objects/SplashFox/Splash_Fox.obj
+git del resources/objects/SplashFox/Splash_Fox.obj
+git delelet resources/objects/SplashFox/Splash_Fox.obj
+git remove resources/objects/SplashFox/Splash_Fox.obj
+git status
+git -h
+git --help
+git rm resources/objects/SplashFox/Splash_Fox.obj
+git status
+git commit "delete Splash_Fox.obj"
+git commit -m "delete Splash_Fox.obj"
+git status
+git push
+git status
+git status resources/objects/SplashFox/Splash_Fox.obj
