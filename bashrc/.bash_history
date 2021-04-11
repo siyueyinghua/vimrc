@@ -1,808 +1,3 @@
-ll
-conda env list
-conda list
-conda -h
-conda env -h
-conda env list
-ll /usr/bin/miniconda3
-ll /usr/bin/miniconda3/e
-ll /usr/bin/miniconda3/envs/
-ll /usr/bin/miniconda3/envs/pyTF2.4/
-conda env list
-ll /home/yesire-lincoln/.conda/envs/pDL
-cl ../
-cl ..
-cl TensorFlow/
-cl ..
-conda env list
-conda env -h
-conda env list
-conda list
-conda info --envs
-conda list -n pyTF2.4
-jupyter-lab &
-cl
-jupyter-lab &
-whic tcl
-which tcl
-tcl
-jupyter kernelspec list
-perl
-which per
-perl -v
-perl -V
-sudo apt update
-sudo install tcl
-sudo apt-get install tcl
-wish8.6 
-tcl -v
-tclsh -v
-tclsh -V
-tclsh --version
-tclsh -h
-jupyter kernelspec list
-pip install bash_kernel
-python -m bash_kernel.install
-jupyter kernelspec list
-jupyter-lab &
-ll 
-g .ipython/profile_default/startup/README 
-ll
-sudo apt install flameshot
-flameshot gui
-ipython
-\
-ll
-cl programLanguageLearn/
-cl Python/
-ipyton
-ipython
-pip install pyreadline
-ipython
-conda env
-conda env -list
-conda env list
-conda activate pDL
-ipython
-cl .
-cl ..
-cl pytorch-Deep-Learning/
-ll
-cp environment.yml ../programLanguageLearn/Python/
-cl ../programLanguageLearn/Python/
-ll
-g environment.yml 
-conda deactivate 
-conda env -list
-conda env -h
-conda env update environment.yml 
-conda list -n base
-ipython
-conda env list
-conda activate pDL
-ipython
-conda evn list
-conda env list
-conda env -h
-conda env export > environment_pDL.yml 
-g environment_pDL.yml
-conda deactivate
-conda env export > environment_base.yml 
-gvd environment_pDL.yml environment_base.yml
-conda env -list
-conda env list
-conda env remove base
-conda env remove --name base
-conda deactivate
-conda env remove --name base
-conda activate
-conda deactivate
-conda env list
-conda env remove --name base
-conda activate pDL
-conda env remove --name base
-conda env list
-conda list -n base
-cl ProgramHub/programLanguageLearn/Python/
-ll
-ll env*
-g environment_base.yml
-g environment.yml
-rm environment.yml
-ll
-conda env update environment_base.yml 
-conda deactivate
-conda activate base
-conda env update environment_base.yml 
-cp ../../pytorch-Deep-Learning/environment.yml ./
-ll
-ll env
-ll env*
-rm environment_pDL.yml
-rm environment_base.yml
-ll environment.yml 
-g environment.yml 
-conda env update environment.yml 
-conda list -n base
-conda uninstall jupyter
-conda list -n base
-conda uninstall jupyterlab 
-conda list -n base
-conda uninstall jupyter_client jupyter_core bash-kernel
-conda uninstall jupyter_client
-conda uninstall jupyter_core
-conda uninstall  bash-kernel
-conda list -n base
-pip uninstall bash-kernel
-conda activate pDL
-conda list -n pDL
-jupyter-lab &
-cl ProgramHub/pytorch-Deep-Learning/
-ll
-conda activate pDL
-jupyter lab &
-conda env list
-conda activate pDL
-cl ProgramHub/
-cl programLanguageLearn/
-cl Python/
-ll
-jupyter lab &
-wish
-ll
-cl ProgramHub/
-cl programLanguageLearn/
-cl Python/
-conda activate pDL
-jupyter-lab &
-cl .
-cl ..
-cl thirdParty/
-git clone https://github.com/jdc8/tclzmq
-git clone http://github.com/andreas-kupries/critcl
-cl ProgramHub/
-cl programLanguageLearn/
-cl thirdParty/
-ll
-git clone https://github.com/mpcjanssen/tcljupyter.git
-jupyter --paths
-conda activate pDL
-jupyter --paths
-ll /usr/local/share/jupyter
-ll /usr/share/jupyter
-ll /usr/local/etc/jupyter
-ll /home/yesire-lincoln/.local/share/jupyter/runtime
-l
-cl rl_json/
-ll
-./configure 
-ll tclconfig/
-g get_tclconfig.tcl
-tclsh get_tclconfig.tcl 
-cl ../
-cl tcljupyter/
-ll
-g .
-g environment.yml 
-cl ..
-cl rl_json/
-ll
-ll bench/
-./configure 
-ll /System/Library/Frameworks/
-cl ..
-cl tcllib-1.20/
-ll
-./installer.tcl 
-cl ..
-cl rl_json/
-./configure 
-./configure --with-tcl /home/yesire-lincoln/.conda/envs/pDL/lib/tcllib1.20
-which tclsh
-./configure --with-tcl /home/yesire-lincoln/.conda/envs/pDL/bin/tclsh
-ll /usr/bin/miniconda3/bin/tclsh
-./configure --with-tcl /usr/bin/miniconda3/bin/tclsh
-sudo apt-get install tcl-dev tk-dev mesa-common-dev libjpeg-dev libtogl-dev
-./configure 
-ll
-make install
-sudo make install
-cl ../
-cl tcljupyter/
-g kernel.json.linux 
-jupyter --paths
-ll /home/yesire-lincoln/.local/share/jupyter
-cl ..
-ll
-cp -r tcljupyter/ /home/yesire-lincoln/.local/share/jupyter
-ll /home/yesire-lincoln/.local/share/jupyter
-tcljupyter/
-cl /home/yesire-lincoln/.local/share/jupyter
-ll tcljupyter/
-ll
-cl tcljupyter/
-ll\
-g kernel.json.linux
-ll tcljupyter/
-cl ..
-ll
-ll kernels/
-ll
-ll tcljupyter/
-cp kernel.json.linux kernel.json
-cl tcljupyter/
-cp kernel.json.linux kernel.json
-g kernel.json
-cl ...
-cl ..
-ll
-ll /home/yesire-lincoln/.conda/envs/pDL/lib/tcllib1.20
-ll /home/yesire-lincoln/.conda/envs/pDL/lib/
-ll /home/yesire-lincoln/.conda/envs/pDL/lib/tcl8.6/
-ll /home/yesire-lincoln/.conda/envs/pDL/lib/tk8.6/
-whic tclsh
-which tclsh
-conda activate pDL
-jupyter lab &
-jupyter::display mimetype body
-pip install jupyter_kernel_test
-python -m tests.test_tcljupyter
-conda activate pDL
-ll
-cl ~/ProgramHub/programLanguageLearn/
-mkdir TCL
-cl TCL/
-jupyter-lab &
-cl ..
-mv TCL/ Tcl
-cl Tcl/
-jupyter-lab &
-conda activate pDL
-jupyter --paths
-ll /home/yesire-lincoln/.conda/envs/pDL/share/jupyter
-ll /home/yesire-lincoln/.local/share/jupyter
-cl /home/yesire-lincoln/.local/share/jupyter
-mv tcljupyter/ kernels/
-ll
-ll kernels/
-jupyter-lab &
-ll /home/yesire-lincoln/.local/share/jupyter/tcljupyter/
-ll
-rm HelloTCL.ipynb 
-ll
-cl kernels/
-cl tcljupyter/
-g kernel.json
-cl ..
-cl ~/ProgramHub/programLanguageLearn/
-cl thirdParty/
-cl tclzmq/
-ll
-tclsh build.tcl 
-tclsh build.tcl gui
-ll ../libzmq/
-cl ..
-ll
-cl Tcl/
-cl ..
-cl thirdParty/
-cl rl_json/
-ll
-make test
-make install-libraries
-sudo make install-libraries
-sudo make install-lib-binaries
-make test
-make install
-sudo make install
-cl ..
-cl Tcl/
-jupyter-lab &
-conda activate pDL
-jupyter-lab &
-kill -9 %+
-conda deactivate
-tclsh
-conda activate pDL
-cl ProgramHub/
-cl programLanguageLearn/
-cl thirdParty/
-cl rl_json/
-ll
-./config
-./configure 
-make 
-make
-ll
-g Makefile
-make shell 
-make all
-make clean
-make depend 
-./configure 
-ll
-make install
-make clean
-ll
-sudo ./config
-./config
-sudo ./configure 
-sudo make 
-sudo make install
-jupyter-lab &
-jobs
-kill -9 %+
-ll
-make clean
-ll
-rm Untitled.ipynb 
-ll
-./configure 
-sudo make test
-make 
-sudo make 
-sudo make install
-jupyter-lab &
-g /home/yesire-lincoln/.local/share/jupyter/kernels/tcljupyter/modules/jmsg-0.0.1.tm
-ll
-rm Untitled.ipynb 
-kill -9 %+
-cl ..
-cl rl_json/
-ll
-ll tclconfig/
-cl tclconfig/
-g tcl.m4 
-tclsh
-ll
-g README.txt 
-cl ..
-ll
-g README.md 
-tclsh
-tclsh8.6 
-ll
-make test
-conda activate pDL
-cmake
-cmake -v
-cmake -version
-sudo update cmake
-sudo apt update cmake
-sudo apt update
-\
-sudo apt install cmake
-cmake --version
-cl P
-cl ProgramHub/
-ll
-ll thirdParty/
-ll Vulkan/
-ll Vulkan/Vulkan-Samples/
-cl thirdParty/
-git clone https://github.com/openglredbook/examples.git
-ll
-mv examples/ OpenGlRedBook
-cl OpenGlRedBook/
-g README.md 
-cl build/
-ll
-ll templates/
-cmake ../
-ll
-make 
-ll
-make
-make 
-make 09-teapot
-g /home/yesire-lincoln/ProgramHub/thirdParty/OpenGlRedBook/lib/vdds.cpp
-ll
-cl ..
-g src/
-ll
-ll lib/
-ll
-ll vermilion/
-make
-cl ..
-cl bu
-cl OpenGlRedBook/
-cl b
-cl build/
-make
-sudo apt-get install clang
-clang
-clang --version
-g ~/.bashrc 
-echo $CC
-echo $Cxx
-env
-env | grep cc
-env | grep CC
-ll
-rm *
-ll
-rm  -rf *
-ll
-g ./
-ll
-cl ProgramHub/
-cl OpenGL/
-cl learnOpenGL/
-ll
-ll src/
-cl src/
-ll
-g .
-cp basic_lighting_diffuse.cpp tessellation_demo.cpp
-cl ..
-g .
-cl ProgramHub/
-cl OpenGL/learnOpenGL/
-g .
-ll
-cl ProgramHub/
-cl OpenGL/
-cl ..
-cl thirdParty/
-ll
-ll gist/
-ll gist/9303cbc8fd9f1cb1602e5e0916f7726a/
-ll
-cl OpenGlRedBook/
-cl build/
-cmake ../
-make
-g /home/yesire-lincoln/ProgramHub/thirdParty/OpenGlRedBook/lib/vdds.cpp
-make
-g /home/yesire-lincoln/ProgramHub/thirdParty/OpenGlRedBook/include/vapp.h
-\
-cl ..
-egrep 'timeval'
-egrep 'timeval' src include
-egrep -R 'timeval' src include
-
-egrep 'timeval' src include vermilion/
-egrep -R 'timeval' src include vermilion/
-egrep -R 'm_app' src include vermilion/
-make
-cl build/
-make
-/home/yesire-lincoln/ProgramHub/thirdParty/OpenGlRedBook/src/12-particlesimulator/12-particlesimulator.cpp
-g /home/yesire-lincoln/ProgramHub/thirdParty/OpenGlRedBook/src/12-particlesimulator/12-particlesimulator.cpp
-g ../CMakeLists.txt 
-make
-make 09-teapot
-g /home/yesire-lincoln/ProgramHub/thirdParty/OpenGlRedBook/include/vec.h
-ll
-cmake ../
-g ../CMakeLists.txt 
-cl ..
-cl src/
-ll
-cl ..
-ll
-cl b
-cl bin/
-ll
-./09-teapot 
-./12-simplecompute 
-./12-raytracer 
-cl ProgramHub/
-cl OpenGL/
-cl learnOpenGL/
-ll src/
-cl src/
-g hello_triangle.cpp
-ll
-cl ProgramHub/
-cl OpenGL/
-cl learnOpenGL/
-cl src/
-ll
-g hello_triangle.cpp
-g hello_triangle_indexed.cpp
-cl ..
-ll
-./updateMakefile.sh 
-make hello_triangle_indexed.out 
-make run
-ll
-./hello_triangle_indexed.out
-make hello_triangle_indexed.out 
-./hello_triangle_indexed.out 
-make hello_triangle_indexed.out 
-ll
-g src/instancing_quads.cpp
-./updateSrc.sh src/instancing_quads.cpp 
-ll
-ll src/
-./updateMakefile.sh 
-ll
-make instancing_quads.out 
-./instancing_quads.out 
-make instancing_quads.out 
-ll
-cl ProgramHub/
-ll
-cl OpenGL/
-cl learnOpenGL/
-ll
-g .
-make hello_triangle_indexed.out 
-make run
-./hello_triangle_indexed.out 
-make run
-make hello_triangle_indexed.out 
-ll
-l
-cl ProgramHub/
-ll
-ll programLanguageLearn/
-ll
-cl programLanguageLearn/
-mkdir SystemVerilog
-ll
-cl SystemVerilog/
-mv ~/Downloads/example_and_uvm_source_code.tar.gz ./
-ll
-unzip -h
-ll
-unzip -x example_and_uvm_source_code.tar.gz
-ll
-tar -h
-tar --help
-tar -xvf example_and_uvm_source_code.tar.gz 
-ll
-cl example_and_uvm_source_code
-cl ..
-tar -xvzf example_and_uvm_source_code.tar.gz 
-cl example_and_uvm_source_code
-gzip --help
-cl ..
-rm -rf example_and_uvm_source_code/
-ll
-gzip -vdk example_and_uvm_source_code.tar.gz 
-ll
-rm -rf example_and_uvm_source_code.tar
-ll
-tar --h
-tar --help
-tar -xzf example_and_uvm_source_code.tar.gz 
-ll
-cl example_and_uvm_source_code
-tar -xf puvm.tar.gz 
-ll
-ll puvm
-ll
-tar -xf uvm-1.1d.tar.gz 
-ll
-rm puvm.tar.gz 
-rm uvm-1.1d.tar.gz 
-ll
-cl ..
-ll
-cl example_and_uvm_source_code
-cl uvm-1.1d/
-ll
-g ~/.bashrc 
-source ~/.bashrc 
-cl ~/
-ll
-cl .vim_runtime/
-ll
-g my_configs.vim 
-ll bashrc/
-source ~/.bashrc 
-ll
-ll bashrc/
-ll ~/.vim_runtime/
-ll ~/.vim_runtime/bashrc/
-cl ~/.vim_runtime/bashrc/
-g .bashrc 
-cl ..
-ll
-git status
-git add
-git add .
-git status
-git commit -m "update bashrc to update PS1"
-git status
-git push
-git up
-git update
-git --help
-git push
-git pull
-git status
-g my_configs.vim 
-it merge --abort
-git merge --abort
-git status
-ll
-mv my_configs.vim my_configs.vim.local 
-git pull
-ll
-gvd  my_configs.vim my_configs.vim.local
-git status
-gvd  my_configs.vim my_configs.vim.local
-g my_configs.vim
-git stataus
-git status
-ll
-gvd my_configs.vim my_configs.vim.local 
-git status
-git add my_configs.vim
-git status
-git commit "add maximize window in linux"
-git status
-git pull
-git commit
-git status
-git push
-git config
-git config -list
-git config --list
-git push
-git status
-ll
-gvd my_*
-gvd my_configs.vim*
-git status
-l
-ll
-rm my_configs.vim.local 
-ll
-git status
-cl
-cl ProgramHub/
-cl programLanguageLearn/
-cl SystemVerilog/
-cl example_and_uvm_source_code
-cl uvm-1.1d/
-g .
-g ~/.bashrc 
-vdir 
-dir
-source ~/.bashrc 
-dir
-vdir
-ll
-grep 'run_test'
-grep -R 'run_test'
-ll
-firefox &
-firefox .
-cl src/
-gl ..
-cl ..
-ll
-gl ..
-cl ..
-ll
-g readme.txt 
-cl puvm/
-cat readme.txt 
-ll src/
-ll src/ch2/section2.2/2.2.1/
-cl src/ch2/section2.2/2.2.1/
-cat run 
-ll
-cl ..
-..4
-..3
-cl ..
-ll
-cl ..
-cl example_and_uvm_source_code
-git init --help
-git status
-cl ProgramHub/
-ll
-ll thirdParty/
-ll git.help 
-ll
-cl thirdParty/
-ll
-ll gist/
-ll
-cl ..
-ll
-cl ..
-ll
-l
-ll NVIDIA_CUDA-11.1_Samples/
-mv NVIDIA_CUDA-11.1_Samples/ ProgramHub/
-ll
-l
-cl ProgramHub/
-l
-ll
-find -name vim
-ll
-cl ..
-find -name vim
-cmake -v
-cmake --help
-cmake -V
-cmake --version
-cl ProgramHub/
-cl thirdParty/
-ll
-git clone https://github.com/steveicarus/iverilog.git
-cl iverilog/
-ll
-g README.txt
-ll autoconf.sh 
-sh autoconf.sh 
-g autoconf.sh 
-apt-get install gperf
-sudo apt-get install gperf
-atp-get list
-sudo apt-get install readline
-sudo apt-get install termcap
-bash autoconf.sh 
-chmod +x autoconf.sh 
-./autoconf.sh 
-chmod -x autoconf.sh 
-l
-sh autoconf.sh 
-g autoconf.sh 
-sudo apt-get install autoconf
-sh autoconf.sh 
-./configure 
-sudo apt-get install flex
-./configure 
-make check
-make install
-sudo make install
-ll
-cl
-ll
-cl ProgramHub/
-ll thirdParty/
-ll
-cl thirdParty/
-ll
-cl iverilog/
-ll
-ll scripts/
-ll
-mkdir examples
-ll examples/
-cl examples/
-ll
-iverilog hello
-iverilog hello.vl 
-ll
-./a.out 
-which iverilog
-which vvp
-which gtkwave
-cl .
-cl ..
-..
-cat git.help 
-ll
-cl thirdParty/
-ll
-ll lc3/
-cl lc3/
-ll
-ll .git/
-cl ..
-ll
-git clone https://github.com/github/gitignore.git
-ll cl gitignore/
-ll
-cl iverilog/
-ll
-fll
-ll
-cl ..
-find -name *.gitignore
-cl ./open3mod/
-ll
 cl ..
 ll
 cl ..
@@ -1998,3 +1193,808 @@ git status
 git push
 git status
 git status resources/objects/SplashFox/Splash_Fox.obj
+ll
+tar -h
+tar --h
+tar --help
+tar cfzv back_pack_rendering_result.tar *
+ll
+tar cfzv back_pack_rendering_result.tar.gz *.mp4 *.png
+ll
+rm back_pack_rendering_result.tar
+ll
+ll
+ffprobe Screencast\ from\ 2021年03月22日\ 21时50分09秒.webm 
+ffmpeg -h
+ffmpeg -i Screencast\ from\ 2021年03月22日\ 21时54分16秒.webm back_pack_rendering_result.mp4
+ll
+ffplay back_pack_rendering_result.mp4 
+ffmpeg -i Screencast\ from\ 2021年03月22日\ 21时54分16秒.webm back_pack_rendering_result_high.avi
+ll
+ffplay back_pack_rendering_result_high.avi
+ffprobe Screencast\ from\ 2021年03月22日\ 21时54分16秒.webm 
+ffmpeg -i Screencast\ from\ 2021年03月22日\ 21时54分16秒.webm -c:a copy -c:v vp9 -b:v 100K back_pack_rendering_result_vp9.mp4
+ll
+ffmpeg -i Screencast\ from\ 2021年03月22日\ 21时54分16秒.webm -c:a copy -c:v -b:v back_pack_rendering_result_vp9.mp4
+ffmpeg -i Screencast\ from\ 2021年03月22日\ 21时54分16秒.webm -c:v copy -c:a copy -y back_pack_rendering_result_high.mp4
+sudo apt install kazam
+kazam 
+kazam &
+cl ProgramHub/OpenGL/
+cl learnOpenGL/
+ll
+make framebuffers_demo_v1.out 
+make model_loading_multi_light_normal_for_demo.out 
+ll
+make clean
+ll
+g src/framebuffers_demo_v1.cpp 
+make model_loading_multi_light_normal_for_demo.out 
+./model_loading_multi_light_normal_for_demo.out 
+g src/model_loading_multi_light_normal_for_demo.cpp
+LL
+ll
+rm framebuffer_demo_v1.mp4 model_loading_light_noraml_demo_v1.mp4
+ll
+./model_loading_multi_light_normal_for_demo.out 
+ll
+git status
+cl ../
+cl resources/
+cl objects/
+tree -l 3
+tree 
+cl ..
+g .gitignore 
+ll resources/
+git status
+git revert HEAD
+git history
+git hist
+git --hlep
+git hist
+git histtory
+git status
+git log
+git log --oneline
+git reset --hard 3e6ff65
+git status
+ll
+git --help
+git pull
+git status
+ll 
+cl learnOpenGL/
+g src/
+cl ..
+git reflog
+git reset –hard 3e6ff65
+git reset --hard 3e6ff65
+ll
+git status
+ll learnOpenGL/src/
+c
+ll
+git reflog
+git log
+git reflog
+git reset --hard 1d2ddcb
+git status
+ll learnOpenGL/src/
+ll
+cl learnOpenGL/
+cl ...
+cl ..
+ll thirdParty/inc/
+ll
+g learnOpenGL/src/framebuffers_demo_v1.cpp 
+ll
+git status
+git log --oneline 
+git log HEAD
+git log resources/objects
+ll
+cl resources/
+cp -r objects/ objects_back
+ll
+git status
+git log objects
+git reset a2e6e82aea10bc70f92d25e6870b54e8785b3d89 objects
+git checkout objects
+git commit --amend
+git status
+git push
+git reflog
+git log --oneline 
+ll
+cl ..
+cl learnOpenGL/
+ll
+cl ..
+cp -r  learnOpenGL learnOpenGL_bak
+ll
+git status
+ll
+git log --oneline 
+git reset 3e6ff65
+ll
+git status
+git status 
+g .gitignore 
+git status 
+git reflog
+ll
+gvd learnOpenGL/src/framebuffers_demo_v1.cpp learnOpenGL_bak/src/framebuffers_demo_v1.cpp 
+ll
+git status
+git add learnOpenGL/
+git status
+
+git status
+git add .
+git status
+git commit -m "add framebuffer example and ffmpeg encoder"
+git status
+git push
+git status
+cl learnOpenGL/
+cat Makefile.example 
+git issue show 
+git issue show 1
+cl ..
+ll
+ll ~/.vim_runtime/
+ll
+mv git.help ~/.vim_runtime/
+cl ~/.vim_runtime/
+ll
+git status
+g git.help 
+git log --online
+git log --oneline 
+git status
+git add git.help 
+git status
+git commit -m "add git.help file for reminding the usage of git i encounter"
+git status
+git push
+git status
+gid add .
+git add .
+git status
+git commit -m "update bashrc file"
+git push
+ll
+ffplay back_pack_rendering_result_full_V2.mp4
+ll
+ffplay back_pack_rendering_result_full_V3.mp4
+ffplay back_pack_rendering_result_full_V4.mp4 
+ffplay back_pack_rendering_result_full_V5.mp4 
+ffplay back_pack_rendering_result_full_V6_0.25.mp4
+ffprobe back_pack_rendering_result_full_V7_0.1.mp4 
+ffplay back_pack_rendering_result_full_V7_0.1.mp4 
+ffprobe back_pack_rendering_result_full_V8_0.3.mp4 
+ffplay back_pack_rendering_result_full_V8_0.3.mp4 
+ffplay back_pack_rendering_result_full_V9_0.3.mp4 
+ll
+ffplay back_pack_rendering_result_full_V[B
+ll
+ffplay kazam_qcbq012n.movie
+ll
+rm *.movie
+ll
+rm kazam_t2ni2db6.movie.mux
+l
+ll
+ffplay back_pack_rendering_result_full_V10_0.05_manual.mp4
+cl ProgramHub/
+cl OpenGL/
+cl learnOpenGL/
+g src/model_loading_multi_light_normal_for_demo.cpp 
+make model_loading_multi_light_normal_for_demo.out 
+gvd src/model_loading_multi_light_normal.cpp model_loading_multi_light_normal_for_demo.cpp
+gvd src/model_loading_multi_light_normal.cpp src/model_loading_multi_light_normal_for_demo.cpp
+make model_loading_multi_light_normal.out 
+g src/model_loading_multi_light_normal.cpp
+cl src/
+gvd model_loading_multi_light_normal_ChryslerImperial.cpp model_loading_multi_light_normal.cpp
+cl ..
+gvd model_loading_multi_light_normal_ChryslerImperial.cpp model_loading_multi_light_normal.cpp
+gvd src/model_loading_multi_light_normal_ChryslerImperial.cpp src/model_loading_multi_light_normal.cpp
+gvd src/model_loading_multi_light_normal.cpp  src/model_loading_multi_light_normal_for_demo.cpp
+cl src/
+cl shaders
+gvd 4.1.model_loading_multi_light_normal_CI.fs 4.model_loading_multi_light_normal.fs
+cl ...
+cl ..
+make model_loading_multi_light_normal_ChryslerImperial.out 
+g src/model_loading_multi_light_normal_ChryslerImperial.cpp
+gvd src/shaders/4.model_loading_multi_light_normal.vs src/shaders/4.1.model_loading_multi_light_normal_CI.vs
+g src/shaders/4.1.model_loading_multi_light_normal_CI.fs
+make model_loading_multi_light_normal_ChryslerImperial.out 
+make clean
+ll
+make model_loading_multi_light_normal_ChryslerImperial.out 
+g src/model_loading_multi_light_normal_ChryslerImperial.cpp
+g src/model_loading_multi_light_normal_for_demo.cpp 
+ll
+make clean
+rm model_loading_light_noraml_demo_v1.mp4
+ll
+g src/model_loading_multi_light_normal_for_demo.cpp
+make model_loading_multi_light_normal_for_demo.out 
+./model_loading_multi_light_normal_for_demo.out 
+make model_loading_multi_light_normal_for_demo.out 
+./model_loading_multi_light_normal_for_demo.out 
+make model_loading_multi_light_normal_for_demo.out 
+./model_loading_multi_light_normal_for_demo.out 
+make model_loading_multi_light_normal_for_demo.out 
+./model_loading_multi_light_normal_for_demo.out 
+make model_loading_multi_light_normal_for_demo.out 
+./model_loading_multi_light_normal_for_demo.out 
+make model_loading_multi_light_normal_for_demo.out 
+./model_loading_multi_light_normal_for_demo.out 
+make model_loading_multi_light_normal_for_demo.out 
+./model_loading_multi_light_normal_for_demo.out 
+make model_loading_multi_light_normal_for_demo.out 
+./model_loading_multi_light_normal_for_demo.out 
+make basic_lighting_diffuse.out 
+g src/basic_lighting_diffuse.cpp 
+make hello_triangle_indexed.out 
+g src/hello_triangle_indexed.cpp 
+cp src/hello_triangle_indexed.cpp src/hello_triangle_indexed_for_demo.cpp
+g Makefile
+make hello_triangle_indexed_for_demo.out 
+g src/hello_triangle_indexed_for_demo.cpp
+make hello_triangle_indexed_for_demo.out 
+g src/shaders/0.1.hello_triangle_for_demo.fs
+make hello_triangle_indexed_for_demo.out 
+cl ..
+git status
+make hello_triangle_indexed_for_demo.out 
+cl learnOpenGL/
+make hello_triangle_indexed_for_demo.out 
+make hello_triangle_indexed_for_demo.out -B
+cl ..
+git status
+git add .
+git status
+git commit -m "fix bug of model_loading_multi_light_normal and add hello_triangle_indexed_for_demo"
+git status
+git push 
+git status
+cl learnOpenGL/
+make materials.out 
+g src/materials.cpp 
+cp src/materials.cpp src/materials_for_demo.cpp 
+g Makefile
+make materials_for_demo.out 
+g src/materials_for_demo.cpp 
+make materials_for_demo.out 
+./materials_for_demo.out 
+g src/materials_for_demo.cpp 
+make materials_for_demo.out 
+./materials_for_demo.out 
+cl ..
+git status
+git add ./
+git status
+git commit -m "add materials_for_demo"
+git status
+git push
+ll
+ffplay hello_triangle_demo_for_OpenGL_API.mp4 
+ffplay material_demo_for_Material_Light_Model.mp4 
+ffplay material_demo_for_Material_Light_Model_V1.mp4 
+kazam &
+jobs
+kill %+
+kazam &
+kill %+
+kazam &
+ffplay multi_and_multiple_type_light_source_diff_and_spec_map_demo_for_light_caster.mp4
+cl ProgramHub/OpenGL/learnOpenGL/
+make multiple_lights.out 
+kazam &
+./multiple_lights.out 
+cl ProgramHub/
+cl OpenGL/
+cl learnOpenGL/
+g .
+ll
+cl ..
+cl thirdParty/
+ll inc/
+cl inc/
+cl gl
+cl glad/
+ll
+g glad.h 
+ll
+cl ..
+cl src/
+ll
+g glad.c 
+cl ..
+cl OpenGL/
+cl learnOpenGL/
+make clean
+ll
+make framebuffers_demo_v1.out 
+ll
+make framebuffers_demo_v1.out 
+g src/multiwin_mx.cpp
+g Makefile
+make multiwin_mx.out 
+make framebuffers_demo_v1.out 
+make clean
+make framebuffers_demo_v1.out 
+cp src/model_loading_multi_light_normal_for_demo.cpp src/model_loading_multi_light_normal_for_offscreen.cpp
+cp Makefile Makefile.ManualV2
+ll
+g updateMakefile.sh 
+./updateMakefile.sh 
+gvd Makefile Makefile.Manual2
+gvd Makefile Makefile.ManualV2 
+./updateMakefile.sh 
+ll
+make model_loading_multi_light_normal_for_offscreen.out 
+g src/model_loading_multi_light_normal_for_offscreen.cpp
+make model_loading_multi_light_normal_for_offscreen.out 
+ll
+ffplay model_loading_light_noraml_demo_v1.mp4
+make model_loading_multi_light_normal_for_offscreen.out 
+ll
+ffplay offscreen.png 
+make model_loading_multi_light_normal_for_offscreen.out 
+ll
+ffplay offscreen.png 
+make model_loading_multi_light_normal_for_offscreen.out 
+ffplay offscreen.png 
+make model_loading_multi_light_normal_for_offscreen.out 
+ll
+ffplay offscreen.png 
+ffplay model_loading_light_noraml_demo_v1.mp4
+make model_loading_multi_light_normal_for_offscreen.out 
+gvd Makefile Makefile.ManualV2 
+g updateMakefile.sh 
+./updateMakefile.sh 
+make model_loading_multi_light_normal_for_offscreen.out 
+ll
+ffplay model_loading_light_noraml_demo_v1.mp4 
+make model_loading_multi_light_normal_for_offscreen.out 
+ll
+ffplay model_loading_light_noraml_demo_v1.mp4
+make model_loading_multi_light_normal_for_offscreen.out 
+ffplay model_loading_light_noraml_demo_v1.mp4
+make model_loading_multi_light_normal_for_offscreen.out 
+ffplay model_loading_light_noraml_demo_v1.mp4
+make model_loading_multi_light_normal_for_offscreen.out 
+ffplay model_loading_light_noraml_demo_v1.mp4
+make model_loading_multi_light_normal_for_offscreen.out 
+ll
+ffplay model_loading_light_noraml_demo_v1.mp4
+make model_loading_multi_light_normal_for_offscreen.out 
+ffplay model_loading_light_noraml_demo_v1.mp4
+make model_loading_multi_light_normal_for_offscreen.out 
+ffplay model_loading_light_noraml_demo_v1.mp4
+make model_loading_multi_light_normal_for_offscreen.out 
+ffplay model_loading_light_noraml_demo_v1.mp4
+make model_loading_multi_light_normal_for_offscreen.out 
+ffplay model_loading_light_noraml_demo_v1.mp4
+make model_loading_multi_light_normal_for_offscreen.out 
+ffplay model_loading_light_noraml_demo_v1.mp4
+make model_loading_multi_light_normal_for_offscreen.out 
+ffplay model_loading_light_noraml_demo_v1.mp4
+make model_loading_multi_light_normal_for_offscreen.out 
+ffplay model_loading_light_noraml_demo_v1.mp4
+make model_loading_multi_light_normal_for_offscreen.out 
+ffplay model_loading_light_noraml_demo_v1.mp4
+make model_loading_multi_light_normal_for_offscreen.out 
+ffplay model_loading_light_noraml_demo_v1.mp4
+make model_loading_multi_light_normal_for_offscreen.out 
+ffplay model_loading_light_noraml_demo_v1.mp4
+make model_loading_multi_light_normal_for_offscreen.out 
+ffplay model_loading_light_noraml_demo_v1.mp4
+make model_loading_multi_light_normal_for_offscreen.out 
+ffplay model_loading_light_noraml_demo_v1.mp4
+make model_loading_multi_light_normal_for_offscreen.out 
+ffplay model_loading_light_noraml_demo_v1.mp4
+make model_loading_multi_light_normal_for_offscreen.out 
+ll
+make model_loading_multi_light_normal_for_offscreen.out 
+ll
+ffplay model_loading_light_noraml_demo_v1.mp4
+make model_loading_multi_light_normal_for_offscreen.out 
+ffplay model_loading_light_noraml_demo_v1.mp4
+gvd khrplatform.h ~/Downloads/glad/include/KHR/
+gvd khrplatform.h ~/Downloads/glad/include/KHR/khrplatform.h 
+cl ~/ProgramHub/
+ll
+cl thirdParty/
+ll
+git clone https://github.com/Dav1dde/glad.git
+ll
+cl cl glad/
+cl glad/
+ll
+cl example/
+cl c++/
+cl ..
+ll
+cl example/
+cl c++/
+ll
+cl ..
+cl glad/
+git branch glad2
+ll
+git branch
+ll
+ll example/c++
+git update
+git --help
+git pull
+git switch glad2
+git pull
+cl ..
+grep -R 'gladLoadGL' 
+ll glfw/
+cl examples/
+ll
+cl glfw/
+ll
+cl examples/
+ll
+make offscreen
+g offscreen.c 
+cl ..
+ll
+g README.md 
+ll
+make offscreen
+ll
+cl CMake
+ll
+cl ..
+ll
+cmake cmake_install.cmake
+cmake -f cmake_install.cmake
+ll
+mkdir glfw-build
+cl glfw-build/
+ll
+cmake ../
+ll
+cl ..
+cl ../
+ll
+cl ..
+cl Documents/
+ll
+ls -al
+cl ..
+cl ProgramHub/
+cl thirdParty/
+cl glfw/
+ll
+cat CMakeLists.txt 
+cl glfw-build/
+cmake  ../
+ll
+cl ..
+rm CMakeCache.txt
+cl glfw-build/
+ll
+cmake ../
+ll
+make offscreen
+ll
+cl examples/
+ll
+./offscreen 
+ll
+g offscreen
+ffplay offscreen
+ffplay offscreen.png 
+ll
+cl ..
+ll
+cl ..
+g examples/
+cl glfw-build/
+make particles
+ll
+cl examples/
+./particles 
+ll
+cl ..
+g examples/offscreen
+cl ..
+cl examples/
+cl ../glfw-build/
+make 
+ll
+cl examples/
+ll
+./boing 
+./gears 
+./heightmap 
+./sharing 
+./splitview 
+./triangle-opengl 
+./wave 
+ll
+cl ..
+ll tests/
+cl tests/
+ll
+./clipboard 
+./cursor 
+ll
+./events 
+./iconify 
+ll
+./triangle-vulkan 
+./windows 
+./glfwinfo 
+lshw
+ubuntu-drivers devices
+sudo ubuntu-drivers autoinstall
+ubuntu-drivers devices
+lspci -tv 
+cat /proc/pci
+lshw
+./glfwinfo 
+nvidia-smi 
+cl ..
+ll
+cl ..
+cl examples/
+g offscreen.c 
+ll
+cl ..
+ll
+cl deps/
+ll
+cp stb_image_write.h ../../../OpenGL/thirdParty/inc/
+ll
+g stb_image_write.h 
+cl ..
+cl FFmpeg
+cl libavcodec/
+grep 'sample_fmts'
+grep 'sample_fmts' ./
+grep 'sample_fmts' *
+grep -R 'sample_fmts' *
+grep -R 'mpeg4' *
+grep -R 'sample_fmts' *
+grep -R 'sample_fmts' * | grep 'H264'
+grep -R 'sample_fmts' * | grep 'h264'
+grep -R 'sample_fmts' * | grep '264'
+grep -R 'sample_fmts' * | grep 'mpeg' 
+g mpegaudiodec_fixed.c
+grep -R 'AV_PIX_FMT_YUV444P'
+g mjpegdec.c
+grep -R 'AV_CODEC_ID_MPEG4'
+g mpegvideo_enc.c
+ll
+cl ProgramHub/
+cl OpenGL/
+cl learnOpenGL/
+g .
+pwd
+ll
+cl .ssh/
+cat id_ed25519.pub 
+sudo apt-get install meson 
+cl 
+cl ProgramHub/thirdParty/
+ll
+git clone https://gitlab.freedesktop.org/siyueyinghua/mesa.git
+ll
+cl mesa/
+ll
+ll src/
+g .
+ll
+cl build/
+ll
+rm *
+ll
+rm CMakeFiles/
+rm -rf CMakeFiles/
+LL
+ll
+cmake -DCMAKE_BUILD_TYPE=Debug ../
+sudo apt-get install ./code_1.55.1-1617808414_amd64.deb
+ll
+cl build/
+ll
+cmake -DCMAKE_BUILD_TYPE=Debug ../
+ll
+rm *
+rm -rf CMakeFiles/
+ll
+cmake -DCMAKE_BUILD_TYPE=Debug ../
+make -B
+g Makefile 
+cmake -DCMAKE_BUILD_TYPE=Debug ../
+pkg-config gtest
+pkg-config gmock
+ll
+./gdemo_test 
+cmake -DCMAKE_BUILD_TYPE=Debug ../
+apt-get build-dep mesa
+sudo apt-get build-dep mesa
+cl ProgramHub/thirdParty/
+ll
+cl mesa/
+ll
+mkdir build
+ll
+g README.rst 
+ll
+cl build
+meson ../
+pip install Mako
+meson ../
+sudo apt-get install libelf-dev
+meson ../
+ll
+ll ../
+glxinfo | grep Mesa
+sudo apt-get install -f
+sudo apt-get build-dep build-essential
+sudo apt-get build-dep mesa
+ll
+You must put some 'deb-src' URIs in your sources.list
+sudo apt-get build-dep mesa
+meson ../
+ninja -C ../
+ninja -C 
+ninja -C ./
+ll 
+pwd
+cl .config/
+cl Code/
+ll
+cl User/
+ll
+cl ~
+cl .vim_runtime/
+ll
+cl visual_code_settings/
+ll
+cp ~/.config/Code/User/keybindings.json ./
+ll
+echo "cp ~/.config/Code/User/keybindings.json ./" update_settings_common.sh 
+echo "cp ~/.config/Code/User/keybindings.json ./" > update_settings_common.sh 
+chmod +x update_settings_common.sh 
+./update_settings_common.sh 
+cl ..
+cl -
+git status 
+git add visual_code_settings/
+git status 
+cl visual_code_settings/
+cp -r /media/yesire-lincoln/Software/Yesire-Lincoln/ProgramingHub/CandCpp/demoTryClang/.vscode/ Windows/
+ll Windows/
+ll
+echo "cp -r /media/yesire-lincoln/Software/Yesire-Lincoln/ProgramingHub/CandCpp/demoTryClang/.vscode/ Windows/" > update_settings_windows.sh
+ll
+cl ..
+git status 
+git add visual_code_settings
+git status 
+git commit "add settings of visual studio code on Windows and my keybindings setting"
+git commit -m "add settings of visual studio code on Windows and my keybindings setting"
+git status 
+git push
+git status 
+cl 
+cl ProgramHub/
+ll
+cl ProgramHub/
+ll
+cl ..
+ll
+cl ProgramHub/
+cl thirdParty/
+ll
+rm googletest-release-1.10.0.tar.gz 
+l
+ll
+cl ..
+cl -
+ll
+cl thirdParty/
+rm cmake-3.15.3.tar.gz 
+ll
+cl ..
+ll
+cl ..
+ll
+ll .vim_runtime/
+g .vim_runtime/git.help 
+ll
+cl ProgramHub/
+cl thirdParty/
+ll
+cp cpp-cheat/.gitignore ../demoTryClang/
+cl ../demoTryClang/
+ll
+g .gitignore 
+g README.md
+ll
+git init
+ll
+git add README.md
+git status
+git commit -m "first commit"
+git branch -M main
+git brach
+git branch
+git remote add origin https://github.com/siyueyinghua/CandCPP-Learning.git
+git push -u origin main
+git status
+mv .vscode/ .vscode_ubuntu
+ll
+cp -r ~/.vim_runtime/visual_code_settings/Windows/.vscode/ ./.vscode_windows
+ll
+mv .vscode_windows/ .vscode_window
+ll
+ln -s .vscode_ubuntu .vscode
+ll
+g ~/.vim_runtime/visual_code_settings/keybindings.json 
+gvd ~/.vim_runtime/visual_code_settings/keybindings.json ~/.config/Code/User/keybindings.json 
+cp ~/.vim_runtime/visual_code_settings/keybindings.json ~/.config/Code/User/keybindings.json 
+ll
+g README.md 
+ll
+g README.md 
+mv CMakeLists.txt CMakeLists.txt_ubuntu
+ll
+ln -s CMakeLists.txt_ubuntu CMakeLists.txt
+ll
+g README.md 
+cp /media/yesire-lincoln/Software/Yesire-Lincoln/ProgramingHub/CandCpp/demoTryClang/CMakeLists.txt CMakeLists.txt_window
+ll
+gvd CMakeLists.txt_ubuntu CMakeLists.txt_window
+g gdemo_test.cpp 
+h
+echo "cp /media/yesire-lincoln/Software/Yesire-Lincoln/ProgramingHub/CandCpp/demoTryClang/CMakeLists.txt CMakeLists.txt_window" > update_windows_settings.sh
+ll
+ll ~/.vim_runtime/
+ll ~/.vim_runtime/visual_code_settings/
+ll
+cat update_windows_settings.sh 
+cp /media/yesire-lincoln/Software/Yesire-Lincoln/ProgramingHub/CandCpp/demoTryClang/.vscode .vscode_window
+cp -r /media/yesire-lincoln/Software/Yesire-Lincoln/ProgramingHub/CandCpp/demoTryClang/.vscode .vscode_window
+ll
+ll .vscode_window/
+gvd .vscode_ubuntu/tasks.json .vscode_window/tasks.json 
+h
+echo "cp -r /media/yesire-lincoln/Software/Yesire-Lincoln/ProgramingHub/CandCpp/demoTryClang/.vscode .vscode_window" >> update_windows_settings.sh 
+cat update_windows_settings.sh 
+chmod +x update_windows_settings.sh 
+ll
+ll .vscode_window/tasks.json /media/yesire-lincoln/Software/Yesire-Lincoln/ProgramingHub/CandCpp/demoTryClang/.vscode/
+cp .vscode_window/tasks.json /media/yesire-lincoln/Software/Yesire-Lincoln/ProgramingHub/CandCpp/demoTryClang/.vscode/
+gvd .vscode_window/tasks.json /media/yesire-lincoln/Software/Yesire-Lincoln/ProgramingHub/CandCpp/demoTryClang/.vscode/
+ll
+cat update_windows_settings.sh 
+rm -r .vscode_window
+ll
+cat update_windows_settings.sh 
+./update_windows_settings.sh 
+ll
+gvd .vscode_window/tasks.json .vscode/tasks.json 
+mkdir vscode_settings_common
+ll
+cp ~/.vim_runtime/visual_code_settings/keybindings.json ./vscode_settings_common/
+ll\
+g vscode_settings_common/keybindings.json 
+git status
+g README.md 
+ll

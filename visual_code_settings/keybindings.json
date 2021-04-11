@@ -6,7 +6,7 @@
     {
         "key": "ctrl+shift+x",
         "command": "workbench.action.tasks.runTask",
-        "args": "Cmake MinGW: Out-of-source build"
+        "args": "Cmake: Out-of-source build"
     },
     {
         "key": "ctrl+shift+r",
