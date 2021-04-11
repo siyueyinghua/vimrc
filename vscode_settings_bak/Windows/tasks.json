@@ -4,7 +4,7 @@
     "tasks": [
         {
             "type": "shell",
-            "label": "Cmake MinGW: Out-of-source build",
+            "label": "Cmake: Out-of-source build",
             "command": "CMake-MinGW",
             "args": ["-DCMAKE_BUILD_TYPE=Debug", "../"],
             "options": {
