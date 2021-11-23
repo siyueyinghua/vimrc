@@ -55,6 +55,7 @@ The basic version is useful to install on remote servers where you don't need ma
 Use [gitforwindows](http://gitforwindows.org/) to checkout the repository and run the installation instructions above. No special instructions needed ;-)
 
 Actually, use the following command to install directly:
+
 	pwsh install_awesome_vimrc.ps1 
 
 
