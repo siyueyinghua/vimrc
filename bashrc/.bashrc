@@ -122,7 +122,8 @@ export PATH=$PATH:/usr/local/cuda-11.1/bin
 export PATH=$PATH:/usr/synopsys/installer
 export PATH=$PATH:/usr/synopsys/vcs_vL-2016.06/bin
 export PATH=$PATH:/usr/synopsys/scl_11.9/amd64/bin
-export LD_LIBRARY_PATH="/usr/lib/x86_64-linux-gnu:${LD_LIBRARY_PATH:-}"
+export LD_LIBRARY_PATH=/usr/lib/x86_64-linux-gnu:${LD_LIBRARY_PATH:-}
+# export LD_LIBRARY_PATH=/tools/Xilinx/DocNav/lib:${LD_LIBRARY_PATH:-}
 
 
 # Set my ENV
@@ -147,6 +148,13 @@ fi
 if [ -f ~/Downloads/vulkansdk_1.2.135.0/setup-env.sh ] ; then
     source ~/Downloads/vulkansdk_1.2.135.0/setup-env.sh
 fi
+
+# vivado
+# source /tools/Xilinx/Model_Composer/2023.1/settings64.sh
+# source /tools/Xilinx/Vitis/2023.1/settings64.sh
+# source /tools/Xilinx/Vitis_HLS/2023.1/settings64.sh
+# source /tools/Xilinx/Vivado/2023.1/settings64.sh 
+# source /tools/Xilinx/DocNav/.settings64-DocNav.sh 
 
 
 # >>> conda initialize >>>
