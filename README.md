@@ -381,3 +381,10 @@ Just do following:
 Maintaining this Vim configuration isn't my day job. Daily I am the founder of [Doist](https://doist.com/). You could come and help us build the workplace of the future while living a balanced life (anywhere in the world 🌍🌎🌏).
 
 PS: Using Vim isn't a requirement 😄
+
+
+## How to install bashrc
+Just do following:
+* cp `~/.vim_runtime/bashrc/.bashrc` and  `~/.vim_runtime/bashrc/.bash_aliases` to ~/
+* close terminal and open it again, .bashrc & .bash_aliases come to work
+
