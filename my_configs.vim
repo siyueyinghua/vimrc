@@ -27,17 +27,6 @@ if has("gui_running")
     hi cursorcolumn gui=NONE guibg=#666666
     " hi CursorColumn guibg=Grey40
     nnoremap <Leader>c :set cursorline! cursorcolumn!<CR>
-
-    " Sets gui fonts and window size depending on the running system
-    if has("gui_gtk3")
-        " echo "You Are Running on Linux System With gui_gtk3"
-        set lines=999 columns=999
-    elseif has("gui_win32")
-        " echo "You Are Running on Win32 System"
-        set guifont=Courier_New:h14:cANSI:qDRAFT
-        " Use ~x on an English Windows version or ~n for French.
-        au GUIEnter * simalt ~x
-    endif
 endif
 
 

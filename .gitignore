@@ -7,4 +7,5 @@ sources_non_forked/ctrlp.vim/doc/tags*
 bashrc/.bash_history
 sources_non_forked/ack.vim/spell
 tags
+*.swp
 .DS_Store

@@ -84,3 +84,9 @@ alias ..='cl ../'
 alias ..2='cll ../../'
 alias ..='cll ../'
 alias ..3='cll ../../../'
+
+# git command
+alias gst='git status'
+alias gpl='git pull'
+alias gps='git push'
+

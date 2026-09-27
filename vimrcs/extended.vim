@@ -9,19 +9,38 @@
 " => GUI related
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Set font according to system
-if has("mac") || has("macunix")
-    set gfn=IBM\ Plex\ Mono:h14,Hack:h14,Source\ Code\ Pro:h15,Menlo:h15
-elseif has("win16") || has("win32")
-    set gfn=IBM\ Plex\ Mono:h14,Source\ Code\ Pro:h12,Bitstream\ Vera\ Sans\ Mono:h11
+
+if has("gui_gtk3")
+    echo "You are running on Linux system with gui_gtk3"
+    "set gfn=IBM\ Plex\ Mono\ 14,:Hack\ 14,Source\ Code\ Pro\ 12,Bitstream\ Vera\ Sans\ Mono\ 11
+    set guifont=Monospace\ Regular\ 18
+    " set lines=999 columns=999
 elseif has("gui_gtk2")
+    echo "You are running on Linux system with gui_gtk2"
     "set gfn=IBM\ Plex\ Mono\ 14,:Hack\ 14,Source\ Code\ Pro\ 12,Bitstream\ Vera\ Sans\ Mono\ 11
     set guifont=Monospace\ Regular\ 14
 elseif has("linux")
+    echo "You are running on Linux system"
     "set gfn=IBM\ Plex\ Mono\ 14,:Hack\ 14,Source\ Code\ Pro\ 12,Bitstream\ Vera\ Sans\ Mono\ 11
     set guifont=Monospace\ Regular\ 14
 elseif has("unix")
+    echo "You are running on Unix system"
     set gfn=Monospace\ 11
+elseif has("mac") || has("macunix")
+    echo "You are running on mac or macunix system"
+    set gfn=IBM\ Plex\ Mono:h14,Hack:h14,Source\ Code\ Pro:h15,Menlo:h15
+elseif has("gui_win32")
+    echo "You are running on windows system"
+    set gfn=IBM\ Plex\ Mono:h14,Source\ Code\ Pro:h12,Bitstream\ Vera\ Sans\ Mono:h11
+    " Use ~x on an English Windows version or ~n for French.
+    au GUIEnter * simalt ~x
+elseif has("win16") || has("win32")
+    echo "You are running on windows system"
+    set gfn=IBM\ Plex\ Mono:h14,Source\ Code\ Pro:h12,Bitstream\ Vera\ Sans\ Mono:h11
+    " Use ~x on an English Windows version or ~n for French.
+    au GUIEnter * simalt ~x
 endif
+
 
 " Disable scrollbars (real hackers don't use scrollbars for navigation!)
 set guioptions-=r
