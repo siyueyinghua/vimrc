@@ -152,6 +152,8 @@ fi
 ## which will source all settings of the Xilinx app 
 # source /tools/Xilinx/Vivado/2024.1/settings64.sh
 # source /tools/Xilinx/Vivado/2024.1/settings64.csh
+# source /home/tools/Xilinx/Vivado/2024.2/settings64.sh
+# source /home/tools/Xilinx/Vivado/2024.2/settings64.csh
 
 
 # >>> conda initialize >>>

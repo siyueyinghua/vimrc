@@ -20,7 +20,8 @@ alias g="gview"
 alias ge="gvim"
 alias gvd="gvimdiff"
 
-#
+alias rm='rm -i'
+
 # Csh compatability:
 #
 alias unsetenv=unset
